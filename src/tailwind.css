@@ -10,6 +10,14 @@
 	--sl-color-bg-sidebar: theme(colors.gray.950);
 } */
 
+p {
+  margin-top: 0em;
+}
+
+!.sl-markdown-content p + p:not(:where(.not-content *)) {
+  margin-top: 0em;
+}
+
 /* Dark mode colors. */
 :root {
   --sl-color-accent-low: #451a03;
@@ -24,6 +32,7 @@
   --sl-color-gray-6: #111827;
   --sl-color-black: #111827;
   --sl-color-hairline: var(--sl-color-black);
+  --sl-color-hairline-light: var(--sl-color-black);
   --sl-color-hairline-shade: var(--sl-color-gray-5);
 }
 /* Light mode colors. */
@@ -42,5 +51,6 @@
   --sl-color-black: #e5e7eb;
   --sl-color-bg-nav: var(--sl-color-black);
   --sl-color-hairline: var(--sl-color-black);
+  --sl-color-hairline-light: var(--sl-color-black);
   --sl-color-hairline-shade: var(--sl-color-gray-6);
 }

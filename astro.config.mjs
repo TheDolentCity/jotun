@@ -2,28 +2,25 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import tailwind from '@astrojs/tailwind';
 import vercelStatic from '@astrojs/vercel/static';
-
 import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
   adapter: vercelStatic({
-    imageService: true,
+    imageService: false,
     speedInsights: {
-      enabled: true,
+      enabled: false,
     },
   }),
   integrations: [
     starlight({
       title: 'Jotun',
       components: {
+        MarkdownContent: './src/components/overrides/MarkdownContentOverride.astro',
         Sidebar: './src/components/overrides/SidebarOverride.astro',
       },
-      customCss: [
-        // Path to your Tailwind base styles:
-        './src/tailwind.css',
-      ],
+      customCss: ['./src/tailwind.css'],
       social: {
         github: 'https://github.com/TheDolentCity/jotun',
       },
@@ -46,6 +43,18 @@ export default defineConfig({
           label: 'Setting',
           autogenerate: {
             directory: 'setting',
+          },
+        },
+        {
+          label: 'Pilot',
+          autogenerate: {
+            directory: 'pilot',
+          },
+        },
+        {
+          label: 'Jotun',
+          autogenerate: {
+            directory: 'jotun',
           },
         },
       ],

@@ -1,4 +1,5 @@
 const starlightPlugin = require('@astrojs/starlight-tailwind');
+const typographyPlugin = require('@tailwindcss/typography');
 const colors = require('tailwindcss/colors');
 
 /** @type {import('tailwindcss').Config} */
@@ -7,10 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Your preferred accent color. Indigo is closest to Starlight’s defaults.
-        accent: colors.blue,
-        // Your preferred gray scale. Zinc is closest to Starlight’s defaults.
-        gray: colors.zinc,
+        accent: colors.amber,
+        gray: colors.gray,
       },
       fontFamily: {
         sans: 'Space Grotesk Variable, sans-serif',
@@ -19,5 +18,5 @@ module.exports = {
       },
     },
   },
-  plugins: [starlightPlugin()],
+  plugins: [starlightPlugin(), typographyPlugin()],
 };
