@@ -51,6 +51,7 @@ export default defineConfig({
             { label: 'Primary Weapons', link: '/pilot/primary-weapons' },
             { label: 'Secondary Weapons', link: '/pilot/secondary-weapons' },
             { label: 'Ordnance Weapons', link: '/pilot/ordnance-weapons' },
+            { label: 'Combat Suits', link: '/pilot/combat-suits' },
           ],
         },
         {
