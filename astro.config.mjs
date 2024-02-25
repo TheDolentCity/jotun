@@ -17,6 +17,7 @@ export default defineConfig({
     starlight({
       title: 'Jotun',
       components: {
+        Aside: './src/components/overrides/AsideOverride.astro',
         MarkdownContent: './src/components/overrides/MarkdownContentOverride.astro',
         Sidebar: './src/components/overrides/SidebarOverride.astro',
       },
@@ -39,26 +40,69 @@ export default defineConfig({
             directory: 'rules',
           },
         },
-        {
-          label: 'Setting',
-          autogenerate: {
-            directory: 'setting',
-          },
-        },
+        // {
+        //   label: 'Setting',
+        //   autogenerate: {
+        //     directory: 'setting',
+        //   },
+        // },
         {
           label: 'Pilot',
           items: [
-            { label: 'Primary Weapons', link: '/pilot/primary-weapons' },
-            { label: 'Secondary Weapons', link: '/pilot/secondary-weapons' },
-            { label: 'Ordnance Weapons', link: '/pilot/ordnance-weapons' },
-            { label: 'Combat Suits', link: '/pilot/combat-suits' },
+            {
+              label: 'Building a Pilot',
+              link: '/pilot/building-a-pilot',
+            },
+            {
+              label: 'Primary Weapons',
+              link: '/pilot/primary-weapons',
+            },
+            {
+              label: 'Secondary Weapons',
+              link: '/pilot/secondary-weapons',
+            },
+            {
+              label: 'Ordnance Weapons',
+              link: '/pilot/ordnance-weapons',
+            },
+            {
+              label: 'Combat Suits',
+              link: '/pilot/combat-suits',
+            },
           ],
         },
         {
           label: 'Jotun',
-          autogenerate: {
-            directory: 'jotun',
-          },
+          items: [
+            {
+              label: 'Building a Jotun',
+              link: '/jotun/building-a-jotun',
+            },
+            {
+              label: 'Frames',
+              link: '/jotun/frames',
+            },
+            {
+              label: 'Main Mounts',
+              link: '/jotun/main-mounts',
+            },
+            {
+              label: 'Minor Mounts',
+              link: '/jotun/minor-mounts',
+            },
+            {
+              label: 'Major Mounts',
+              link: '/jotun/major-mounts',
+            },
+            {
+              label: 'Colossal Mounts',
+              link: '/jotun/colossal-mounts',
+            },
+            {
+              label: 'Auto-mech AI',
+              link: '/jotun/auto-mech-ai',
+            },
+          ],
         },
       ],
     }),

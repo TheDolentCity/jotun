@@ -10,14 +10,6 @@
 	--sl-color-bg-sidebar: theme(colors.gray.950);
 } */
 
-p {
-  margin-top: 0em;
-}
-
-!.sl-markdown-content p + p:not(:where(.not-content *)) {
-  margin-top: 0em;
-}
-
 /* Dark mode colors. */
 :root {
   --sl-color-accent-low: #451a03;

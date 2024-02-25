@@ -3,7 +3,7 @@ title: Main Mounts
 description: A list of main mounts for Jotun.
 ---
 
-TODO
+A main mount refers to equipment designed to be held in a Jotun's two hands. Every Jotun has a bipedal build with two arms that mimics that of a human. These are almost always weapons.
 
 ### Barbed Axe
 The EM-62 Barbed Axe is an anti-mech axe manufactured by Escheron Armory. It is a heavy melee weapon with barbs that catch and tear into armor. Targets struck by this axe are unable to move until the axe is freed from their mech.

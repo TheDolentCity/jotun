@@ -3,7 +3,7 @@ title: Major Mounts
 description: A list of major mounts for Jotun.
 ---
 
-TODO 
+Major mounts are larger mounting points that can hold potent equipment like radar towers or powerful anti-mech weapons like missile launchers or laser cannons.
 
 ### Blast Cannon
 The SC-515 Blast Cannon is an anti-mech, anti-personnel weapon manufactured by Sarm Armory. An upscaled version of a conventional mortar, this cannon excels at firing upwards and over obstacles. The attack can be avoided due to this travel time, but slower forces will still be caught in its massive blast. Firing this weapon always triggers a "DANGER CLOSE" warning on friendly pilot HUDs. It deploys with limited ammo in the field.
