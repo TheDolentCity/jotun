@@ -21,7 +21,7 @@ The VL-565 Heat Lance is an anti-mech weapon manufactured by Volgor Armory. It i
 The HP-292 Micro-Missile Platform is an anti-mech, anti-personnel weapon manufactured by Hadrago Armory. First developed as a weapon of a last resort when surrounded by enemy forces, this platform launches over a thousand micro-missiles that automatically track nearby movement and strike their target, pushing them back. Firing this weapon always triggers a "DANGER CLOSE" warning on friendly pilot HUDs. It can only be fired once per deployment.
 
 ### Multi-Target Missile Launcher
-The SL-423 Multi-Target Missile Launcher is an anti-mech, anti-personnel weapon manufactured by Sarm Armory. Each missile from a pod can target a unique individual on the pilot HUD. This weapon can devastate personnel troops spread out across a battlefield or concentrate on a single target to devastating effect. It deploys with limited ammo in the field.
+The SL-423 Multi-Target Missile Launcher is an anti-mech, anti-personnel weapon manufactured by Sarm Armory. Each missile from a pod can target a unique individual on the pilot HUD. This weapon can eliminate personnel troops spread out across a battlefield or concentrate on a single target to devastating effect. It deploys with limited ammo in the field.
 
 ### Smart Turret
 The TD-14 Smart Turret is an anti-mech, anti-personnel, auto-tracking weapon made as a joint venture between Tammen and Dretyl Armory. Dretyl provides the processing unit and HUD-uplink that controls the flight path of each round fired. The turret has a slow fire rate and its caliber is only capable of piercing light mech armor.
