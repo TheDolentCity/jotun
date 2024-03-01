@@ -3,7 +3,7 @@ title: Auto-mech AI
 description: The list of Jotun auto-mech AI.
 ---
 
-An auto-mech AI helps pilots perform all of their tasks and manage sub-routines for the Jotun such as scanning and evaluating reactor stability. Importantly, they are capable of autonomously operating the Jotun when the pilot leaves the seat empty. These AI developer their own personalities over time.
+An auto-mech AI helps pilots perform all of their tasks and manage sub-routines for the Jotun such as scanning and evaluating reactor stability. Importantly, they are capable of autonomously operating the Jotun when the pilot leaves the seat empty. These AI develop their own personalities over time.
 
 ### Guardian
 The Guardian A.I. was engineered by Tammen Armory. It is a standard A.I. as it will simply stay close to its pilot, laying down fire on enemy forces or physically shielding the pilot from damage as it sees fit. While it has little downsides, it has been found to be far less effective than a Jotun pilot in combat.

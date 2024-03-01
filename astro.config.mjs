@@ -15,7 +15,7 @@ export default defineConfig({
   }),
   integrations: [
     starlight({
-      title: 'Jotun',
+      title: 'Jotun RPG',
       components: {
         Aside: './src/components/overrides/AsideOverride.astro',
         MarkdownContent: './src/components/overrides/MarkdownContentOverride.astro',
@@ -34,18 +34,27 @@ export default defineConfig({
             { label: 'Game Setup', link: '/home/game-setup' },
           ],
         },
-        {
-          label: 'Rules',
-          autogenerate: {
-            directory: 'rules',
-          },
-        },
         // {
-        //   label: 'Setting',
+        //   label: 'Rules',
         //   autogenerate: {
-        //     directory: 'setting',
+        //     directory: 'rules',
         //   },
         // },
+        {
+          label: 'Setting',
+          autogenerate: {
+            directory: 'setting',
+          },
+        },
+        {
+          label: 'Operations',
+          items: [
+            {
+              label: 'OPERATION: FIRST STRIKE',
+              link: '/operations/operation-first-strike',
+            },
+          ],
+        },
         {
           label: 'Pilot',
           items: [
