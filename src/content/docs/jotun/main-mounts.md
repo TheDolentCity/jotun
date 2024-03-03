@@ -26,6 +26,9 @@ The VR-77 Laser Rifle is an anti-mech weapon manufactured by Volgor Armory. It i
 ### Light Knives
 The DM-43 Light Knives are an anti-mech, anti-armor, hand modification manufactured by Dretyl Armory. Instead of carrying a melee weapon, the Jotun's hands are augmented with focused plasma projectors. When activated, twin daggers extend from the Jotun's wrists. The focused plasma can cut through any mech armor, but have a significantly short range.
 
+### Magnetic Tether Rifle
+The DT-00 Magnetic Tether Rifle is a modified version of an electro-magnetic rail gun. Instead of launching a projectile at speed, it can pull large metal objects towards it when fired. This can disrupt munitions and pull several metal objects in a line straight towards the wielder. 
+
 ### Plasma Cannon
 The HC-6 Plasma Cannon is an anti-mech, electro-magnetic cannon manufactured by Hadrago Armory. It is a sniper weapon, capable of launching bolts of plasma with great accuracy up to a mile away. Each shot requires an extensive charge up time before firing though and once the cylinder runs empty there is no way to reload the weapon in the middle of a mission.
 

@@ -17,6 +17,9 @@ The KR-7 Flare Revolver is an anti-mech, anti-armor, incendiary weapon manufactu
 ### Grapple Mine
 The TD-5 Grapple Mine is a defensive utility manufactured by Tammen Armory. It must be engaged and placed on solid ground before it can be activated. Remote activation is possible with a detonator or it can be configured so that any nearby movement will activate the mine. When activated, several grapple hooks will shoot out of the mine and grab onto nearby moving objects. The tethers are incredibly strong, rooting most mechs in place until the mine is destroyed. It is lethal against infantry units.
 
+### Magnetic Boots
+The DD-41 Magnetic Boots is a utility modification manufactured by Dretyl Armory. Magnetic drives are implanted in the feet of the mech. When a pilot activates them on a metal surface, it roots the mech in place. They can be deactivated individually, which is particularly useful for walking through Zero-G environments. It is also a preferred method to stabilize the Jotun platform for increased accuracy. 
+
 ### Magnetic Shield
 The DD-14 Magnetic Shield is a defensive utility manufactured by Dretyl Armory. Powerful magnetic drives are attached to the forearms of the mech. When a pilot raises the mech's arms and activates the magnetic drives, any incoming metal munitions will be caught temporarily in a stasis field in front of the mech. The pilot can disengage the drives and launch captured munitions by waving the mech's arms in any direction.
 
