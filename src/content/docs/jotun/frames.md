@@ -12,6 +12,13 @@ The Assault Frame is average sized at 20 feet tall. It is a modified version of 
 | ---- | ----- | ----- | ------ |
 | Medium | High | Medium | 2 Minor, 1 Main |
 
+### Hailstorm Frame
+The Hailstorm Frame is average sized at 20 feet tall. It is a modified version of the Standard Frame, sacrificing a major weapons mount for the inclusion of a multi-arm intelligent loading system. Small servos combined with improved munitions storage allows this Jotun to decrease reload times of all loading weapons to less than a second, greatly increasing its continuous fire rate.
+
+| Size | Speed | Armor | Mounts |
+| ---- | ----- | ----- | ------ |
+| Medium | Medium | Medium | 3 Minor, 1 Main |
+
 ### Hulk Frame
 The Hulk Frame is a large frame at 30 feet tall. It was designed for heavy war zones where extreme firepower and armor were required. It is the only frame with hands and motors built to support two main weapon mounts simultaneously.
 
@@ -20,11 +27,11 @@ The Hulk Frame is a large frame at 30 feet tall. It was designed for heavy war z
 | Large | Low | High | 2 Main, 1 Major |
 
 ### Jet Frame
-The Jet Frame is average sized at 20 feet tall. It shuns armor to accommodate a rocket engine. The engine can hover with ease or perform a full-speed vertical takeoff. However, it is unable to fly properly and is more commonly used for slow aerial repositioning. This frame is extremely dangerous, as any disruption of the engine while in flight will end in disaster.
+The Jet Frame is average sized at 20 feet tall. It shuns armor to accommodate a rocket engine. The engine can hover with ease or perform a full-speed vertical takeoff. However, it is unable to fly properly and is more commonly used for slow aerial repositioning. Expert pilots may also orient their Jotun so that this jet launches them horizontally towards targets. This frame is extremely dangerous, as any disruption of the engine while in flight will end in disaster.
 
 | Size | Speed | Armor | Mounts |
 | ---- | ----- | ----- | ------ |
-| Medium | Medium | Low | 1 Main, 2 Major |
+| Medium | Low | Low | 1 Main, 2 Major |
 
 ### Monolith Frame
 The Monolith Frame is by far the largest Jotun frame at 40 feet tall. It has to be to support its colossal weapon mount, but as a result main and minor mounts are incompatible with this frame. It is also built with stabilizer gyros that increase its long range accuracy and help prevent it from moving from one spot.
