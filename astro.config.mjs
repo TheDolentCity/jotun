@@ -32,6 +32,7 @@ export default defineConfig({
           items: [
             { label: 'Introduction', link: '/home/introduction' },
             { label: 'Game Setup', link: '/home/game-setup' },
+            { label: 'Rules', link: '/home/rules' },
           ],
         },
         // {
