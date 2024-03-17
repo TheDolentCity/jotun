@@ -35,24 +35,32 @@ export default defineConfig({
             { label: 'Rules', link: '/home/rules' },
           ],
         },
-        // {
-        //   label: 'Rules',
-        //   autogenerate: {
-        //     directory: 'rules',
-        //   },
-        // },
         {
           label: 'Setting',
+          collapsed: true,
           autogenerate: {
             directory: 'setting',
           },
         },
         {
+          label: 'Campaigns',
+          items: [
+            {
+              label: 'FIRST STRIKE',
+              link: '/campaigns/first-strike',
+            },
+          ],
+        },
+        {
           label: 'Operations',
           items: [
             {
-              label: 'OPERATION: FIRST STRIKE',
-              link: '/operations/operation-first-strike',
+              label: 'Operation: DUST DEMON',
+              link: '/operations/operation-dust-demon',
+            },
+            {
+              label: 'Operation: DIVING BELL',
+              link: '/operations/operation-diving-bell',
             },
           ],
         },
