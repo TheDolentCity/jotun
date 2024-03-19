@@ -3,7 +3,7 @@ title: 'Operation: DUST DEMON'
 description: DUST DEMON operation details.
 ---
 
-```
+```bat
 FROM:    Supreme Headquarters, Frontier Militia Forces
 
 TO:      Major Samuel Saxon
@@ -14,7 +14,7 @@ FWD:     Atris 'ARC' COTTE,
 
 SUBJECT: Operation 'Dust Demon'
 
-DATE:    November 11th, 2597 AST
+DATE:    0300 hours, November 11th, 2597 AST
 ```
 
 ## Objectives
@@ -43,33 +43,27 @@ This operation includes naval and ground forces.
 
 ### Naval Forces
 
-One Greathammer drop ship will arrive ten minutes after the pilots arrive on the surface to retrieve the pilots, their jotun, the research personnel, and any captured hostiles.
+One Greathammer drop ship alloted for evacuation.
 
 ### Ground Forces
 
-The following pilots will be deployed along with their jotun:
+Three jotun pilots alloted for operation:
 
-- Atris 'ARC' COTTE
-- Dak 'CINDER' Breacher
-- Lesie 'PHOTON' Everson
+- Atris `ARC` COTTE
+- Dak `CINDER` Breacher
+- Lesie `PHOTON` Everson
 
 ## Execution of Operation
 
-#### Deployment
+### Deployment
 
 Pilot and Jotun deployed via Bifrost pod.
 
-#### Evacuation
+### Evacuation
 
-One Greathammer drop ship will arrive ten minutes after the pilots arrive on the surface.
+One Greathammer drop ship will arrive ten minutes after the pilots arrive on the surface to retrieve the pilots, their jotun, the research personnel, and any captured hostiles.
 
-## Operation Details
-
-- `[DEPLOYMENT]` Pilot and Jotun deployed via Bifrost pod.
-- `[EVACUATION]` A drop ship will arrive ten minutes after you are deployed to retrieve you, your Jotun, and the research personnel.
-- `[ENVIRONMENT]` Venus is a partially terraformed planet with a gravity similar to Earth's. It has an atmosphere with oxygen, but very low amounts so extended exposure requires a vacc-suit to survive. In addition, Meteorology reports indicate a storm is imminent. Expect high, hot winds and lots of dust.
-
-## Location Details
+## Operation Location
 
 Venus is a partially terraformed planet with a gravity similar to Earth's. It has an atmosphere with oxygen, but very low amounts so extended exposure requires a vacc-suit to survive.
 
@@ -88,7 +82,18 @@ Arcadia Research Station was built in a large crater surrounded by tall rocks on
 
 ## Outcome
 
-- `[PRIMARY OBJECTIVE]` Intelligence acquired.
-- `[SECONDARY OBJECTIVE]` No research personnel survived.
-- `[SECONDARY OBJECTIVE]` Hostile forces neutralized. Remains captured.
-- `[EVACUATION]` All pilots and jotun evacuated. "Arc" was unresponsive and sent to the medical bay at once.
+#### `[SUCCESS]` Retrieve satellite data from research station
+
+Intelligence acquired via data-spike.
+
+#### `[FAILURE]` Evacuate research personnel
+
+No research personnel survived.
+
+#### `[SUCCESS]` Capture or destroy hostile forces
+
+Hostile forces neutralized. Remains captured.
+
+#### `[SUCCESS]` Evacuation
+
+All pilots and jotun evacuated. "ARC" was unresponsive and sent to the medical bay with a significant head injury.

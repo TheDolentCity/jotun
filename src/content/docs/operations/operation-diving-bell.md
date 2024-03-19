@@ -1,53 +1,100 @@
 ---
-title: 'Operation: DIVING BELL' 
+title: 'Operation: DIVING BELL'
 description: DIVING BELL operation details.
 ---
 
+```bat
+FROM:    Supreme Headquarters, Frontier Militia Forces
+
+TO:      Major Samuel Saxon
+
+FWD:     Atris 'ARC' COTTE,
+         Dak 'CINDER' Breacher,
+         Lesie 'PHOTON' Everson
+
+SUBJECT: Operation 'Diving Bell'
+
+DATE:    2121 hours, November 21st, 2597 AST
 ```
-COMMANDER: Major Saxon
-DATE: November 21st, 2597 AST
-```
 
-This operation contains the details of a military strike against a jamming device constructed on the surface of the moon, Titan. Eliminating the jamming device on Titan is the number one priority of this operation.
+## Objectives
 
-## Operation Details
-- `[PRIMARY OBJECTIVE]` Destroy planetary communications jamming device.
-- `[SECONDARY OBJECTIVE]` Eliminate hostile forces.
-- `[SECONDARY OBJECTIVE]` Eliminate orbital defense cannons.
-- `[SECONDARY OBJECTIVE]` Retrieve any intelligence found at the location.
-- `[DEPLOYMENT]` Pilot, Jotun, and marines deployed via drop ships on the other side of the moon. They will then approach the location while flying low to the ground to avoid the orbital defense cannons.
-- `[EVACUATION]` A drop ship will arrive one minute after the jamming device is destroyed to retrieve you, your Jotun, and the research personnel.
-- `[ENVIRONMENT]` Titan is a large moon of Saturn mostly covered in Ocean. Terraforming has led to a stable, oxygen-rich atmosphere. It has a gravity approximately one-tenth the strength of Earth.
+This operation contains the details of a military strike on the surface of the moon, Titan. A jamming device has been discovered recently that prevented us from properly scanning the moon. Orbital imagery has captured the construction of a hostile base on the surface where the jamming signal is strongest. Eliminating the jamming device on Titan is the number one priority of this operation.
 
-#### Destroy planetary communications jamming device
-TODO
+#### `[PRIMARY]` Destroy planetary communications jamming device
 
-#### Eliminate hostile forces
-TODO
+All communications have been jammed within the atmosphere of Titan. All probes sent down to the moon have been lost. With this jamming device in place it is impossible to scan the moon or perform a sweep of its locations.
 
-#### Eliminate orbital defense cannons
-TODO
+#### `[SECONDARY]` Eliminate hostile forces
 
-#### Retrieve any intelligence found at the location
-TODO
+We have little intel regarding hostile forces on Titan's surface. Orbital imagery has captured what appears to be auto-mech movement in the base. Destroy any and all hostile forces.
 
-## Location Details
-Venus is a partially terraformed planet with a gravity similar to Earth's. It has an atmosphere with oxygen, but very low amounts so extended exposure requires a vacc-suit to survive. 
+#### `[SECONDARY]` Eliminate orbital defense cannons.
 
-Meteorology reports indicate a storm is imminent. Expect high, hot winds and lots of dust. Be aware: this could impact targeting systems.
+Satellite imagery has captured images of several orbital defense cannon emplacements in the base. The orbital defense cannons prevent _Lady of the Slain_ from deploying Bifrost pods or additional reinforcements. They must be eliminated to evacuate safely.
 
-Arcadia Research Station was built in a large crater surrounded by tall rocks on Venus's surface. This recessed position helps protect the station from the worst of the dust storms.
+#### `[SECONDARY]` Retrieve any intelligence found at the location
+
+It is unknown when this enemy base was constructed or for what purpose. Retrieve any intelligence that indicates the purpose of this base.
+
+#### `[SECONDARY]` Protect the drop ships
+
+The drop ships will remain at the dropoff point for the duration of the mission. If they are destroyed, evac will not be possible until the orbital defense cannons are destroyed.
+
+## Command and Control
+
+The operation commander Major Samuel Saxon controls and co-ordinates the planning and execution of the operation as a whole. Once deployed, Jotun Pilots will be responsible for the execution of the operation, unless Major Samuel Saxon provides battlefield commands mid-operation.
+
+Each platoon will operate under one pilot in the field. It is up the pilots who will coordinate each platoon.
+
+## Allotment and Constitution of Forces
+
+This operation includes naval and ground forces.
+
+### Naval Forces
+
+Three Greathammer drop ships alloted for evacuation.
+
+### Ground Forces
+
+#### Infantry
+
+Three platoons allotted for this operation:
+
+- `1st` Platoon (riflemen)
+- `2nd` Platoon (combat engineers)
+- `3rd` Platoon (special weapons)
+
+#### Jotun Pilots
+
+Three jotun pilots alloted for operation:
+
+- Atris `ARC` COTTE
+- Dak `CINDER` Breacher
+- Lesie `PHOTON` Everson
+
+## Execution of Operation
+
+### Deployment
+
+Pilot, Jotun, and marines deployed via three Greathammer drop ships on the other side of the moon. They will then approach the location while flying low to the ground to avoid fire from the orbital defense cannons. The ships will land near the beach to avoid enemy fire.
+
+### Evacuation
+
+The three Greathammer drop ships that deploy the operation forces will perform evacuation once the objectives have been completed.
+
+## Operation Location
+
+Titan is a large moon of Saturn mostly covered in Ocean. Terraforming has led to a stable, oxygen-rich atmosphere. It has a gravity approximately one-tenth the strength of Earth.
 
 #### Structures
-- **Research Lab**: A large, ringed building with a central database and supercomputer. The team maintains and performs computation on all Sol System telemetry.
-- **Generator:** An outdoor generator that harvests solar energy and stores it in batteries for later use. Several backup generators are stored inside this small building as well.
-- **Primary Communications Relay:** A small building with a massive antenna and subspace engine that receives and processes faster-than-light communications.
-- **Secondary Communications Relay:** A small building with a large antenna that receives and processes planetary and orbital communications.
-- **Crew Quarters:** A large building like a hotel that functions as the home of the research staff. They spend most of their time here as very few individuals have to be in the research lab at a time.
-- **Supply Storeroom:** A small building that contains surplus goods like food, water, and batteries. This storeroom also contains advanced medical and repair equipment in case of emergency.
+
+- **TODO**: TODO.
 
 ## Outcome
-- `[PRIMARY OBJECTIVE]` Intelligence acquired.
-- `[SECONDARY OBJECTIVE]` No research personnel survived.
-- `[SECONDARY OBJECTIVE]` Hostile forces neutralized. Remains captured.
-- `[EVACUATION]` All pilots and jotun evacuated. "Arc" was unresponsive and sent to the medical bay at once.
+
+```
+###########################################################
+################# ERROR. INCOMPLETE FILE. #################
+###########################################################
+```

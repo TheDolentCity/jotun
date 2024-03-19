@@ -43,6 +43,13 @@ export default defineConfig({
           },
         },
         {
+          label: 'Documents',
+          collapsed: true,
+          autogenerate: {
+            directory: 'documents',
+          },
+        },
+        {
           label: 'Campaigns',
           items: [
             {
