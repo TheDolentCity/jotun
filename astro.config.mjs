@@ -35,24 +35,39 @@ export default defineConfig({
             { label: 'Rules', link: '/home/rules' },
           ],
         },
-        // {
-        //   label: 'Rules',
-        //   autogenerate: {
-        //     directory: 'rules',
-        //   },
-        // },
         {
           label: 'Setting',
+          collapsed: true,
           autogenerate: {
             directory: 'setting',
           },
         },
         {
+          label: 'Documents',
+          collapsed: true,
+          autogenerate: {
+            directory: 'documents',
+          },
+        },
+        {
+          label: 'Campaigns',
+          items: [
+            {
+              label: 'FIRST STRIKE',
+              link: '/campaigns/first-strike',
+            },
+          ],
+        },
+        {
           label: 'Operations',
           items: [
             {
-              label: 'OPERATION: FIRST STRIKE',
-              link: '/operations/operation-first-strike',
+              label: 'Operation: DUST DEMON',
+              link: '/operations/operation-dust-demon',
+            },
+            {
+              label: 'Operation: DIVING BELL',
+              link: '/operations/operation-diving-bell',
             },
           ],
         },
@@ -109,8 +124,8 @@ export default defineConfig({
               link: '/jotun/colossal-mounts',
             },
             {
-              label: 'Auto-mech AI',
-              link: '/jotun/auto-mech-ai',
+              label: 'Building an AI',
+              link: '/jotun/building-an-ai',
             },
           ],
         },

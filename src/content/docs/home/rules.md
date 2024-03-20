@@ -17,8 +17,8 @@ Chance of disaster is high, but you have to risk it for the chance of triumphing
 | d4 | Result |
 | -- | ------ |
 | 1 | Disaster |
-| 2 | Disaster |
-| 3 | Failure + Advantage |
+| 2 | Failure |
+| 3 | Success |
 | 4 | Triumph |
 
 ### Reliable (d6)
@@ -26,8 +26,8 @@ Chance of success is high. The outcome won't swing far in either direction.
 | d6 | Result |
 | -- | ------ |
 | 1 | Failure |
-| 2 | Success + Disadvantage |
-| 3 | Success + Disadvantage |
+| 2 | Failure |
+| 3 | Success |
 | 4 | Success |
 | 5 | Success |
 | 6 | Success |
