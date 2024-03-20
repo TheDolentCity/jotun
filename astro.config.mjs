@@ -124,8 +124,8 @@ export default defineConfig({
               link: '/jotun/colossal-mounts',
             },
             {
-              label: 'Auto-mech AI',
-              link: '/jotun/auto-mech-ai',
+              label: 'Building an AI',
+              link: '/jotun/building-an-ai',
             },
           ],
         },
