@@ -5,58 +5,20 @@ description: Overview of the combat rules.
 
 ## Turns
 
-Pilots and Jotun can operate together or separately on their turns. This is referred to as "pilot-control"
+Pilots and Jotun execute actions on the same turn. A Jotun is either in "pilot-command" or "AI-command" mode.
 
-## Jotun Wounds
+### Pilot-Command Mode
 
-| d10 | Blunt Jotun Wounds                                             |
-| --- | -------------------------------------------------------------- |
-| 1   | Knocked down                                                   |
-| 2   | Knocked down and thrown a good distance                        |
-| 3   | Chassis damaged → weakened mobility and strength               |
-| 4   | Hand broken → unable to use one hand, struggle with main mount |
-| 5   | Foot broken → unable to use one foot, struggle with moving     |
-| 6   | Arms broken → unable to use hands or main mount                |
-| 7   | Legs broken → unable to walk                                   |
-| 8   | Chassis spine destroyed → unable to move chassis or mounts     |
-| 9   | Reactor unstable → meltdown in d6 turns                        |
-| 0   | Chassis destroyed → AI destroyed and pilot severely injured    |
+In Pilot-command mode, the Pilot is inside the Jotun and can perform a movement and one action. The Jotun AI can perform one action as well or lend it's processing power to the Pilot to boost their action.
 
-| d10 | Bullet Jotun Wounds |
-| --- | ------------------- |
-| 1   | aaaaaaaaaaaaa       |
-| 2   | aaaaaaaaaaaaa       |
-| 3   | aaaaaaaaaaaaa       |
-| 4   | aaaaaaaaaaaaa       |
-| 5   | aaaaaaaaaaaaa       |
-| 6   | aaaaaaaaaaaaa       |
-| 7   | aaaaaaaaaaaaa       |
-| 8   | aaaaaaaaaaaaa       |
-| 9   | aaaaaaaaaaaaa       |
-| 0   | aaaaaaaaaaaaa       |
+> #### Example 1
+>
+> A Pilot moves their Jotun to get an angle on a hostile Jotun at extreme range and then uses their action to fire a laser rifle. They hit the target, but only marginally damage it. Their AI uses its action to scan a nearby building, revealing hostiles waiting inside.
 
-| d10 | Energy Jotun Wounds                                               |
-| --- | ----------------------------------------------------------------- |
-| 1   | aaaaaaaaaaaaa                                                     |
-| 2   | aaaaaaaaaaaaa                                                     |
-| 3   | aaaaaaaaaaaaa                                                     |
-| 4   | aaaaaaaaaaaaa                                                     |
-| 5   | aaaaaaaaaaaaa                                                     |
-| 6   | aaaaaaaaaaaaa                                                     |
-| 7   | aaaaaaaaaaaaa                                                     |
-| 8   | aaaaaaaaaaaaa                                                     |
-| 9   | aaaaaaaaaaaaa                                                     |
-| 0   | Chassis lost power → AI inactive and pilot trapped inside cockpit |
+> #### Example 2
+>
+> A Pilot moves their Jotun to get an angle on a hostile Jotun at extreme range. They instruct their AI to help aim their shot and then uses their action to fire a laser rifle. They hit the target in a weakened fold of their armor, severing their arm.
 
-| d10 | Fire & Explosive Jotun Wounds |
-| --- | ----------------------------- |
-| 1   | aaaaaaaaaaaaa                 |
-| 2   | aaaaaaaaaaaaa                 |
-| 3   | aaaaaaaaaaaaa                 |
-| 4   | aaaaaaaaaaaaa                 |
-| 5   | aaaaaaaaaaaaa                 |
-| 6   | aaaaaaaaaaaaa                 |
-| 7   | aaaaaaaaaaaaa                 |
-| 8   | aaaaaaaaaaaaa                 |
-| 9   | aaaaaaaaaaaaa                 |
-| 0   | aaaaaaaaaaaaa                 |
+### AI-Command Mode
+
+In AI-command mode, the AI inside the Jotun can perform a movement and one action. The Pilot outside of the Jotun can also perform a movement and one action. This provides versatility, but both combatants are less effective when they're not working as a team.

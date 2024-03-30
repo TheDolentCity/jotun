@@ -3,7 +3,7 @@ title: Building am AI
 description: The steps to follow to build an AI.
 ---
 
-Jotun are deployed with a smart AI trained on auto-mech models. They help pilots perform all of their tasks and manage sub-routines for the Jotun such as scanning and evaluating reactor stability. Importantly, they are capable of autonomously operating the Jotun when the pilot leaves the seat empty. These AI develop their own personalities over time.
+Jotun are deployed with a smart AI. They help Pilots perform all of their tasks and manage sub-routines for the Jotun such as scanning and evaluating reactor stability. Importantly, they are capable of autonomously operating the Jotun when the Pilot leaves the seat empty. These AI develop their own personalities over time.
 
 ### 1. Determine AI Model
 

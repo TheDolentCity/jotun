@@ -18,7 +18,7 @@ These wounds are often caused by melee and kinetic weapons. They are effective a
 | 7   | Legs broken → unable to walk                                   |
 | 8   | Chassis spine destroyed → unable to move chassis or mounts     |
 | 9   | Reactor unstable → meltdown in d6 turns                        |
-| 0   | Chassis destroyed → AI destroyed and severe pilot injury       |
+| 0   | Chassis destroyed → AI destroyed and severe Pilot injury       |
 
 ## Piercing Wounds
 
@@ -29,13 +29,13 @@ These wounds are often caused by bullet, laser, and melee weapons. They are effe
 | 1   | Grazed                                                      |
 | 2   | Chassis damaged → armor more vulnerable to piercing weapons |
 | 3   | Chassis damaged → armor more vulnerable to piercing weapons |
-| 4   | Pilot hit → moderate pilot piercing injury                  |
-| 5   | Pilot hit → severe pilot piercing injury                    |
+| 4   | Pilot hit → moderate Pilot piercing injury                  |
+| 5   | Pilot hit → severe Pilot piercing injury                    |
 | 6   | Coolant hit → emergency reactor shutdown in 2d6 turns       |
 | 7   | Computer hit → AI inactive in d6 turns                      |
 | 8   | Reactor hit → meltdown in d6 turns                          |
 | 9   | Spinal hit → chassis spine inactive in d6 turns             |
-| 0   | Headshot → AI destroyed and severe pilot injury             |
+| 0   | Headshot → AI destroyed and severe Pilot injury             |
 
 ## System Wounds
 
@@ -51,7 +51,7 @@ These wounds are often caused by experimental weapons and hacking technologies. 
 | 6   | Computer hit → AI is offline for d6 turns                         |
 | 7   | Computer hit → power system is offline for d4 turns               |
 | 8   | Reactor hit → meltdown in d4 turns                                |
-| 9   | Chassis lost power → AI inactive and pilot trapped inside cockpit |
+| 9   | Chassis lost power → AI inactive and Pilot trapped inside cockpit |
 | 0   | Chassis power surge → AI destroyed, all systems overloading       |
 
 ## Explosive Wounds
@@ -82,8 +82,8 @@ These wounds are often caused by weapons that far exceed normal military use aga
 | 3   | Reactor hit → meltdown in d4 turns                            |
 | 4   | Reactor hit hard → meltdown in 1 turn                         |
 | 5   | Chassis smashed → unable to move chassis or mounts            |
-| 6   | Chassis ripped → AI destroyed and pilot has a severe injury   |
-| 7   | Chassis shredded → AI destroyed and pilot has a mortal injury |
-| 8   | Cockpit destroyed → AI survives and pilot is killed           |
+| 6   | Chassis ripped → AI destroyed and Pilot has a severe injury   |
+| 7   | Chassis shredded → AI destroyed and Pilot has a mortal injury |
+| 8   | Cockpit destroyed → AI survives and Pilot is killed           |
 | 9   | Reactor destroyed → immediate meltdown                        |
 | 0   | Jotun obliterated → there are no remains                      |

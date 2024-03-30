@@ -27,7 +27,7 @@ All communications have been jammed within the atmosphere of Titan. All probes s
 
 #### `[SECONDARY]` Eliminate hostile forces
 
-We have little intel regarding hostile forces on Titan's surface. Orbital imagery has captured what appears to be auto-mech movement in the base. Destroy any and all hostile forces.
+We have little intel regarding hostile forces on Titan's surface. Orbital imagery has captured what appears to be Repcon movement in the base. Destroy any and all hostile forces.
 
 #### `[SECONDARY]` Eliminate orbital defense cannons.
 
@@ -47,7 +47,7 @@ The drop ships will remain at the dropoff point for the duration of the mission.
 
 The operation commander Major Samuel Saxon controls and co-ordinates the planning and execution of the operation as a whole. Once deployed, Jotun Pilots will be responsible for the execution of the operation, unless Major Samuel Saxon provides battlefield commands mid-operation.
 
-Each platoon will operate under one pilot in the field. It is up the pilots who will coordinate each platoon.
+Each platoon will operate under one Pilot in the field. It is up the Pilots who will coordinate each platoon.
 
 ## Allotment and Constitution of Forces
 
@@ -69,7 +69,7 @@ Three platoons allotted for this operation:
 
 #### Jotun Pilots
 
-Three jotun pilots alloted for operation:
+Three jotun Pilots alloted for operation:
 
 - Atris `ARC` COTTE
 - Dak `CINDER` Breacher
