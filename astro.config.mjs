@@ -27,13 +27,14 @@ export default defineConfig({
       },
       sidebar: [
         {
-          label: 'Home',
-          collapsed: false,
-          items: [
-            { label: 'Introduction', link: '/home/introduction' },
-            { label: 'Game Setup', link: '/home/game-setup' },
-            { label: 'Rules', link: '/home/rules' },
-          ],
+          label: 'Introduction',
+          link: '/introduction',
+        },
+        {
+          label: 'Rules',
+          autogenerate: {
+            directory: 'rules',
+          },
         },
         {
           label: 'Setting',
@@ -53,79 +54,85 @@ export default defineConfig({
           label: 'Campaigns',
           items: [
             {
-              label: 'FIRST STRIKE',
-              link: '/campaigns/first-strike',
+              label: 'First Strike',
+              items: [
+                {
+                  label: 'Campaign',
+                  link: '/campaigns/first-strike/first-strike-campaign',
+                },
+                {
+                  label: 'Operation: DUST DEMON',
+                  link: '/campaigns/first-strike/operation-dust-demon',
+                },
+                {
+                  label: 'Operation: DIVING BELL',
+                  link: '/campaigns/first-strike/operation-diving-bell',
+                },
+                {
+                  label: 'Operation: CRYSTAL EYE',
+                  link: '/campaigns/first-strike/operation-crystal-eye',
+                },
+              ],
             },
           ],
         },
         {
-          label: 'Operations',
-          items: [
-            {
-              label: 'Operation: DUST DEMON',
-              link: '/operations/operation-dust-demon',
-            },
-            {
-              label: 'Operation: DIVING BELL',
-              link: '/operations/operation-diving-bell',
-            },
-          ],
-        },
-        {
-          label: 'Pilot',
+          label: 'Building a Pilot',
+          collapsed: true,
           items: [
             {
               label: 'Building a Pilot',
-              link: '/pilot/building-a-pilot',
+              link: '/building-a-pilot/building-a-pilot',
             },
             {
               label: 'Primary Weapons',
-              link: '/pilot/primary-weapons',
+              link: '/building-a-pilot/primary-weapons',
             },
             {
               label: 'Secondary Weapons',
-              link: '/pilot/secondary-weapons',
+              link: '/building-a-pilot/secondary-weapons',
             },
             {
               label: 'Ordnance Weapons',
-              link: '/pilot/ordnance-weapons',
+              link: '/building-a-pilot/ordnance-weapons',
             },
             {
               label: 'Combat Suits',
-              link: '/pilot/combat-suits',
+              link: '/building-a-pilot/combat-suits',
             },
           ],
         },
         {
-          label: 'Jotun',
+          label: 'Building a Jotun',
+          collapsed: true,
           items: [
             {
               label: 'Building a Jotun',
-              link: '/jotun/building-a-jotun',
+              link: '/building-a-jotun/building-a-jotun',
             },
             {
               label: 'Frames',
-              link: '/jotun/frames',
+              link: '/building-a-jotun/frames',
             },
             {
               label: 'Main Mounts',
-              link: '/jotun/main-mounts',
+              link: '/building-a-jotun/main-mounts',
             },
             {
               label: 'Minor Mounts',
-              link: '/jotun/minor-mounts',
+              link: '/building-a-jotun/minor-mounts',
             },
             {
               label: 'Major Mounts',
-              link: '/jotun/major-mounts',
+              link: '/building-a-jotun/major-mounts',
             },
             {
               label: 'Colossal Mounts',
-              link: '/jotun/colossal-mounts',
+              link: '/building-a-jotun/colossal-mounts',
             },
             {
               label: 'Building an AI',
-              link: '/jotun/building-an-ai',
+              link: '/building-a-jotun/building-an-ai',
             },
           ],
         },

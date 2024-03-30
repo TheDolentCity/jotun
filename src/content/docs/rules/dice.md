@@ -1,18 +1,18 @@
 ---
-title: Rules
-description: A brief description of the rules.
+title: Dice
+description: A brief description of the dice.
 ---
 
 ## Dice Categories
 Each dice size has a category and different interpretations for each face. When a check is required, the GM will tell the player which dice they think is most appropriate and roll. There are the following six dice types:
-- Desperate (d4)
+- Risky (d4)
 - Reliable (d6)
 - Ineffective (d8)
 - Chaotic (d10)
 - Effective (d12)
 - Dangerous (d20)
 
-### Desperate (d4)
+### Risky (d4)
 Chance of disaster is high, but you have to risk it for the chance of triumphing.
 | d4 | Result |
 | -- | ------ |

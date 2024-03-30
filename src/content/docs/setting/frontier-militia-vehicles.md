@@ -27,7 +27,7 @@ A small naval vessel that is usually lightly armed and armored. They are versati
 
 ### FA-444 Loki-class Longship
 
-A small, thin naval vessel that excels at stealth infiltration and exfiltration. These ships include electronic countermeasures, subspace drives, and long-range jammers. They have poor maneuverability due to their elongated shape; it is closer to piloting an archaic rocket than a modern starship.
+A small, thin naval vessel that excels at stealth infiltration and exfiltration. These ships include electronic countermeasures, subspace drives, and long-range jammers. They have poor maneuverability due to their elongated shape; it is closer to Piloting an archaic rocket than a modern starship.
 
 ## MILCOM Vehicles
 
@@ -47,16 +47,16 @@ Frontier Flight Command maintains and deploys several transport vehicles and bot
 
 ### FL-701 Bifrost Pod
 
-A pod designed to drop marines from orbit onto a terrestrial surface. An enlarged model is used to deploy jotun and their pilots as well.
+A pod designed to drop marines from orbit onto a terrestrial surface. An enlarged model is used to deployJotun and their Pilots as well.
 
 ### FL-716 Spear
 
-A long, thin fighter jet that seats two individuals, a pilot and a gunner. It is capable of both space and atmospheric combat. Its primary design is a fighter, it is also exceptional at interception, bombing, and direct attack on larger vessels.
+A long, thin fighter jet that seats two individuals, a Pilot and a gunner. It is capable of both space and atmospheric combat. Its primary design is a fighter, it is also exceptional at interception, bombing, and direct attack on larger vessels.
 
 ### FL-750 Hammer
 
-A large shuttle that seats two pilots and up to one-hundred passengers depending on the specific model. It is capable of both space and atmospheric transport and is the primary method for deploying marines from naval vessels.
+A large shuttle that seats two Pilots and up to one-hundred passengers depending on the specific model. It is capable of both space and atmospheric transport and is the primary method for deploying marines from naval vessels.
 
 ### FL-770 Greathammer
 
-A massive shuttle that seats up to four pilots and can accommodate up to four Hulk-sized Jotun and sixty passengers. It is capable of both space and atmospheric transport and is the primary method for retrieving Jotun from terrestrial locations.
+A massive shuttle that seats up to four Pilots and can accommodate up to four Hulk-sized Jotun and sixty passengers. It is capable of both space and atmospheric transport and is the primary method for retrieving Jotun from terrestrial locations.

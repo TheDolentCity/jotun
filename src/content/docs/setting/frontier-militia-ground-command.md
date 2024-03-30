@@ -15,7 +15,7 @@ Enlisted members of the Marines are tasked with terrestrial operations and deplo
 
 ## Jotun Pilots
 
-The Jotun Pilots division is a special operations division within MILCOM whose members are trained in advanced combat techniques and Jotun combat. There are four Jotun Pilot divisions remaining in the year 2597 AST: the 5th division, the 64th division, the 83rd division, and the 116th division. Each jotun pilot must have already proven themselves in the FMF prior to receiving Jotun Pilot training. On a few occasions, proteges have bypassed this requirement.
+The Jotun Pilots division is a special operations division within MILCOM whose members are trained in advanced combat techniques and Jotun combat. There are four Jotun Pilot divisions remaining in the year 2597 AST: the 5th division, the 64th division, the 83rd division, and the 116th division. EachJotun Pilot must have already proven themselves in the FMF prior to receiving Jotun Pilot training. On a few occasions, proteges have bypassed this requirement.
 
 ## Ranks
 

@@ -8,7 +8,7 @@ FROM:    Supreme Headquarters, Frontier Militia Forces
 
 TO:      Major Samuel Saxon
 
-FWD:     Atris 'ARC' COTTE,
+FWD:     Atris 'ARC' Cotte,
          Dak 'CINDER' Breacher,
          Lesie 'PHOTON' Everson
 
@@ -27,9 +27,9 @@ All communications have been jammed within the atmosphere of Titan. All probes s
 
 #### `[SECONDARY]` Eliminate hostile forces
 
-We have little intel regarding hostile forces on Titan's surface. Orbital imagery has captured what appears to be auto-mech movement in the base. Destroy any and all hostile forces.
+We have little intel regarding hostile forces on Titan's surface. Orbital imagery has captured what appears to be Repcon movement in the base. Destroy any and all hostile forces.
 
-#### `[SECONDARY]` Eliminate orbital defense cannons.
+#### `[SECONDARY]` Eliminate orbital defense cannons
 
 Satellite imagery has captured images of several orbital defense cannon emplacements in the base. The orbital defense cannons prevent _Lady of the Slain_ from deploying Bifrost pods or additional reinforcements. They must be eliminated to evacuate safely.
 
@@ -47,7 +47,7 @@ The drop ships will remain at the dropoff point for the duration of the mission.
 
 The operation commander Major Samuel Saxon controls and co-ordinates the planning and execution of the operation as a whole. Once deployed, Jotun Pilots will be responsible for the execution of the operation, unless Major Samuel Saxon provides battlefield commands mid-operation.
 
-Each platoon will operate under one pilot in the field. It is up the pilots who will coordinate each platoon.
+Each platoon will operate under one Pilot in the field. It is up the Pilots who will coordinate each platoon.
 
 ## Allotment and Constitution of Forces
 
@@ -69,7 +69,7 @@ Three platoons allotted for this operation:
 
 #### Jotun Pilots
 
-Three jotun pilots alloted for operation:
+ThreeJotun Pilots alloted for operation:
 
 - Atris `ARC` COTTE
 - Dak `CINDER` Breacher
@@ -98,8 +98,26 @@ Titan is a large moon of Saturn mostly covered in Ocean. Terraforming has led to
 
 ## Outcome
 
-```
-###########################################################
-################# ERROR. INCOMPLETE FILE. #################
-###########################################################
-```
+#### `[SUCCESS]` Destroy planetary communications jamming device
+
+Intelligence acquired via data-spike.
+
+#### `[SUCCESS]` Eliminate hostile forces
+
+Hostile forces neutralized. Remains captured.
+
+#### `[SUCCESS]` Eliminate orbital defense cannons
+
+All three orbital defense cannons neutralized.
+
+#### `[SUCCESS]` Retrieve any intelligence found at the location
+
+Computer data backed up by Pilots.
+
+#### `[SUCCESS]` Protect the drop ships
+
+Drop ships protected. All Pilots andJotun evacuated. "ARC" was unresponsive, but came to with the aid of a stim aboard the drop ship. He will be debriefed by Lieutenant Valkyrie.
+
+### Notes
+
+The Pilots discovered a water cave under the base with some kind of machinery that produced profound seismic activity. This is likely related to █████████ ███████████████ ██ █████ as mentioned by ██████████ in ██████████ ███████████ ████████ ██ █████ ████████ ███████. It was destroyed by "ARC", but we'll fish the wreckage out soon.
