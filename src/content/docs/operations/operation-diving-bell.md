@@ -8,7 +8,7 @@ FROM:    Supreme Headquarters, Frontier Militia Forces
 
 TO:      Major Samuel Saxon
 
-FWD:     Atris 'ARC' COTTE,
+FWD:     Atris 'ARC' Cotte,
          Dak 'CINDER' Breacher,
          Lesie 'PHOTON' Everson
 

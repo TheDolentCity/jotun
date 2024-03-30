@@ -36,6 +36,12 @@ export default defineConfig({
           ],
         },
         {
+          label: 'Rules',
+          autogenerate: {
+            directory: 'rules',
+          },
+        },
+        {
           label: 'Setting',
           collapsed: true,
           autogenerate: {
