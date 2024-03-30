@@ -47,7 +47,7 @@ Frontier Flight Command maintains and deploys several transport vehicles and bot
 
 ### FL-701 Bifrost Pod
 
-A pod designed to drop marines from orbit onto a terrestrial surface. An enlarged model is used to deploy jotun and their Pilots as well.
+A pod designed to drop marines from orbit onto a terrestrial surface. An enlarged model is used to deployJotun and their Pilots as well.
 
 ### FL-716 Spear
 

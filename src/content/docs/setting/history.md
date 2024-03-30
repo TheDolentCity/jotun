@@ -39,6 +39,4 @@ The United Human Colonies stepped in and dissolved what remained of the One Eart
 
 As of yet, not much is known about the Fall of Earth. Sol satellites captured images of an unknown fleet appearing through a massive subspace tear. They also captured destroyed orbital emplacements and images of Earth's surface. Cities were leveled, the atmosphere was filled with dust, and wide swaths of the world have been scorched.
 
-Mars was quickly given the same treatment before the last of the Sol satellites were destroyed. No other United Human Colonies forces were present in the Sol system at the time.
-
-It is unknown who constructed this fleet, what their goals are, or how many planets in the Sol system have been destroyed. The United Human Colonies are mobilizing Jotun Pilots for insurrections into the system.
+No other United Human Colonies forces were present in the Sol system at the time. It is unknown who constructed this fleet, what their goals are, or how many planets in the Sol system have been destroyed. The United Human Colonies are mobilizing Jotun Pilots for insurrections into the system.

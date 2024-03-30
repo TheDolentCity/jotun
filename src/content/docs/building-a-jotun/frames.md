@@ -3,7 +3,7 @@ title: Frames
 description: The list of Jotun frames.
 ---
 
-Jotun frames come in all shapes and sizes. The [standard frame](/jotun/frames#standard-frame) is the most commonly selected as it supports the widest use cases, but veterans may choose more specialized frames to support their preferred tactical options.
+Jotun frames come in all shapes and sizes. The [standard frame](/building-a-jotun/frames#standard-frame) is the most commonly selected as it supports the widest use cases, but veterans may choose more specialized frames to support their preferred tactical options.
 
 ### Assault Frame
 

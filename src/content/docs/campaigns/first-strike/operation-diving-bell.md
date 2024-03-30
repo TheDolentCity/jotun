@@ -29,7 +29,7 @@ All communications have been jammed within the atmosphere of Titan. All probes s
 
 We have little intel regarding hostile forces on Titan's surface. Orbital imagery has captured what appears to be Repcon movement in the base. Destroy any and all hostile forces.
 
-#### `[SECONDARY]` Eliminate orbital defense cannons.
+#### `[SECONDARY]` Eliminate orbital defense cannons
 
 Satellite imagery has captured images of several orbital defense cannon emplacements in the base. The orbital defense cannons prevent _Lady of the Slain_ from deploying Bifrost pods or additional reinforcements. They must be eliminated to evacuate safely.
 
@@ -69,7 +69,7 @@ Three platoons allotted for this operation:
 
 #### Jotun Pilots
 
-Three jotun Pilots alloted for operation:
+ThreeJotun Pilots alloted for operation:
 
 - Atris `ARC` COTTE
 - Dak `CINDER` Breacher
@@ -98,8 +98,26 @@ Titan is a large moon of Saturn mostly covered in Ocean. Terraforming has led to
 
 ## Outcome
 
-```
-###########################################################
-################# ERROR. INCOMPLETE FILE. #################
-###########################################################
-```
+#### `[SUCCESS]` Destroy planetary communications jamming device
+
+Intelligence acquired via data-spike.
+
+#### `[SUCCESS]` Eliminate hostile forces
+
+Hostile forces neutralized. Remains captured.
+
+#### `[SUCCESS]` Eliminate orbital defense cannons
+
+All three orbital defense cannons neutralized.
+
+#### `[SUCCESS]` Retrieve any intelligence found at the location
+
+Computer data backed up by Pilots.
+
+#### `[SUCCESS]` Protect the drop ships
+
+Drop ships protected. All Pilots andJotun evacuated. "ARC" was unresponsive, but came to with the aid of a stim aboard the drop ship. He will be debriefed by Lieutenant Valkyrie.
+
+### Notes
+
+The Pilots discovered a water cave under the base with some kind of machinery that produced profound seismic activity. This is likely related to █████████ ███████████████ ██ █████ as mentioned by ██████████ in ██████████ ███████████ ████████ ██ █████ ████████ ███████. It was destroyed by "ARC", but we'll fish the wreckage out soon.

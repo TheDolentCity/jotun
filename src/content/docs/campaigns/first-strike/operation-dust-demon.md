@@ -8,7 +8,7 @@ FROM:    Supreme Headquarters, Frontier Militia Forces
 
 TO:      Major Samuel Saxon
 
-FWD:     Atris 'ARC' COTTE,
+FWD:     Atris 'ARC' Cotte,
          Dak 'CINDER' Breacher,
          Lesie 'PHOTON' Everson
 
@@ -47,7 +47,7 @@ One Greathammer drop ship alloted for evacuation.
 
 ### Ground Forces
 
-Three jotun Pilots alloted for operation:
+ThreeJotun Pilots alloted for operation:
 
 - Atris `ARC` COTTE
 - Dak `CINDER` Breacher
@@ -61,7 +61,7 @@ Pilot and Jotun deployed via Bifrost pod.
 
 ### Evacuation
 
-One Greathammer drop ship will arrive ten minutes after the Pilots arrive on the surface to retrieve the Pilots, their jotun, the research personnel, and any captured hostiles.
+One Greathammer drop ship will arrive ten minutes after the Pilots arrive on the surface to retrieve the Pilots, theirJotun, the research personnel, and any captured hostiles.
 
 ## Operation Location
 
@@ -96,4 +96,4 @@ Hostile forces neutralized. Remains captured.
 
 #### `[SUCCESS]` Evacuation
 
-All Pilots and jotun evacuated. "ARC" was unresponsive and sent to the medical bay with a significant head injury.
+All Pilots andJotun evacuated. "ARC" was unresponsive and sent to the medical bay with a significant head injury.

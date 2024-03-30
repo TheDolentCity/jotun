@@ -75,4 +75,4 @@ Roll 2d10 to determine the first two characters and another 4d10 to determine th
 | 9   | L     | Y      |
 | 0   | M     | Z      |
 
-Jotun AI are sometimes referred to with nicknames, abbreviations of their serial numbers, or by the name of the mechanical jotun itself.
+Jotun AI are sometimes referred to with nicknames, abbreviations of their serial numbers, or by the name of the mechanicalJotun itself.

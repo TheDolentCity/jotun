@@ -43,7 +43,7 @@ The HC-6 Plasma Cannon is an anti-mech, electro-magnetic cannon manufactured by 
 
 ### Rocket Fists
 
-The EM-17 Rocket Fists are an anti-mech, hand modification manufactured by Escheron Armory. Instead of carrying a melee weapon, the Jotun's fists and elbows are augmented with thrusters that when activated provide immediate and extreme kinetic force. Blows from these fists will send most mechs flying in the opposite direction. If the jotun is not stable, it will also be launched in the direction opposite the impact.
+The EM-17 Rocket Fists are an anti-mech, hand modification manufactured by Escheron Armory. Instead of carrying a melee weapon, the Jotun's fists and elbows are augmented with thrusters that when activated provide immediate and extreme kinetic force. Blows from these fists will send most mechs flying in the opposite direction. If theJotun is not stable, it will also be launched in the direction opposite the impact.
 
 ### Tachyon Claws
 
