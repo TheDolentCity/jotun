@@ -8,7 +8,7 @@ COMMANDER:          Major Samuel Saxon
 
 CAMPAIGN LAUNCHED:  November 11th, 2597 AST
 
-CAMPAIGN CONCLUDED: UNKNOWN
+CAMPAIGN CONCLUDED: November 24th, 2597 AST
 
 PILOTS:             Atris 'ARC' Cotte,
                     Dak 'CINDER' Breacher,
@@ -33,6 +33,7 @@ This campaign was comprised of ████ Jotun operations:
 - [Operation Dust Demon](./operation-dust-demon/): a raid of intelligence data from the Arcadia Research Station on Venus.
 - [Operation Diving Bell](./operation-diving-bell/): an engagement against an enemy base on the Ocean moon Titan.
 - [Operation Crystal Eye](./operation-crystal-eye/): a raid of sample data from Fallen Earth.
+- [Battle of Red Stars](./battle-of-red-stars/): a battle that included naval combat above and on the surface of Mars.
 
 ## Fallout
 

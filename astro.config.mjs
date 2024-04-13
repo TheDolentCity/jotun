@@ -44,6 +44,20 @@ export default defineConfig({
           },
         },
         {
+          label: 'Non-Player Characters',
+          collapsed: true,
+          autogenerate: {
+            directory: 'non-player-characters',
+          },
+        },
+        {
+          label: 'Player Characters',
+          collapsed: true,
+          autogenerate: {
+            directory: 'player-characters',
+          },
+        },
+        {
           label: 'Documents',
           collapsed: true,
           autogenerate: {
@@ -71,6 +85,10 @@ export default defineConfig({
                 {
                   label: 'Operation: CRYSTAL EYE',
                   link: '/campaigns/first-strike/operation-crystal-eye',
+                },
+                {
+                  label: 'Battle of Red Stars',
+                  link: '/campaigns/first-strike/battle-of-red-stars',
                 },
               ],
             },
