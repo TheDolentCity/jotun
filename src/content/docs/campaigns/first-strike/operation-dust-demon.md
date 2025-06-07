@@ -1,5 +1,5 @@
 ---
-title: 'Operation: DUST DEMON'
+title: "Operation: DUST DEMON"
 description: DUST DEMON operation details.
 ---
 
@@ -96,4 +96,4 @@ Hostile forces neutralized. Remains captured.
 
 #### `[SUCCESS]` Evacuation
 
-All Pilots andJotun evacuated. "ARC" was unresponsive and sent to the medical bay with a significant head injury.
+All Pilots and Jotun evacuated. "ARC" was unresponsive and sent to the medical bay with a significant head injury.
