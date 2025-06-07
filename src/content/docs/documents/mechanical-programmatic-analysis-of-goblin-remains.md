@@ -1,6 +1,6 @@
 ---
-title: Mechanical/Programmatic Analysis of Troll Infantry Remains
-description: An early confidential report on the remains of the Troll infantry captured during Operation Dust Demon.
+title: Mechanical/Programmatic Analysis of Goblin Remains
+description: An early confidential report on the remains of the Goblin captured during Operation Dust Demon.
 ---
 
 ```bat
@@ -14,7 +14,7 @@ FROM:           Codename Chronicler
 
 TO:             Codename Valkyrie
 
-SUBJECT:        Mechanical/Programmatic Analysis of Troll Infantry Remains
+SUBJECT:        Mechanical/Programmatic Analysis of Goblin Remains
 
 DATE:           November 19th, 2597 AST
 ```
@@ -25,11 +25,11 @@ This is `Codename Chronicler`. This transcript of my analysis was created using 
 
 The purpose of this analysis is to find the answer to three pressing questions: what is the goal of these machines, who created these machines, and why would one miniaturize Trolls into a less lethal frame? I believe I have found an answer to the first two questions, and have a solid guess for the last one. I will present a compilation of my findings for the record in a fashion that best answers each point.
 
-**NOTE:** For the purposes of these records, we are now referring to these infantry Trolls as **Repcons** to distinguish them from their larger Troll counterparts.
+**NOTE:** For the purposes of these records, we are now referring to these infantry Trolls as **Goblins** to distinguish them from their larger Troll counterparts.
 
 ---
 
-## QUESTION ONE: What is the goal of these Repcons?
+## QUESTION ONE: What is the goal of these Goblins?
 
 ```bat
 CODENAME: Chronicler
@@ -37,7 +37,7 @@ DATE:     0400 hours, November 11th, 2597 AST
 LOCATION: FMF Lady of the Slain, Venus Orbit
 ```
 
-> From their attack on the Arcadia Research Station we know that these Repcons are at least as intelligent as traditional Troll AI. The processing unit we have—damaged as it is—does not have the radio capability necessary for remote control. It is unclear how powerful their processing capability is however. While most of the footage indicates their tactical decision making is on-par with Trolls, there was a curious incident near the end of the conflict where one ran away from the Pilot known as... uh... "ARC". There is no clear mission goal that can be induced from the evidence, but in all aspects it appears like the Repcon is fleeing.
+> From their attack on the Arcadia Research Station we know that these Goblins are at least as intelligent as traditional Troll AI. The processing unit we have—damaged as it is—does not have the radio capability necessary for remote control. It is unclear how powerful their processing capability is however. While most of the footage indicates their tactical decision making is on-par with Trolls, there was a curious incident near the end of the conflict where one ran away from the Pilot known as... uh... "ARC". There is no clear mission goal that can be induced from the evidence, but in all aspects it appears like the Goblin is fleeing.
 
 ```bat
 CODENAME: Chronicler
@@ -60,7 +60,7 @@ LOCATION: FMF Lady of the Slain, Venus Orbit
 
 ---
 
-## QUESTION TWO: Who created these Repcons?
+## QUESTION TWO: Who created these Goblins?
 
 ```bat
 CODENAME: Chronicler
@@ -116,7 +116,7 @@ LOCATION: FMF Lady of the Slain, Venus Orbit
 
 ---
 
-## QUESTION THREE: Why would one miniaturize Trolls into less lethal Repcons?
+## QUESTION THREE: Why would one miniaturize Trolls into less lethal Goblins?
 
 ```
 CODENAME: Chronicler
@@ -126,13 +126,13 @@ LOCATION: FMF Lady of the Slain, Venus Orbit
 
 > The first odd thing of note is that the remains appear human in every way from the outside. If this figure walked down the hallway I would believe that the marines had been issued a new, black body armor I had not been told about. If I were to construct Troll infantry of my own I would not spend precious time or resources to shape them in the image of humans. But someone did. Someone went to great effort to make them look human from the outside.
 >
-> Based on recordings from Operation Dust Demon, there was no advantage to the infantry Trolls over traditional Troll combat efficiency. In fact, our AI scored its performance as far lower than traditional Troll resources. Their design does not indicate .
+> Based on recordings from Operation Dust Demon, there was no advantage to the infantry Trolls over traditional Troll combat efficiency. In fact, our AI scored its performance as far lower than traditional Troll resources. Their design does not indicate that they were built for increased mobility or durability either.
 >
 > Another possibility is that they are easier to produce than traditional Trolls, but the detailing of their appearance and their miniature construction make this highly unlikely.
 >
 > My conclusion would be an attempt at subterfuge; creating robots that could sneak into human facilities. This doesn't sit right with me though. Surely it would be easier to miniaturize the technology further into small drones—which if the 4th had done I wouldn't know about of course—delete that last part. Delete that last part. No, don't write what I'm saying, delete, ah fuck it whatever. Everyone in SAWBONES already knows about the drones Valkyrie, ship me off to Pluto for all I care.
 >
-> Where was I? Oh, right, subterfuge. Wouldn't an even smaller robot with a poison or explosive payload be easier to produce and used to greater effect? My colleagues won't take this seriously, but my only conclusion is that whoever constructed these Repcons did it in OUR image FOR images sake. It feels more poetic or divine than rational.
+> Where was I? Oh, right, subterfuge. Wouldn't an even smaller robot with a poison or explosive payload be easier to produce and used to greater effect? My colleagues won't take this seriously, but my only conclusion is that whoever constructed these Goblins did it in OUR image FOR images sake. It feels more poetic or divine than rational.
 >
 > ...I have to stop staying up for thirty-six hours straight.
 

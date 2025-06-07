@@ -1,5 +1,5 @@
 ---
-title: 'First Strike'
+title: "First Strike"
 description: First strike campaign details.
 ---
 
@@ -18,7 +18,7 @@ PILOTS:             Atris 'ARC' Cotte,
                     Kavya 'FIREBIRD' Bokate
 ```
 
-This campaign details three operations led by Major Saxon aboard the that occurred following the destruction of Earth. One squad of three Jotun Pilots were deployed to Venus, Titan, and ████ while another squad of three was deployed to Earth and ████.
+This campaign details three operations led by Major Saxon aboard the that occurred following the destruction of Earth. One squad of three Jotun Pilots were deployed to Venus, Titan, and Mars while another squad of three was deployed to Earth and ████.
 
 ## Background
 
@@ -28,7 +28,7 @@ No other United Human Colonies forces were present in the Sol system at the time
 
 ## Operations
 
-This campaign was comprised of ████ Jotun operations:
+This campaign was comprised of 4 Jotun operations:
 
 - [Operation Dust Demon](./operation-dust-demon/): a raid of intelligence data from the Arcadia Research Station on Venus.
 - [Operation Diving Bell](./operation-diving-bell/): an engagement against an enemy base on the Ocean moon Titan.
@@ -37,8 +37,7 @@ This campaign was comprised of ████ Jotun operations:
 
 ## Fallout
 
-```
-###########################################################################
-######################### ERROR. INCOMPLETE FILE. #########################
-###########################################################################
-```
+- Operation Dust Demon was a success and resulted in the [Mechanical Analysis of Goblin Remains](../../documents/mechanical-programmatic-analysis-of-goblin-remains/).
+- Operation Diving Bell was a success and resulted in acquiring an unknown seismic device constructed by the enemy.
+- Operation Crystal Eye was a success and resulted in the [Biological Analysis of Fall of Earth Telemetry](../../documents/biological-analysis-of-fall-of-earth-telemetry/).
+- Battle of Red Stars was a success and resulted in the enemy releasing the [Ventiri Broadcast](../../documents/transcript-of-ventiri-broadcast/).

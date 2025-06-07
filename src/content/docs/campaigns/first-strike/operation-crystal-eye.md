@@ -33,4 +33,4 @@ All research samples retrieved and stored.
 
 #### `[SUCCESS]` Destroy hostile forces
 
-Lingering hostile Trolls and Repcon squads patrolled the region. Hostile forces neutralized. Remains captured and brought aboard _Lady of the Slain_.
+Lingering hostile Trolls and Goblin squads patrolled the region. Hostile forces neutralized. Remains captured and brought aboard _Lady of the Slain_.

@@ -1,5 +1,5 @@
 ---
-title: 'Battle of Red Stars'
+title: "Battle of Red Stars"
 description: Battle of Red Stars After Action Report.
 ---
 
@@ -22,24 +22,20 @@ DATE:    0930 hours, November 25th, 2597 AST
 
 ## 1. INTRODUCTION
 
-The naval strike group _Basilisk_ intercepted a distress call from Red Fleet orbiting Mars and proceeded to attack an enemy Dreadnought until reinforcements arrived.
+The naval strike group _Basilisk_ intercepted a distress call from Red Fleet orbiting Mars and proceeded to attack an enemy dreadnought until reinforcements arrived.
 
-## 2. SUMMARY
+## 2. OVERVIEW
 
 The following is information regarding the battle itself:
 
-- Deployed Location: Mars, Sol System
-- Deployed Naval Forces: Red Fleet, Battle Group Basilisk
-- Deployed Ground Forces: All ground forces aboard _Lady of the Slain_. Notably MSGT Atris Cotte, MSGT Lesie Everson, MSGT Dak Breacher, and LT Valkyrie.
-- Duration of Deployment: Began and ended on November 24th, 2597
-- Contingency Purpose: In defense of Amber
-- Scope of Operation: Ensure the survival of Red Fleet until reinforcements throughout the Sol system arrived and defend Amber base from a ground assault.
+- `Deployed Location:` Mars, Sol System
+- `Deployed Naval Forces:` Red Fleet, Battle Group Basilisk
+- `Deployed Ground Forces:` All ground forces aboard _Lady of the Slain_. Notably MSGT Atris Cotte, MSGT Lesie Everson, MSGT Dak Breacher, and LT Valkyrie.
+- `Duration of Deployment:` Began and ended on November 24th, 2597
+- `Contingency Purpose:` In defense of Amber
+- `Scope of Operation:` Ensure the survival of Red Fleet until reinforcements throughout the Sol system arrived and defend Amber base from a ground assault.
 
-## 3.
-
----
-
-## `1` SUMMARY OF OPERATIONS
+## 3. SUMMARY OF OPERATIONS
 
 <section class="pl-14">
 
@@ -75,7 +71,7 @@ Captain Azov received Ensign Saxon's transmission at 0702 aboard _Lady of the Sl
 
 #### `II` Defense of Amber Base.
 
-Hostile forces deployed two ogres, two battalions of trolls, and over three battalions of Repcons over the course of ten minutes. ARC, PHOTON, and CINDER engaged these forces alongside ten allied Jotun and Lieutenant Valkyrie. By 0717, most hostile forces had been destroyed seven allied Jotun had fallen as well. Lieutenant Valkyrie ordered ARC to help her operate the experimental █████████ ███████.
+Hostile forces deployed two ogres, two battalions of trolls, and over three battalions of goblins over the course of ten minutes. ARC, PHOTON, and CINDER engaged these forces alongside ten allied Jotun and Lieutenant Valkyrie. By 0717, most hostile forces had been destroyed seven allied Jotun had fallen as well. Lieutenant Valkyrie ordered ARC to help her operate the experimental █████████ ███████.
 
 #### `III` Destruction of Battle Group Vortex.
 
@@ -83,28 +79,16 @@ The _Grafton_ and _Mohawk_ were the first to fall to the dreadnought, but were s
 
 #### `IV` Defeating the dreadnought.
 
-Lieutenant Valkyrie activated the █████████ ███████ at 0719 hours, cutting the dreadnought in half. This removed its ability to maneuver or access subspace. Lieutenant Valkyrie was KIA from the use of the █████████ ███████. _Red Team_ reached the bridge and encountered a ███-████ ████, ███████ █████. If it was not for the ████████ shine ███ would appear █████. ███ held up a hand and █████████ a missile from LENNY, killing BEAR. FIREBIRD managed to shoot ███ with a Yippee to little effect. The █████ broke FIREBIRD's arm with a █████ ██ ███ █████. Bridge warnings aboard the dreadnought alerted everyone to a nearby subspace rupture. Alarmed by this, the █████ opened a small ███ in ████████ and ████. LENNY and FIREBIRD eliminated the remaining Repcons on the bridge, but died of their wounds.
+Lieutenant Valkyrie activated the █████████ ███████ at 0719 hours, cutting the dreadnought in half. This removed its ability to maneuver or access subspace. Lieutenant Valkyrie was KIA from the use of the █████████ ███████. _Red Team_ reached the bridge and encountered a ███-████ ████, ███████ █████. If it was not for the ████████ shine ███ would appear █████. ███ held up a hand and █████████ a missile from LENNY, killing BEAR. FIREBIRD managed to shoot ███ with a Yippee to little effect. The █████ broke FIREBIRD's arm with a █████ ██ ███ █████. Bridge warnings aboard the dreadnought alerted everyone to a nearby subspace rupture. Alarmed by this, the █████ opened a small ███ in ████████ and ████. LENNY and FIREBIRD eliminated the remaining goblins on the bridge, but died of their wounds.
 
 #### `V` Arrival of Battle Group Sleipnir.
 
 _Battle Group Sleipnir_ arrived at 0722 hours. Outmatched 2:1, the remaining hostile forces with working subspace engines fled from the battle. The few hostile trolls remaining near Amber Base were destroyed, leaving ARC, PHOTON, and CINDER as the only surviving FMF forces. The dreadnought was captured and cleared of all hostile forces over the course of several hours.
 
-#### `V` Loss of Atris 'ARC' Cotte.
+#### `VI` Loss of Atris 'ARC' Cotte.
 
 At 0723 hours, allied forces entered Amber Base and secured ███ ████, but could not find any trace of Atris 'ARC' Cotte. Preliminary analysis of ███████ radiation at Amber Base indicated more than one ████ discharge in the past hour. At this point, ARC has been reported MIA.
 
 </section>
-
-</section>
-
-## `2` BATTLE CASUALTIES
-
-<section class="pl-14">
-
-### `A` FAVCOM Casualties
-
-### `B` MILCOM Casualties
-
-### `C` Field Grade Officers
 
 </section>

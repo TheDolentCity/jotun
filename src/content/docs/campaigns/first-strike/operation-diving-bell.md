@@ -1,5 +1,5 @@
 ---
-title: 'Operation: DIVING BELL'
+title: "Operation: DIVING BELL"
 description: DIVING BELL operation details.
 ---
 
@@ -27,7 +27,7 @@ All communications have been jammed within the atmosphere of Titan. All probes s
 
 #### `[SECONDARY]` Eliminate hostile forces
 
-We have little intel regarding hostile forces on Titan's surface. Orbital imagery has captured what appears to be Repcon movement in the base. Destroy any and all hostile forces.
+We have little intel regarding hostile forces on Titan's surface. Orbital imagery has captured what appears to be Goblin movement in the base. Destroy any and all hostile forces.
 
 #### `[SECONDARY]` Eliminate orbital defense cannons
 
@@ -91,7 +91,7 @@ Titan is a large moon of Saturn mostly covered in Ocean. Terraforming has led to
 
 #### Structures
 
-- **Hostile Base**: There is a large structure with repcon activity on the northernmost edge of the island. We suspect that this is where the jamming device is located.
+- **Hostile Base**: There is a large structure with Goblin activity on the northernmost edge of the island. We suspect that this is where the jamming device is located.
 - **Northwestern Orbital Cannon**: There is a heavily armored orbital cannon on the northwestern edge of the island.
 - **Northeastern Orbital Cannon**: There is a heavily armored orbital cannon on the northeastern edge of the island.
 - **Eastern Orbital Cannon**: There is a heavily armored orbital cannon on the eastern edge of the island.
@@ -116,7 +116,7 @@ Computer data backed up by Pilots.
 
 #### `[SUCCESS]` Protect the drop ships
 
-Drop ships protected. All Pilots andJotun evacuated. "ARC" was unresponsive, but came to with the aid of a stim aboard the drop ship. He will be debriefed by Lieutenant Valkyrie.
+Drop ships protected. All Pilots and Jotun evacuated. "ARC" was unresponsive, but came to with the aid of a stim aboard the drop ship. He will be debriefed by Lieutenant Valkyrie.
 
 ### Notes
 
