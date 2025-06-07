@@ -18,7 +18,7 @@ PILOTS:             Atris 'ARC' Cotte,
                     Kavya 'FIREBIRD' Bokate
 ```
 
-This campaign details three operations led by Major Saxon aboard the that occurred following the destruction of Earth. One squad of three Jotun Pilots were deployed to Venus, Titan, and Mars while another squad of three was deployed to Earth and ████.
+This campaign details three operations led by Major Saxon aboard the that occurred following the destruction of Earth. One squad of three Jotun Pilots were deployed to Venus, Titan, and Mars while another squad of three was deployed to Earth and the Ventiri Dreadnought above Mars.
 
 ## Background
 
@@ -41,3 +41,11 @@ This campaign was comprised of 4 Jotun operations:
 - Operation Diving Bell was a success and resulted in acquiring an unknown seismic device constructed by the enemy.
 - Operation Crystal Eye was a success and resulted in the [Biological Analysis of Fall of Earth Telemetry](../../documents/biological-analysis-of-fall-of-earth-telemetry/).
 - Battle of Red Stars was a success and resulted in the enemy releasing the [Ventiri Broadcast](../../documents/transcript-of-ventiri-broadcast/).
+
+## Casualties
+
+- Lieutenant 'VALKYRIE' is **KIA**.
+- MSGT Avery 'BEAR' Liebwitz is **KIA**.
+- MSGT Leonard 'LENNY' Star is **KIA**.
+- MSGT Kavya 'FIREBIRD' Bokate is **KIA**.
+- MSGT Atris 'ARC' Cotte is **MIA**.
