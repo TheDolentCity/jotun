@@ -1,0 +1,196 @@
+---
+import {
+  BicepsFlexed,
+  ChevronsUp,
+  Cpu,
+  Drill,
+  Hexagon,
+  Move,
+  Pentagon,
+  Proportions,
+  Router,
+  Shield,
+  SmartphoneCharging,
+  Square,
+  SquareActivity,
+  Thermometer,
+  Triangle,
+  Wrench,
+} from "@lucide/astro";
+
+interface Props {
+  size: string;
+  armor: string;
+  power: string;
+  details?: string;
+  details2?: string;
+  description: string;
+
+  // TORQUE
+  hp: string;
+
+  // MANEUVER
+  speed: string;
+
+  // SYSTEMS
+  sensors: string;
+
+  // ENGINEERING
+  heatCap: string;
+  repairCap: string;
+
+  // MOUNTS
+  minor?: string;
+  main?: string;
+  major?: string;
+  colossal?: string;
+
+  // ABILITIES
+  torque?: string;
+  maneuver?: string;
+  systems?: string;
+  engineering?: string;
+}
+
+let {
+  size,
+  armor,
+  power,
+  details,
+  details2,
+  description,
+  hp,
+  speed,
+  sensors,
+  heatCap,
+  repairCap,
+  minor,
+  main,
+  major,
+  colossal,
+  torque,
+  maneuver,
+  systems,
+  engineering,
+} = Astro.props;
+---
+
+<div
+  class="not-prose border-2 rounded-lg border-gray-900 dark:border-accent-400"
+>
+  <div
+    class="p-3 rounded-t bg-gray-900 dark:bg-accent-400 text-gray-200 dark:text-gray-950"
+  >
+    <div class="flex gap-6 items-center text-sm uppercase font-semibold">
+      <div class="flex gap-1 items-center leading-none">
+        <Proportions class="size-4" />
+        <span>Size {size}</span>
+      </div>
+      <div class="flex gap-1 items-center leading-none">
+        <Shield class="size-4" />
+        <span>Armor {armor}</span>
+      </div>
+      <div class="flex gap-1 items-center leading-none">
+        <SmartphoneCharging class="size-4" />
+        <span>Power {power}</span>
+      </div>
+      {
+        minor && (
+          <div class="flex gap-1 items-center leading-none">
+            <Triangle class="size-4" />
+            <span>Minor {minor}</span>
+          </div>
+        )
+      }
+      {
+        main && (
+          <div class="flex gap-1 items-center leading-none">
+            <Square class="size-4" />
+            <span>Main {main}</span>
+          </div>
+        )
+      }
+      {
+        major && (
+          <div class="flex gap-1 items-center leading-none">
+            <Pentagon class="size-4" />
+            <span>Major {major}</span>
+          </div>
+        )
+      }
+      {
+        colossal && (
+          <div class="flex gap-1 items-center leading-none">
+            <Hexagon class="size-4" />
+            <span>Colossal {colossal}</span>
+          </div>
+        )
+      }
+    </div>
+    <hr
+      class="w-full my-2 border border-dashed border-gray-200 dark:border-gray-900"
+    />
+    <div class="flex gap-6 items-center text-sm uppercase font-semibold">
+      <div class="flex gap-1 items-center leading-none">
+        <SquareActivity class="size-4" />
+        <span>HP {hp}</span>
+      </div>
+      <div class="flex gap-1 items-center leading-none">
+        <ChevronsUp class="size-4" />
+        <span>Speed {speed}</span>
+      </div>
+      <div class="col-span-4 flex gap-1 items-center leading-none">
+        <Router class="size-4" />
+        <span>Sensors {sensors}</span>
+      </div>
+      <div class="flex gap-1 items-center leading-none">
+        <Thermometer class="size-4" />
+        <span>Heat Cap {heatCap}</span>
+      </div>
+      <div class="col-span-2 flex gap-1 items-center leading-none">
+        <Wrench class="size-4" />
+        <span>Repair Cap {repairCap}</span>
+      </div>
+    </div>
+  </div>
+  <div class="p-2 text-base text-gray-600 dark:text-gray-400 leading-normal">
+    {
+      details && (
+        <p class="pb-4 text-gray-900 dark:text-gray-200 whitespace-pre-line">
+          {details}
+        </p>
+      )
+    }
+    {
+      details2 && (
+        <hr class="pb-4 border-t border-dashed border-gray-900 dark:border-gray-200" />
+        <p class="pb-4 text-gray-900 dark:text-gray-200 whitespace-pre-line">
+          {details2}
+        </p>
+      )
+    }
+    <p class="italic whitespace-pre-line">
+      {description}
+    </p>
+  </div>
+  <div
+    class="flex gap-6 p-3 items-center rounded-b text-sm uppercase font-semibold bg-gray-900 dark:bg-accent-400 text-gray-200 dark:text-gray-950"
+  >
+    <div class="flex gap-1 items-center leading-none">
+      <BicepsFlexed class="size-4" />
+      <span>Torque {torque}</span>
+    </div>
+    <div class="flex gap-1 items-center leading-none">
+      <Move class="size-4" />
+      <span>Maneuver {maneuver}</span>
+    </div>
+    <div class="col-span-4 flex gap-1 items-center leading-none">
+      <Cpu class="size-4" />
+      <span>Systems {systems}</span>
+    </div>
+    <div class="flex gap-1 items-center leading-none">
+      <Drill class="size-4" />
+      <span>Engineering {engineering}</span>
+    </div>
+  </div>
+</div>

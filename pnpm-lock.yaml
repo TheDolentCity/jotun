@@ -32,6 +32,9 @@ importers:
       '@fontsource/space-mono':
         specifier: ^5.0.18
         version: 5.2.5
+      '@lucide/astro':
+        specifier: ^0.513.0
+        version: 0.513.0(astro@4.16.18(rollup@4.42.0)(typescript@5.8.3))
       '@types/react':
         specifier: ^18.2.58
         version: 18.3.23
@@ -569,6 +572,11 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@lucide/astro@0.513.0':
+    resolution: {integrity: sha512-UFXmRjELW8q/Npc0Yfm5Oqer+kPnetbPK39vJ7LcsfHtMCZx2gZG/YNMnjHDhk2QHScClgo8RmQrf8xQZG99dA==}
+    peerDependencies:
+      astro: ^4 || ^5
 
   '@mapbox/node-pre-gyp@2.0.0':
     resolution: {integrity: sha512-llMXd39jtP0HpQLVI37Bf1m2ADlEb35GYSh1SDSLsBhR+5iCxiNGlT31yqbNtVHygHAtMy6dWFERpU2JgufhPg==}
@@ -3534,6 +3542,10 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@lucide/astro@0.513.0(astro@4.16.18(rollup@4.42.0)(typescript@5.8.3))':
+    dependencies:
+      astro: 4.16.18(rollup@4.42.0)(typescript@5.8.3)
 
   '@mapbox/node-pre-gyp@2.0.0':
     dependencies:

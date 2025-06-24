@@ -149,6 +149,10 @@ export default defineConfig({
               link: '/building-a-jotun/colossal-mounts',
             },
             {
+              label: 'Drones',
+              link: '/building-a-jotun/drones',
+            },
+            {
               label: 'Building an AI',
               link: '/building-a-jotun/building-an-ai',
             },

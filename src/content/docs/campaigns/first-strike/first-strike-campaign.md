@@ -8,7 +8,7 @@ COMMANDER:          Major Samuel Saxon
 
 CAMPAIGN LAUNCHED:  November 11th, 2597 AST
 
-CAMPAIGN CONCLUDED: November 24th, 2597 AST
+CAMPAIGN CONCLUDED: November 25th, 2597 AST
 
 PILOTS:             Atris 'ARC' Cotte,
                     Dak 'CINDER' Breacher,

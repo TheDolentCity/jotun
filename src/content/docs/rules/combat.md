@@ -3,22 +3,22 @@ title: Combat
 description: Overview of the combat rules.
 ---
 
-## Turns
+## Taking action
 
-Pilots and Jotun execute actions on the same turn. A Jotun is either in "pilot-command" or "AI-command" mode.
+Whoever describes taking action first, either GM or players, acts first. Have the players take all their turns together. If it’s unclear who described action first, make DEX checks to determine who acts.
 
-### Pilot-Command Mode
+## Power
 
-In Pilot-command mode, the Pilot is inside the Jotun and can perform a movement and one action. The Jotun AI can perform one action as well or lend it's processing power to the Pilot to boost their action.
+When a pilot is inside of their mech, they have 3 power. When a pilot is outside of their mech, they have 2 power and an AI may pilot the mech as if it has 2 power. On your turn, spend 1 power for each action you take. You regain all power at the start of your next turn. If an action is simple or very quick (making a thumbs up, drawing a sword, shouting a couple words over a radio, etc.) you don’t spend power.
 
-> #### Example 1
->
-> A Pilot moves their Jotun to get an angle on a hostile Jotun at extreme range and then uses their action to fire a laser rifle. They hit the target, but only marginally damage it. Their AI uses its action to scan a nearby building, revealing hostiles waiting inside.
+## Reactions
 
-> #### Example 2
->
-> A Pilot moves their Jotun to get an angle on a hostile Jotun at extreme range. They instruct their AI to help aim their shot and then uses their action to fire a laser rifle. They hit the target in a weakened fold of their armor, severing their arm.
+You may spend power to react outside of your turn, but you cannot do this if you are surprised. The dodge reaction has a DC based on what you wear. If you roll DEX over that DC, you avoid all damage. If it is unclear how to resolve your intended reaction, make checks.
 
-### AI-Command Mode
+Attacks. When you attack with a weapon or spell, you roll an associated die. If you spend power to attack the same target multiple times, you roll multiple dice and take the highest result. Subtract the target’s AC from the die roll and then subtract the remaining value (if any) from the target’s HP. If the die roll is the highest value on the attacking die, it is a crit and ignores the target’s AC.
 
-In AI-command mode, the AI inside the Jotun can perform a movement and one action. The Pilot outside of the Jotun can also perform a movement and one action. This provides versatility, but both combatants are less effective when they're not working as a team.
+Casting magic. Most magic is bound in rings, echoes, or dust. To channel the magic, spend 1 spark, then roll WIL. On a 1, the magic fails. 2-3, the magic is weaker and you cannot use the item again until you’ve rested.
+
+Feats. If you strive for a specific goal, like knocking a target prone when you hit them with a hammer, spend 1 power and make a relevant check to achieve your aim.
+
+Death. Rest in a safe place for several hours to regain full HP and 1 spark if you have 0. At 0 HP, you die, but your spark persists. Make a WIL check. On success, you lose all great sparks. On failure, you lose all sparks. You will return to life at 1 HP in several hours if your body is not destroyed. While you are dead, you can make a WIL check to aid your ally’s on your turn. If you succeed, you can grant an ally 1 power or add a d8 to their next action.
