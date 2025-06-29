@@ -3,20 +3,43 @@ title: Primary Weapons
 description: A list of primary Pilot weapons.
 ---
 
+import MountBlock from '../../../components/markdown/MountBlock.astro';
+
 Jotun Pilots are equipped with a primary weapon to protect them against infantry and inhospitable wildlife. These weapons are also carried by common soldiers of the Frontier.
 
 ### TC-171 Carbine
 
-The TC-171 carbine is an anti-personnel, fully-automatic carbine by Tammen Armory. It is the standard rifle used by Frontier and Core worlds alike. It has few flaws as it is reliable, hard-hitting, and capable of rapid-fire. Many Pilots eschew its general-use case for more specialized weapons.
+<MountBlock
+    tags="Primary Rifle, Kinetic, Light, Reliable 1"
+    range="8"
+    attack="1d8"
+    description="The TC-171 carbine is an anti-personnel, fully-automatic carbine by Tammen Armory. It is the standard rifle used by Frontier and Core worlds alike. It has few flaws as it is reliable, hard-hitting, and capable of rapid-fire. Many pilots eschew its general-use case for more specialized weapons." />
 
 ### Smart Shotgun
 
-The TD-15 Smart Shotgun is an auto-tracking, anti-personnel weapon made as a joint venture between Tammen and Dretyl Armory. It has an advanced AI processor installed along with a laser-based tracking device. Flechette pellets fired from the shotgun automatically identify and track the target they were fired at, resulting in higher accuracy. However, Jotun command recommended Pilots stop using this shotgun. There have been numerous incidents of friendly fire and damage to the Dretyl processing unit renders the weapon inoperable.
+<MountBlock
+    tags="Primary CQB, Kinetic, Light, Seeking"
+    range="5"
+    threat="3"
+    attack="1d8"
+    details="On a 1, the weapon is disabled."
+    description="The TD-15 Smart Shotgun is an auto-tracking, anti-personnel weapon made as a joint venture between Tammen and Dretyl Armory. It has an advanced AI processor installed along with a laser-based tracking device. Flechette pellets fired from the shotgun automatically identify and track the target they were fired at, resulting in higher accuracy. However, Jotun Command recommended pilots stop using this shotgun. There have been numerous incidents of friendly fire and damage to the Dretyl processing unit renders the weapon inoperable." />
 
 ### Saber-DMR
 
-The VD-9 Saber-DMR is an anti-personnel, semi-automatic, designated marksman rifle manufactured by Volgor Armory. It is a laser-powered, high magnification, rifle that is accurate at extreme range. A fresh energy cell must be inserted every five shots.
+<MountBlock
+    tags="Primary Rifle, Energy, Light"
+    range="20"
+    attack="1d8"
+    details="May remove the light property from the weapon for one attack. Afterwards, the weapon must be reloaded."
+    details2="On a 1, the weapon is disabled until a reload is performed."
+    description="The VD-9 Saber-DMR is an anti-personnel, semi-automatic, designated marksman rifle manufactured by Volgor Armory. It is a laser-powered, high magnification, rifle that is accurate at extreme range. A fresh energy cell must be inserted every few shots." />
 
 ### Twinfire SMG
 
-The TS-12 Twinfire SMG is an anti-personnel, twin-barrel, submachine gun manufactured by Tammen Armory. It alternates fire between two barrels for increased fire rate in close quarters. It is lightweight, maneuverable, and accurate while moving, but lacking range.
+<MountBlock
+    tags="Primary CQB, Kinetic, Light"
+    range="3"
+    threat="2"
+    attack="2d8"
+    description="The TS-12 Twinfire SMG is an anti-personnel, twin-barrel, submachine gun manufactured by Tammen Armory. It alternates fire between two barrels for increased fire rate in close quarters. It is lightweight, maneuverable, and accurate while moving, but lacking range." />

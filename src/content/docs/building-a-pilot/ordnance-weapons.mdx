@@ -3,20 +3,46 @@ title: Ordnance Weapons
 description: A list of Pilot ordnance weapons.
 ---
 
+import MountBlock from '../../../components/markdown/MountBlock.astro';
+
 Jotun Pilots are equipped with heavy ordnance to protect them against heavy threats like infantry battalions or Trolls.
 
 ### Burnstar Grenade
 
-The KO-8 Burnstar Grenade is an incendiary grenade manufactured by Klemon armory. It takes the form of a sharpened throwing star that can stick to hardened surfaces like concrete or Jotun armor. It is coated with a nano-thermite paste that activates when it strikes an object, melting it with temperatures that reach over 4500 degrees Fahrenheit. Standard issue Pilot deployments are only issued one Burnstar due to incidents of accidental activation.
+<MountBlock
+    tags="Grenade, Incendiary, Heat +1, Limited Use 1"
+    range="4"
+    flame="1d4"
+    heat="1d4"
+    description="The KG-8 Burnstar Grenade is an incendiary grenade manufactured by Klemon armory. It takes the form of a sharpened throwing star that can stick to hardened surfaces like concrete or Jotun armor. It is coated with a nano-thermite paste that activates when it strikes an object, melting it with temperatures that reach over 4500 degrees Fahrenheit. Standard issue pilot deployments are only issued one Burnstar due to incidents of accidental activation." />
 
 ### Demolition Charge
 
-The TO-10 Demolition Charge is a high-yield, explosive manufactured by Tammen Armory. Each charge must be primed and placed on a surface where it can be detonated remotely with a trigger device. Standard issue Pilot deployments are only issued one charge as they have an incredible weight and would otherwise impact mobility.
+<MountBlock
+    tags="Mine, Explosive, Limited Use 1"
+    burst="3"
+    attack="2d12"
+    details="• Spend 1 power to place and arm the mine.
+    • Spend 1 power to activate the mine and attack.
+    • The mine cannot be armed and activated in the same round.
+    • The mine deals double damage to structures."
+    description="The TM-10 Demolition Charge is a high-yield, explosive manufactured by Tammen Armory. Each charge must be primed and placed on a surface where it can be detonated remotely with a trigger device. Standard issue pilot deployments are only issued one charge as they have an incredible weight and would otherwise impact mobility." />
 
 ### Rocket Launcher
 
-The SL-5 Rocket Launcher is an anti-mech, lock-on, rocket launcher manufactured by Sarm Armory. The operator is required to lock on to their target before the system will allow them to fire. Each missile is self-guided and can navigate around obstacles, resulting in a high accuracy payload. Standard issue Pilot deployments are provided two missiles along with the launcher.
+<MountBlock
+    tags="Launcher, Explosive, Loading, Seeking, Limited Use 2"
+    range="12"
+    attack="2d8"
+    details="Can only target mechs or objects with the lock on condition."
+    description="The SL-5 Rocket Launcher is an anti-mech, lock-on, rocket launcher manufactured by Sarm Armory. The operator is required to lock on to their target before the system will allow them to fire. Each missile is self-guided and can navigate around obstacles, resulting in a high accuracy payload. Standard issue pilot deployments are provided two missiles along with the launcher." />
 
 ### Shredder Grenade
 
-The TO-24 Shredder Grenade is an anti-personnel, fragmentation grenade manufactured by Tammen Armory. It excels at ripping and tearing through cover, both natural and constructed, making it an effective choice against implanted infantry units. Standard issue Pilot deployments are provided four grenades.
+<MountBlock
+    tags="Grenade, Explosive, Arcing, Limited Use 4"
+    range="4"
+    blast="1"
+    attack="2d4"
+    details="Ignores and destroys any cover in the blast radius."
+    description="The TG-24 Shredder Grenade is an anti-personnel, fragmentation grenade manufactured by Tammen Armory. It excels at ripping and tearing through cover, both natural and constructed, making it an effective choice against implanted infantry units. Standard issue pilot deployments are provided four grenades." />

@@ -7,6 +7,26 @@ import MountBlock from '../../../components/markdown/MountBlock.astro';
 
 Major mounts are larger mounting points that can hold potent equipment like radar towers or powerful anti-mech weapons like missile launchers or laser cannons.
 
+### Arc Sword
+
+<MountBlock
+    tags="Major Melee, Kinetic"
+    threat="3"
+    attack="2d8"
+    details="You lose 1 main mount to install this mount."
+    details2="You can spend power to perform a secondary attack with this weapon. The stats of the secondary attack are found below."
+    description="The experimental DTM-01 Arc Sword is an anti-mech, anti-personnel weapon manufactured through a partnership between Dretyl and Tammen Armory. It is a massive melee weapon with its own power supply that the jotun can use to send out waves of electricity." />
+
+#### Arc Sword — Secondary attack
+
+<MountBlock
+    tags="Major Melee, Energy, AP, Charged"
+    line="4"
+    attack="1d4"
+    details="Charge 1: Required to perform this secondary attack. Any target that takes damage is slowed until the end of their next turn.
+    Charge 2: Increase damage to 1d8 and line to 8. Any target that takes damage is immobilized and impaired until the end of their next turn."
+    description="When the arc sword is charged it emits a powerful arc of electricity. Mechs struck by the lightning are damaged and slowed." />
+
 ### Blast Cannon
 
 <MountBlock
@@ -20,20 +40,20 @@ Major mounts are larger mounting points that can hold potent equipment like rada
 ### Grapple Launcher
 
 <MountBlock
-    tags="Major Cannon, Kinetic, AP"
+    tags="Major Launcher, Kinetic, AP"
     range="6"
-    attack="1d4"
+    attack="1d4 or 1d6 with lock on"
     details="When you hit with this weapon, you make a grapple check. If you grapple them and you weigh less than the target, you can spend 1 power to pull yourself up to 6 hexes towards the figure. If you grapple them and you weigh more than the target, you can spend 1 power to pull the target up to 6 hexes towards you."
     description="The TL-33 Grapple Launcher is an anti-mech weapon manufactured by Tammen Armory. It is typically mounted on a shoulder and is capable of launching an armor-piercing harpoon. The harpoon's barb will make it difficult to pull out of a target. Heavy motor emplacements throughout the mech allow the grapple launcher to reel in lighter targets or pull the wielding Jotun closer to a harpooned target." />
 
 ### Guided Missile Launcher
 
 <MountBlock
-    tags="Major Cannon, Explosive, Loading"
+    tags="Major Launcher, Explosive, Loading"
     range="SPECIAL"
     blast="1"
-    attack="2d10"
-    details="When fired, the missile travels 2 hexes in a straight line. Spend 1 power to move the missile up to 8 hexes. If the missile collides with any object, it explodes. If the missile hasn't exploded and you do not spend power to move the missile on your turn, then it falls inert."
+    attack="2d8 or 2d10 with lock on"
+    details="When fired, the missile travels 2 hexes in a straight line. Spend 1 power to move the missile up to 8 hexes, in any path you choose. If the missile collides with any object, it explodes. If the missile hasn't exploded and you do not spend power to move the missile on your turn, then it falls inert."
     description="The SL-71 Guided Missile Launcher is an anti-mech weapon manufactured by Sarm Armory. Firing the missile takes little effort as it eschews a targeting system. As a result, it does not automatically track any targets, but experienced Jotun Pilots can guide the missile manually with a HUD-link camera. This allows for complete control of the flight path, but an occupied Pilot may be unable to perform the guidance, leading to a disastrous effect." />
 
 ### Heavy Chain Gun
@@ -57,7 +77,7 @@ Major mounts are larger mounting points that can hold potent equipment like rada
 ### Micro-Missile Platform
 
 <MountBlock
-    tags="Major Cannon, Explosive, Seeking, Knockback 4, Limited 1"
+    tags="Major Launcher, Explosive, Seeking, Knockback 4, Limited 1"
     burst="3"
     attack="6d6"
     details="You must make a 3d6 attack roll against yourself when you fire this weapon."
@@ -66,9 +86,9 @@ Major mounts are larger mounting points that can hold potent equipment like rada
 ### Multi-Target Missile Launcher
 
 <MountBlock
-    tags="Major Cannon, Explosive, Loading, Seeking, Reliable 2, Limited 4"
+    tags="Major Launcher, Explosive, Loading, Seeking, Reliable 2, Limited 4"
     range="10"
-    attack="1d4"
+    attack="1d4 or 1d6 with lock on"
     details="Can target up to 6 different targets with one attack. Targeting the same target with multiple missiles combines attack rolls. ex: attacking 3 targets you could send 4 missiles to one target and roll 4d4."
     description="The SL-423 Multi-Target Missile Launcher is an anti-mech, anti-personnel weapon manufactured by Sarm Armory. Each missile from a pod can target a unique individual on the Pilot HUD. This weapon can eliminate personnel troops spread out across a battlefield or concentrate on a single target to devastating effect. It deploys with limited ammo in the field." />
 
@@ -78,10 +98,10 @@ Major mounts are larger mounting points that can hold potent equipment like rada
     tags="Major Rifle, Kinetic, Reliable 1"
     range="12"
     attack="1d4"
-    details="You can attack with this gun once per round as a free action."
+    details="You can attack with this gun once per round for 0 power."
     description="The TD-14 Smart Turret is an anti-mech, anti-personnel, auto-tracking weapon made as a joint venture between Tammen and Dretyl Armory. Dretyl provides the processing unit and HUD-uplink that controls the flight path of each round fired. The turret has a slow fire rate and its caliber is only capable of piercing light mech armor." />
 
-### Smoke Cannon
+### Smoke Mortar
 
 <MountBlock
     tags="Major Cannon, Arcing, Loading"

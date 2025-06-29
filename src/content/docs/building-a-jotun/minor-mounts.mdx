@@ -7,57 +7,110 @@ import MountBlock from '../../../components/markdown/MountBlock.astro';
 
 Minor mounts are smaller mounting points that can only hold specialized equipment. Oftentimes these mounts have more utility than lethality.
 
-### Arc Mine
+### Arc Grenade Launcher
 
-The DD-50 Arc Mine is an anti-system weapon manufactured by Dretyl Armory. It must be engaged and placed on solid ground before it can be activated. Remote activation is possible with a detonator or it can be configured so that any mechanical system that approaches will activate the mine. When activated, arcs of electricity shoot out of the mine and overwhelm computer systems. Arcs will jump between nearby sources of electricity, heightening the effect the more systems that are chained.
+<MountBlock
+    tags="Minor Launcher, Energy, Arcing"
+    range="5"
+    blast="1"
+    attack="1d4"
+    details="If the attack hits a mech, it deals no damage. Instead, the target is impaired and slowed until the start of your next turn."
+    description="The DL-98 Arc Grenade Launcher is an anti-system weapon manufactured by Dretyl Armory. This grenade does not have a large radius nor does it have an activation delay. On impact with any object, it fires arcs of electricity that disable systems for a moment. It is most effective at halting the mechanical movement of a mech. The launcher is not capable of firing great distances." />
 
 ### Exhaust Shield
 
 <MountBlock
-    tags="Main Melee, Kinetic, AP"
-    threat="1"
-    attack="1d4"
-    details="Add +2 to grappling and climbing checks."
-    description="The EM-44 Tachyon Claws are an anti-mech, anti-armor, hand modification manufactured by Escheron Armory. Instead of carrying a weapon, the Jotun's hands are augmented with sharp, curled claws made from an extremely durable alloy. These claws are capable of tearing any mech armor to shreds. They are also very useful for climbing and grappling." />
-
-The KD-21 Exhaust Shield is a defensive utility manufactured by Klemon Armory. This modification connects a central line from a mech reactor's heat-sink to exhaust ports in the mech's hands. When activated, extreme thermal heat is propelled in front of the mech, melting or destroying incoming munitions for a short time. This has the added benefit of cooling off overheating mechs. The hotter the reactor, the more powerful the shield.
+    tags="Minor Utility, Incendiary"
+    burst="1"
+    flame="Special"
+    details="Roll 2d4. Decrease heat by that amount and create a heat shield around yourself with an HP value equal to the roll. Any character that starts their turn in burst 1 or moves into burst 1 of you while the shield is active takes flame damage equal to half the heat shield value. The shield deactivates at the start of your next turn or if you take any other action."
+    description="The KD-21 Exhaust Shield is a defensive utility manufactured by Klemon Armory. This modification connects a central line from a mech reactor's heat-sink to exhaust ports in the mech's hands. When activated, extreme thermal heat is propelled in front of the mech, melting or destroying incoming munitions for a short time. This has the added benefit of cooling off overheating mechs. The hotter the reactor, the more powerful the shield." />
 
 ### Flare Revolver
 
-The KR-7 Flare Revolver is an anti-mech, anti-armor, incendiary weapon manufactured by Klemon Armory. The flare will lodge itself onto the outside of a mech and slowly burn a hole towards its center. It must be manually reloaded.
+<MountBlock
+    tags="Minor Handgun, Incendiary, Loading"
+    range="11"
+    attack="1d6"
+    heat="1"
+    details="If the attack hits a mech, the target takes no damage and instead the flare is attached to them. At the start of their turn they take 1 flame damage. They can spend 1 power to make a torque check to remove the flare on their turn."
+    description="The KR-7 Flare Revolver is an anti-mech, anti-armor, incendiary weapon manufactured by Klemon Armory. The flare will lodge itself onto the outside of a mech and slowly burn a hole towards its center. It must be manually reloaded." />
 
-### Grapple Mine
+### Grapple Grenade
 
-The TD-5 Grapple Mine is a defensive utility manufactured by Tammen Armory. It must be engaged and placed on solid ground before it can be activated. Remote activation is possible with a detonator or it can be configured so that any nearby movement will activate the mine. When activated, several grapple hooks will shoot out of the mine and grab onto nearby moving objects. The tethers are incredibly strong, rooting most mechs in place until the mine is destroyed. It is lethal against infantry units.
+<MountBlock
+    tags="Minor Utility, Kinetic, Arcing, Limited Use 3"
+    range="4"
+    blast="1"
+    attack="2d4"
+    details="If the attack hits a mech, it deals no damage. Instead, the target is immobilized."
+    description="The TD-5 Grapple Grenade is a defensive utility manufactured by Tammen Armory. This grenade does not have a large radius and must both be manually thrown and activated. When activated, several grapple hooks will shoot out of the grenade and grab onto nearby moving objects. The tethers are incredibly strong, rooting most mechs in place until the grenade is destroyed. It is lethal against infantry units." />
 
 ### Magnetic Boots
 
-The DD-41 Magnetic Boots is a utility modification manufactured by Dretyl Armory. Magnetic drives are implanted in the feet of the mech. When a Pilot activates them on a metal surface, it roots the mech in place. They can be deactivated individually, which is particularly useful for walking through Zero-G environments. It is also a preferred method to stabilize the Jotun platform for increased accuracy.
+<MountBlock
+    tags="Minor Utility"
+    attack="NA"
+    details="Spend 1 power to activate the magnetic boots or 0 power to deactivate them. Gain the following benefits while the boots are active:"
+    details2="• You are slowed outside Zero-G environments.
+    • Move at full speed in Zero-G environments.
+    • Gain a +4 range bonus to ranged, but not area, attacks.
+    • Make a torque check if you would fall prone. On success, you do not."
+    description="The DD-41 Magnetic Boots is a utility modification manufactured by Dretyl Armory. Magnetic drives are implanted in the feet of the mech. When a Pilot activates them on a metal surface, it roots the mech in place. They can be deactivated individually, which is particularly useful for walking through Zero-G environments. It is also a preferred method to stabilize the Jotun platform for increased accuracy." />
 
 ### Magnetic Shield
 
-The DD-14 Magnetic Shield is a defensive utility manufactured by Dretyl Armory. Powerful magnetic drives are attached to the forearms of the mech. When a Pilot raises the mech's arms and activates the magnetic drives, any incoming metal munitions will be caught temporarily in a stasis field in front of the mech. The Pilot can disengage the drives and launch captured munitions by waving the mech's arms in any direction.
-
-### Motor Shock Grenade Launcher
-
-The DL-98 Motor Shock Grenade Launcher is an anti-system weapon manufactured by Dretyl Armory. This grenade does not have a large radius nor does it have an activation delay. On impact with any object, it fires arcs of electricity that disable systems for a moment. It is most effective at halting the mechanical movement of a mech. The launcher is not capable of firing great distances.
+<MountBlock
+    tags="Minor Utility"
+    range="SPECIAL"
+    attack="SPECIAL"
+    details="Spend 2 power to conjure a magnetic shield. Spend 0 power to deactivate the shield. The shield deactivates if you take any other action. You are immune to non-energy and non-incendiary projectiles while the shield is active. Record each attack against you that is negated by the shield. When you deactivate the shield, you may perform all of the negated attacks on one target within range of the attacks. If the target is not in range of some of the attacks, then do not execute them."
+    description="The DD-14 Magnetic Shield is a defensive utility manufactured by Dretyl Armory. Powerful magnetic drives are attached to the forearms of the mech. When a Pilot raises the mech's arms and activates the magnetic drives, any incoming metal munitions will be caught temporarily in a stasis field in front of the mech. The Pilot can disengage the drives and launch captured munitions by waving the mech's arms in any direction." />
 
 ### Plasma Bayonet
 
-The VM-4 Plasma Bayonet is an anti-mech weapon manufactured by Volgor Armory. It can be attached to a mech's forearm, or for longer reach, as an under-barrel attachment to acceptable main weapon mounts. The bayonet does not ship with a large enough power supply to pierce armor. If a Pilot is willing to increase their mech's heat and energy consumption though, the bayonet can reach a temperature where it can pierce armor.
+<MountBlock
+    tags="Minor Melee"
+    threat="1"
+    attack="1d4"
+    details="Take 1 heat to add AP."
+    description="The VM-4 Plasma Bayonet is an anti-mech weapon manufactured by Volgor Armory. It can be attached to a mech's forearm, or for longer reach, as an under-barrel attachment to acceptable main weapon mounts. The bayonet does not ship with a large enough power supply to pierce armor. If a Pilot is willing to increase their mech's heat and energy consumption though, the bayonet can reach a temperature where it can pierce armor." />
 
 ### Revolver
 
-The TR-56 Revolver is an anti-mech, anti-armor weapon manufactured by Tammen Armory. The revolver is an extremely high-caliber, loading what is essentially four tank rounds in a Jotun-sized sidearm. It must be manually reloaded.
+<MountBlock
+    tags="Minor CQB, Loading"
+    range="7"
+    threat="3"
+    attack="1d8"
+    description="The TR-56 Revolver is an anti-mech, anti-armor weapon manufactured by Tammen Armory. The revolver is extremely high-caliber, loading what is essentially four tank rounds in a Jotun-sized sidearm. It must be manually reloaded." />
 
 ### Ripper Teeth
 
-The EU-61 Ripper Teeth are a defensive utility by Escheron Armory. The Jotun is outfitted with sharp teeth across its entire frame. Any target that strikes or grapples with the Jotun will be shredded no matter what part of the Jotun touches them.
+<MountBlock
+    tags="Minor Melee"
+    attack="SPECIAL"
+    details="• Deal 1 AP Kinetic damage when you are hit by a melee attack.
+    • Deal 1 AP Kinetic damage when you are grappled.
+    • Deal 1 AP Kinetic damage at the start of a target's turn if you have grappled them."
+    description="The EU-61 Ripper Teeth are a defensive utility by Escheron Armory. The Jotun is outfitted with sharp teeth across its entire frame. Any target that strikes or grapples with the Jotun will be shredded no matter what part of the Jotun touches them." />
 
 ### Rocket Boots
 
-The M-2 Rocket Boots are a mobility utility by Tammen Armory. When activated, the Jotun will perform a boosted jump. Skilled Pilots may also use this as a weapon, but that tends to launch the Jotun sideways at a great speed and crash into something.
+<MountBlock
+    tags="Minor Melee, Knockback 3"
+    threat="1"
+    attack="1d4"
+    details="You can spend 2 power instead of 3 to perform the boost action."
+    details2="If you attack with this mount, you suffer knockback 3 relative to the target and fall prone."
+    description="The M-2 Rocket Boots are a mobility utility by Tammen Armory. When activated, the Jotun will perform a boosted jump. Skilled Pilots may also use this as a weapon, but that tends to launch the Jotun sideways at a great speed and crash into something." />
 
 ### Shredder Flares
 
-The KU-5 Shredder Flares are a defensive utility by Klemon Armory. When activated, a flurry of small flares is launched from crevices across the Jotun's frame. This will spoof targeting systems and can even destroy approaching missiles. As an addendum, particularly reckless Pilots will use these flares as a weapon against grappled targets, burning through their armor while holding them tight.
+<MountBlock
+    tags="Minor Melee, Incendiary, Limited 3, Burn 2"
+    burst="1"
+    flame="1d4"
+    details="This mount consumes a use of limited when it is attacked with or when the reaction is used."
+    details2="You gain the flare reaction. Spend 1 power as a reaction to halve an attack (before armor is accounted for) or to entirely negate an attack from a launcher weapon."
+    description="The KU-5 Shredder Flares are a defensive utility by Klemon Armory. When activated, a flurry of small flares is launched from crevices across the Jotun's frame. This will spoof targeting systems and can even destroy approaching missiles. As an addendum, particularly reckless Pilots will use these flares as a weapon against grappled targets, burning through their armor while holding them tight." />
