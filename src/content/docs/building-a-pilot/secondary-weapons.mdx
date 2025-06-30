@@ -3,20 +3,44 @@ title: Secondary Weapons
 description: A list of Pilot secondary weapons.
 ---
 
+import MountBlock from '../../../components/markdown/MountBlock.astro';
+
 Jotun Pilots are equipped with a secondary weapon as a backup or for specialized target scenario. Many of these weapons are only distributed to Pilots.
 
 ### Blaze Sword
 
-The KM-7 Blaze Sword is an anti-personnel, anti-armor, melee weapon manufactured by Klemon Armory. The edge of the blade can reach temperatures upwards of 4500 degrees Fahrenheit and cut through all but the heaviest Jotun armor. While Pilots are not specifically instructed in sword combat scenarios, many Pilots descended from royal houses of the inner colonies underwent fencing training as a youth.
+<MountBlock
+    tags="Secondary Melee, Incendiary, Light"
+    threat="1"
+    flame="1d4"
+    details="On a roll of a 1 the weapon loses power and is disabled until a full repair."
+    details2="Spend 1 power to activate the Excalibur Protocol. Spend 0 power to deactivate it. While the protocol is active, the weapon loses the light property."
+    description="The KM-7 Blaze Sword is an anti-personnel, anti-armor, melee weapon manufactured by Klemon Armory. The edge of the blade can reach temperatures upwards of 4500 degrees Fahrenheit and cut through all but the heaviest Jotun armor. While Pilots are not specifically instructed in sword combat scenarios, many Pilots descended from royal houses of the inner colonies underwent fencing training as a youth." />
 
 ### Data Dagger
 
-The DM-5 Data Dagger is an anti-personnel, melee weapon manufactured by Dretyl Armory. It is both a capable combat knife and a hacking tool. When inserted into computer systems as a spike, it can allow a Pilot to hack them with their HUD interface.
+<MountBlock
+    tags="Secondary Melee, Kinetic, Light"
+    threat="1"
+    attack="1d6"
+    details="You can use this dagger to hack computer systems without an access point. You also gain +2 to any checks related to hacking."
+    description="The DM-5 Data Dagger is an anti-personnel, melee weapon manufactured by Dretyl Armory. It is both a capable combat knife and a hacking tool. When inserted into computer systems as a spike, it can allow a Pilot to hack them with their HUD interface." />
 
 ### Pulse Spear
 
-The DM-12 Pulse Spear is an anti-personnel, melee weapon manufactured by Dretyl Armory. It can be carried in one hand and is balanced for throwing. When the tip strikes a material that it cannot pierce, it releases a sonar ping that detects and displays enemies and points of interest on the Pilot's HUD.
+<MountBlock
+    tags="Secondary Melee, Kinetic, Light"
+    range="4"
+    threat="1"
+    attack="1d6"
+    details="If the range is used to attack instead of threat, you must retrieve the spear in order to use it again."
+    details2="If the spear is thrown and does not deal damage, then it releases a ping in blast 2 of the hex it landed in. Perform the scan action on every hex in that blast. Treat your systems score as +0 for the purposes of these scans."
+    description="The DM-12 Pulse Spear is an anti-personnel, melee weapon manufactured by Dretyl Armory. It can be carried in one hand and is balanced for throwing. When the tip strikes a material that it cannot pierce, it releases a sonar ping that detects and displays enemies and points of interest on the Pilot's HUD." />
 
 ### Revolver
 
-The TR-4 "Yippee" Revolver is an anti-personnel, high-caliber, four-cylinder revolver manufactured by Tammen Armory. The Yippee is the favored sidearm by Frontier forces who rely on it to punch through infantry body armor. It gets its nickname from the surprised expression, reaction, and "jump for joy" victims make when struck in the chest.
+<MountBlock
+    tags="Secondary CQB, Kinetic, AP, Light"
+    range="4"
+    attack="1d6"
+    description="The TR-4 'Yippee' Revolver is an anti-personnel, high-caliber, four-cylinder revolver manufactured by Tammen Armory. The Yippee is the favored sidearm by Frontier forces who rely on it to punch through infantry body armor. It gets its nickname from the surprised expression, reaction, and 'jump for joy' victims make when struck in the chest." />

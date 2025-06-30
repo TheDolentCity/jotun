@@ -1,0 +1,126 @@
+---
+title: Major Mounts
+description: A list of major mounts for Jotun.
+---
+
+import MountBlock from '../../../components/markdown/MountBlock.astro';
+
+Major mounts are larger mounting points that can hold potent equipment like radar towers or powerful anti-mech weapons like missile launchers or laser cannons.
+
+### Arc Sword
+
+<MountBlock
+    tags="Major Melee, Kinetic"
+    threat="3"
+    attack="2d8"
+    details="You lose 1 main mount to install this mount."
+    details2="You can spend power to perform a secondary attack with this weapon. The stats of the secondary attack are found below."
+    description="The experimental DTM-01 Arc Sword is an anti-mech, anti-personnel weapon manufactured through a partnership between Dretyl and Tammen Armory. It is a massive melee weapon with its own power supply that the jotun can use to send out waves of electricity." />
+
+#### Arc Sword — Secondary attack
+
+<MountBlock
+    tags="Major Melee, Energy, AP, Charged"
+    line="4"
+    attack="1d4"
+    details="Charge 1: Required to perform this secondary attack. Any target that takes damage is slowed until the end of their next turn.
+    Charge 2: Increase damage to 1d8 and line to 8. Any target that takes damage is immobilized and impaired until the end of their next turn."
+    description="When the arc sword is charged it emits a powerful arc of electricity. Mechs struck by the lightning are damaged and slowed." />
+
+### Blast Cannon
+
+<MountBlock
+    tags="Major Cannon, Explosive, Arcing, Loading, Limited 4"
+    range="16"
+    blast="2"
+    attack="2d8"
+    details="Attacks made with this weapon are rolled at the start of your next turn."
+    description="The SC-515 Blast Cannon is an anti-mech, anti-personnel weapon manufactured by Sarm Armory. An upscaled version of a conventional mortar, this cannon excels at firing upwards and over obstacles. The attack can be avoided due to this travel time, but slower forces will still be caught in its massive blast. Firing this weapon always triggers a 'DANGER CLOSE' warning on friendly Pilot HUDs. It deploys with limited ammo in the field." />
+
+### Grapple Launcher
+
+<MountBlock
+    tags="Major Launcher, Kinetic, AP"
+    range="6"
+    attack="1d4 or 1d6 with lock on"
+    details="When you hit with this weapon, you make a grapple check. If you grapple them and you weigh less than the target, you can spend 1 power to pull yourself up to 6 hexes towards the figure. If you grapple them and you weigh more than the target, you can spend 1 power to pull the target up to 6 hexes towards you."
+    description="The TL-33 Grapple Launcher is an anti-mech weapon manufactured by Tammen Armory. It is typically mounted on a shoulder and is capable of launching an armor-piercing harpoon. The harpoon's barb will make it difficult to pull out of a target. Heavy motor emplacements throughout the mech allow the grapple launcher to reel in lighter targets or pull the wielding Jotun closer to a harpooned target." />
+
+### Guided Missile Launcher
+
+<MountBlock
+    tags="Major Launcher, Explosive, Loading"
+    range="SPECIAL"
+    blast="1"
+    attack="2d8 or 2d10 with lock on"
+    details="When fired, the missile travels 2 hexes in a straight line. Spend 1 power to move the missile up to 8 hexes, in any path you choose. If the missile collides with any object, it explodes. If the missile hasn't exploded and you do not spend power to move the missile on your turn, then it falls inert."
+    description="The SL-71 Guided Missile Launcher is an anti-mech weapon manufactured by Sarm Armory. Firing the missile takes little effort as it eschews a targeting system. As a result, it does not automatically track any targets, but experienced Jotun Pilots can guide the missile manually with a HUD-link camera. This allows for complete control of the flight path, but an occupied Pilot may be unable to perform the guidance, leading to a disastrous effect." />
+
+### Heavy Chain Gun
+
+<MountBlock
+    tags="Major Rifle, Kinetic, Reliable 5, Heat +1"
+    range="6"
+    attack="2d8"
+    details="You cannot attack with this gun unless its activated. Spend 1 power to activate or deactivate this gun. Once activated, the gun cannot be attacked with until your next turn. If the gun is activated and you do not attack with it on your turn, the mount is disabled and you take d8 damage."
+    description="The TH-59 Heavy Chain Gun is an anti-mech, anti-personnel weapon manufactured by Tammen Armory. It can be mounted on an arm or shoulder and is capable of dispensing more rounds downrange than any other Jotun weapon. The gun takes some time to spin up to full speed and will fire its maximum fire-rate after a few seconds. Continuous, concentrated fire is incredibly effective against armor and structures." />
+
+### Heat Lance
+
+<MountBlock
+    tags="Major Rifle, Energy, Heat +2"
+    line="12"
+    attack="2d6"
+    details="Take 2 heat to increase range by +8 and add AP."
+    description="The VL-565 Heat Lance is an anti-mech weapon manufactured by Volgor Armory. It is typically mounted on a shoulder and is capable of charging and releasing a thin, concentrated laser beam. The beam will travel through mechs and other objects until it hits something it cannot pierce. If a Pilot is willing to increase their mech's heat and energy consumption, the beam can pierce armor." />
+
+### Micro-Missile Platform
+
+<MountBlock
+    tags="Major Launcher, Explosive, Seeking, Knockback 4, Limited 1"
+    burst="3"
+    attack="6d6"
+    details="You must make a 3d6 attack roll against yourself when you fire this weapon."
+    description="The HP-292 Micro-Missile Platform is an anti-mech, anti-personnel weapon manufactured by Hadrago Armory. First developed as a weapon of a last resort when surrounded by enemy forces, this platform launches over a thousand micro-missiles that automatically track nearby movement and strike their target, pushing them back. Firing this weapon always triggers a 'DANGER CLOSE' warning on friendly Pilot HUDs. It can only be fired once per deployment." />
+
+### Multi-Target Missile Launcher
+
+<MountBlock
+    tags="Major Launcher, Explosive, Loading, Seeking, Reliable 2, Limited 4"
+    range="10"
+    attack="1d4 or 1d6 with lock on"
+    details="Can target up to 6 different targets with one attack. Targeting the same target with multiple missiles combines attack rolls. ex: attacking 3 targets you could send 4 missiles to one target and roll 4d4."
+    description="The SL-423 Multi-Target Missile Launcher is an anti-mech, anti-personnel weapon manufactured by Sarm Armory. Each missile from a pod can target a unique individual on the Pilot HUD. This weapon can eliminate personnel troops spread out across a battlefield or concentrate on a single target to devastating effect. It deploys with limited ammo in the field." />
+
+### Smart Turret
+
+<MountBlock
+    tags="Major Rifle, Kinetic, Reliable 1"
+    range="12"
+    attack="1d4"
+    details="You can attack with this gun once per round for 0 power."
+    description="The TD-14 Smart Turret is an anti-mech, anti-personnel, auto-tracking weapon made as a joint venture between Tammen and Dretyl Armory. Dretyl provides the processing unit and HUD-uplink that controls the flight path of each round fired. The turret has a slow fire rate and its caliber is only capable of piercing light mech armor." />
+
+### Smoke Mortar
+
+<MountBlock
+    tags="Major Cannon, Arcing, Loading"
+    range="20"
+    blast="2"
+    attack="NA"
+    details="The smoke blocks line of sight and characters in the smoke have concealment. If the smoke takes fire damage, then it ignites and becomes a zone of fire. Any character that starts their turn in the zone or enters a hex in the zone takes 1 fire damage."
+    description="The HC-87 Smoke Cannon is a unique weapon manufactured by Hadrago Armory. Firing the cannon will blanket a large area in thick smoke that obscures vision. If the smoke is struck by an incendiary weapon, it will combust, leaving a blanketed area of fire that melts through mech armor. Firing this weapon always triggers a 'DANGER CLOSE' warning on friendly Pilot HUDs." />
+
+### Icon Reference
+
+<MountBlock
+    tags="Tag 1, Tag 2, Tag 3"
+    range="Range"
+    blast="Blast"
+    burst="Burst"
+    line="Line"
+    threat="Threat"
+    attack="Attack"
+    flame="Flame"
+    heat="Heat"
+    description="The above icons are used as shorthand to describe the effects of a mount. Range, blast, line, and threat are all used for determining range of effect. Attack, flame, and heat are types of attacks usually involving a dice value like 'd6'." />

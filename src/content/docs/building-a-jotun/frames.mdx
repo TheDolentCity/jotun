@@ -1,0 +1,241 @@
+---
+title: Frames
+description: The list of Jotun frames.
+---
+
+import FrameBlock from '../../../components/markdown/FrameBlock.astro';
+
+Jotun frames come in all shapes and sizes. The standard frame is the most commonly selected as it supports the widest use cases, but veterans may choose more specialized frames to support their preferred tactical options.
+
+### Standard Frame
+
+<FrameBlock
+    size="1"
+    armor="2"
+    power="3"
+    sensors="12"
+    hp="8"
+    speed="4"
+    heatCap="6"
+    repairCap="4"
+    minor="2"
+    main="1"
+    major="1"
+    torque="+1"
+    maneuver="+1"
+    systems="+1"
+    engineering="+1"
+    description="The Standard Frame is average sized at 20 feet tall, but don't take it for granted. It is a massive war machine with access to a variety of mounts. Versatile and without flaws, the standard frame is the most used frame for a reason." />
+
+For experienced pilots who want to specialize their Jotun, other frame options are available. However, most have a significant drawback compared to the standard frame.
+
+---
+
+### Hive Frame
+
+Drone details can be found [on this page](./drones).
+
+<FrameBlock
+    size="1"
+    armor="2"
+    power="3"
+    sensors="14"
+    hp="8"
+    speed="3"
+    heatCap="6"
+    repairCap="4"
+    minor="1"
+    main="1"
+    torque="+0"
+    maneuver="+0"
+    systems="+2"
+    engineering="+2"
+    details="Your frame can spend power to launch drones. You are equipped with 1 of each of the following drones. A full repair is required to replace drones.
+    • (1P) to launch Ammo Drone.
+    • (1P) to launch Battle Drone.
+    • (1P) to launch Coolant Drone.
+    • (1P) to launch Jammer Drone.
+    • (1P) to launch Nano Drone."
+    description="The Hive Frame is an average frame at 17 feet tall. It sacrifices several mounts for an integrated drone platform manufactured by Dretyl Armory. Each drone is small, autonomous, and can be deployed at targets or in locations specified by a pilot. Once they complete their task, their dumb A.I. will shutdown, until new orders are given. " />
+
+### Hulk Frame
+
+<FrameBlock
+    size="1"
+    armor="5"
+    power="3"
+    sensors="16"
+    hp="6"
+    speed="2"
+    heatCap="8"
+    repairCap="6"
+    main="2"
+    major="1"
+    torque="+3"
+    maneuver="-5"
+    systems="+1"
+    engineering="+3"
+    details="You count as hard cover for allies."
+    description="The Hulk Frame is a large frame at 30 feet tall. It was designed for heavy war zones where extreme firepower and armor were required. It is the only frame with hands and motors built to support two main weapon mounts simultaneously." />
+
+### Hunter Frame
+
+<FrameBlock
+    size="1"
+    armor="1"
+    power="3"
+    sensors="20"
+    hp="8"
+    speed="3"
+    heatCap="6"
+    repairCap="4"
+    minor="2"
+    main="1"
+    major="1"
+    torque="-1"
+    maneuver="-1"
+    systems="+3"
+    engineering="+0"
+    details="Spend one power to track a target within sensors. The target can make a DC 12 systems check once per turn to clear the tracked status. While the target is tracked, gain the following benefits:
+    • Always know where the target is up to 50 hexes away.
+    • You and allies increase the range of weapons targeting the target by +6.
+    • You and allies can attack the target even if they're outside sensors range."
+    description="The Hunter frame is average sized at 15 feet tall. It sacrifices armor and speed for a built-in tracking system manufactured by Sarm Armory. It is an enhanced version of the tracking system built into most of their missile launchers. Once a target is selected, it is able to track their precise location over large distances and ignore almost all physical or digital systems that would prevent tracking." />
+
+### Jet Frame
+
+<FrameBlock
+    size="1"
+    armor="1"
+    power="3"
+    sensors="16"
+    hp="6"
+    speed="6"
+    heatCap="6"
+    repairCap="4"
+    main="1"
+    major="2"
+    torque="-2"
+    maneuver="+4"
+    systems="+1"
+    engineering="-1"
+    details="• Whenever you move, you can fly, but your speed is 3 for non-vertical movement.
+    • If you collide with another character while flying, you both take 2d12 damage."
+    description="The Jet Frame is average sized at 20 feet tall. It shuns armor to accommodate a rocket engine. The engine can hover with ease or perform a full-speed vertical takeoff. However, it is unable to fly properly and is more commonly used for slow aerial repositioning. Expert Pilots may also orient their Jotun so that this jet launches them horizontally towards targets. This frame is extremely dangerous, as any disruption of the engine while in flight will end in disaster." />
+
+### Monolith Frame
+
+<FrameBlock
+    size="2"
+    armor="4"
+    power="2"
+    sensors="20"
+    hp="6"
+    speed="1"
+    heatCap="10"
+    repairCap="8"
+    major="1"
+    colossal="1"
+    torque="+4"
+    maneuver="-6"
+    systems="+2"
+    engineering="+4"
+    details="• You have resistance to explosive damage.
+    • As an action, you can activate or deactivate stabilizers. While stabilizers are active, you increase the range of weapons and sensors by +6, you are immobilized, and you are immune to forced movement."
+    description="The Monolith Frame is by far the largest Jotun frame at 40 feet tall. It has to be to support its colossal weapon mount, but as a result main and minor mounts are incompatible with this frame. It is also built with stabilizer gyros that increase its long range accuracy and help prevent it from moving from one spot." />
+
+### Recon Frame
+
+<FrameBlock
+    size="1"
+    armor="1"
+    power="3"
+    sensors="16"
+    hp="6"
+    speed="4"
+    heatCap="6"
+    repairCap="2"
+    minor="2"
+    main="1"
+    major="1"
+    torque="-4"
+    maneuver="+1"
+    systems="+2"
+    engineering="+0"
+    details="Spend 0 power to activate active-camo for the following modifiers:
+    • Cannot be targeted unless you are seen or detected by a system.
+    • Add +2 to any checks to remain hidden from sight.
+    • Add +2 to systems checks to hide your presence.
+    • On your turn, take 1 heat for every action.
+    • You cannot use the vent action or any other action that reduces heat besides deactivation.
+    • Spend 1 power to deactivate active-camo and vent d6 heat.
+    • After deactivation, the active-camo needs 1 round to recharge."
+    description="The Recon Frame is average sized at 16 feet tall. On paper it seems like a downgrade from the Standard frame, but it sacrifices durability for an active camouflage system. This includes a large generator and many enviro-projectors across the frame. The camouflage leaves a slight optical sheen when active and the Jotun-level enviro-projectors can obscure you from heat and computer sensors. The active camouflage generator recharges quickly, but only lasts for a short time." />
+
+### Storm Frame
+
+<FrameBlock
+    size="1"
+    armor="3"
+    power="3"
+    sensors="6"
+    hp="6"
+    speed="5"
+    heatCap="7"
+    repairCap="5"
+    minor="2"
+    main="1"
+    torque="+3"
+    maneuver="+2"
+    systems="-4"
+    engineering="+2"
+    details="• Ignore difficult terrain.
+    • Add +2 to grapple checks.
+    • You are not slowed while climbing.
+    • You are not slowed while grappling and you can take reactions."
+    description="The Storm Frame is average sized at 20 feet tall. It is a modified version of the Standard Frame, sacrificing a major weapons mount and systems performance for a frame with improved performance in every other category. It also benefits from a strengthened motor system that increases its effectiveness at traversing harsh terrain and grappling opposing mechs." />
+
+### Super-Soldier Frame
+
+<FrameBlock
+    size="1/2"
+    armor="2"
+    power="4"
+    sensors="5"
+    hp="2"
+    speed="6"
+    heatCap="4"
+    repairCap="1"
+    minor="2"
+    torque="-4"
+    maneuver="+3"
+    systems="+1"
+    engineering="-1"
+    details="• All of your movement counts as flying.
+    • You can wield your pilot weapons while in this frame in addition to mounts.
+    • If you moved at least 3 hexes from your starting position on your turn, you can dodge once for 0 power before the start of your next turn.
+    • When you use the dodge reaction, treat your speed as x2."
+    description="The Super-Soldier Frame is far-below average size at 8 feet tall. In fact, it is little more than mech-tier armor around a C-SUIT equipped with thrusters that provide the wearer with full flight control. While the suit can withstand mech weaponry and fly, it is unable to mount most mech weapons. Pilots instead wield their normal weapons." />
+
+### Warden Frame
+
+<FrameBlock
+    size="2"
+    armor="4"
+    power="2"
+    sensors="8"
+    hp="6"
+    speed="2"
+    heatCap="8"
+    repairCap="6"
+    minor="1"
+    main="1"
+    torque="+1"
+    maneuver="-6"
+    systems="+4"
+    engineering="+4"
+    details="Your frame has an improved version of the shield action along with the shield target and shield dome actions available to you. You can only have one shield activate at a time and if it is broken then you cannot perform any shield action on your next turn. You can deactivate any shield for 0 power and every shield is vulnerable to energy weapons. If the shield's HP reaches 0, it is deactivated, but leftover damage is ignored."
+    details2="• Shield (1P) Generate an energy shield around yourself with an HP value equal to 8 + your systems score. This shield cannot be disrupted.
+    • Shield Target (1P) Generate an energy shield around a target within sensors and line of sight with an HP value equal to 4 + your systems score. This shield cannot be disrupted, but it is deactivated if you break line of sight or the target leaves sensors range.
+    • Shield Dome (2P) Generate an energy shield in burst 2 with an HP value equal to 16 + your systems score. This shield cannot be disrupted, but you are immobilized while it is active."
+    description="The Warden Frame is a massive Jotun frame at 36 feet tall. It has to be to support the built-in DU-900 Shield Generator manufactured by Dretyl Armory. It allows the jotun to construct and project energy shields that weaken or neutralize incoming attacks. The default setting projects a circular shield around oneself, but it can also project to a target within line of sight. The Pilot can also increase or decrease the size, at the cost of power. Its maximum size could encompass a large battalion or several medium Jotun in proximity. Once the shield is broken, it takes a long time for it to recharge." />

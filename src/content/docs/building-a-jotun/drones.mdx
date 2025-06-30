@@ -1,0 +1,63 @@
+---
+title: Drones
+description: The list of drones available to Jotun.
+---
+
+import DroneBlock from '../../../components/markdown/DroneBlock.astro';
+
+Jotun pilots are regularly offered drones for their missions. They're cheap and dispensable, but still provide valuable support in the field. 
+
+### Ammo Drone
+
+<DroneBlock
+    size="1/2"
+    armor="0"
+    sensors="12"
+    hp="6"
+    speed="12"
+    details="(1P) Grant +1 to a target's mount with limited ammo property. This can be performed max 3 times per full repair."
+    description="Several key munitions can be loaded into this drone prior to mission drops and deployed to allies throughout." />
+
+### Battle Drone
+
+<DroneBlock
+    size="1/2"
+    armor="2"
+    sensors="6"
+    hp="4"
+    speed="6"
+    details="(1P) Make an attack with an integrated TC-171 carbine (d4-1 attack, 8 range, reliable 1)."
+    description="Deploys with a TC-171 Carbine and targeted tracking module. Will hover near its target and shoot enemy infantry." />
+
+### Coolant Drone
+
+<DroneBlock
+    size="1/2"
+    armor="0"
+    sensors="8"
+    hp="6"
+    speed="8"
+    details="(1P) Reduce heat of targeted mech by 3d4 and burn rating by 2d6."
+    description="Deploys to overheating mechs and sprays extra coolant inside of them. This coolant will also put out most fires." />
+
+### Jammer Drone
+
+<DroneBlock
+    size="1/2"
+    armor="0"
+    sensors="4"
+    hp="6"
+    speed="4"
+    details="(1P) Make an opposed systems check against the target (use your mech's stats). On a success, the target's sensors rating is reduced to 2. Target can spend (1P) to make an opposed systems check to destroy the drone. The drone cannot be attacked by a jammed target directly."
+    description="Deploys to hostile mechs and jams their electronic systems. This can interfere with AI programming and any tracking or aiming software." />
+
+### Nano Drone
+
+<DroneBlock
+    size="1/2"
+    armor="0"
+    sensors="6"
+    hp="6"
+    speed="6"
+    details="(1P) Heal the target as if they used a repair. This cannot be used to fix critical injuries. This drone can perform this action a maximum of 2 times per full repair."
+    description="Deploys nanobots to a damaged Jotun. They are able to repair almost all systems, but only over small areas. Large amounts of destruction cannot be repaired." />

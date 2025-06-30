@@ -1,0 +1,40 @@
+---
+title: Colossal Mounts
+description: A list of colossal mounts for Jotun.
+---
+
+import MountBlock from '../../../components/markdown/MountBlock.astro';
+
+A mount so large that equipment mounted on it dwarfs the Jotun itself. Very few Jotun are built to hold such mounts, but they can be used to devastating effect.
+
+### Magnetic Rail-Cannon
+
+<MountBlock
+    tags="Colossal Cannon, Kinetic, AP, Charged"
+    range="20"
+    blast="3"
+    attack="4d8"
+    details="Once you spend at least one charge on this weapon, you are immobilized. Targets in the primary hex take full attack, targets in the blast range take half attack."
+    details2="Charge 3: required to fire the weapon.
+    Charge 6: the weapon's range increases by 40, attack increases by +6d8, blast increases by +3, and targets in the blast take full attack instead of half attack. The area of the blast after the attack is considered difficult terrain."
+    description="The HC-01 Experimental Magnetic Rail-Cannon is an anti-orbital weapon manufactured by Hadrago Armory. It is a minified form of the naval rail-cannons deployed at the forefront of Frontier naval destroyers. It utilizes an electro-magnetic charge rail to deliver a kinetic round at velocities that negate any form of armor. It is an effective weapon against infantry, mechs, structures, and ships. It requires an extensive charge-up time prior to firing, during which time the Jotun cannot move." />
+
+### Laser Cutter
+
+<MountBlock
+    tags="Colossal Rifle, Energy, AP, Loading, Heat +4"
+    line="20"
+    attack="4d6"
+    details="Take 2 heat to decrease the range by 8 and widen the line so that it is 5 hexes wide."
+    description="The HS-77 Laser Cutter is an anti-armor weapon manufactured by Hadrago Armory. It is an upscaled-version of an orbital shipbreaker's incision tool, which can cut through the heaviest naval armor. The emitter can be configured by the Pilot to shoot a fine needle-line or a wide arc. Once fired, it takes significant time to cool and the energy cell must be replaced." />
+
+### Flame Projector
+
+<MountBlock
+    tags="Colossal Cannon, Incendiary, Heat +6"
+    range="3"
+    blast="2"
+    attack="4d4"
+    heat="4"
+    details="Every hex in the attack creates a zone that lasts until the start of your next turn. Any character who enters a hex in the zone takes 4 flame damage and 2 heat."
+    description="The KP-20 Flame Projector is an anti-mech, anti-armor, incendiary weapon manufactured by Klemon Armory. It is RESTRICTED in use by the Frontier against living beings. When activated, thermite flames pour out in a long, wide arc in front of the Jotun, melting anything in its path. The weapon may need to be reloading intermittently, but the larger danger is that the wielding Jotun will overheat with continuous use." />

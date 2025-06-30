@@ -1,0 +1,138 @@
+---
+import {
+  CircleDotDashed,
+  CircleX,
+  LocateFixed,
+  MoveUpRight,
+  Flame,
+  Swords,
+  Thermometer,
+  CircleDot,
+} from "@lucide/astro";
+
+interface Props {
+  tags?: string;
+  range?: string;
+  blast?: string;
+  burst?: string;
+  line?: string;
+  threat?: string;
+  attack?: string;
+  flame?: string;
+  heat?: string;
+  details?: string;
+  details2?: string;
+  description: string;
+}
+
+let {
+  tags,
+  range,
+  blast,
+  burst,
+  line,
+  threat,
+  attack,
+  flame,
+  heat,
+  details,
+  details2,
+  description,
+} = Astro.props;
+---
+
+<div
+  class="not-prose border-2 rounded-lg border-gray-900 dark:border-accent-400 tabular-nums"
+>
+  <div
+    class="p-2 rounded-t bg-gray-900 dark:bg-accent-400 text-gray-200 dark:text-gray-950"
+  >
+    {tags && <h4 class="text-sm font-medium">{tags}</h4>}
+    <div class="flex gap-4 pt-2 items-center font-medium">
+      {
+        range && (
+          <div class="flex gap-1 items-center leading-none">
+            <LocateFixed class="size-4" />
+            <span>{range}</span>
+          </div>
+        )
+      }
+      {
+        blast && (
+          <div class="flex gap-1 items-center leading-none">
+            <CircleX class="size-4" />
+            <span>{blast}</span>
+          </div>
+        )
+      }
+      {
+        burst && (
+          <div class="flex gap-1 items-center leading-none">
+            <CircleDot class="size-4" />
+            <span>{burst}</span>
+          </div>
+        )
+      }
+      {
+        line && (
+          <div class="flex gap-1 items-center leading-none">
+            <MoveUpRight class="size-4" />
+            <span>{line}</span>
+          </div>
+        )
+      }
+      {
+        threat && (
+          <div class="flex gap-1 items-center leading-none">
+            <CircleDotDashed class="size-4" />
+            <span>{threat}</span>
+          </div>
+        )
+      }
+      {
+        attack && (
+          <div class="flex gap-1 items-center leading-none">
+            <Swords class="size-4" />
+            <span>{attack}</span>
+          </div>
+        )
+      }
+      {
+        flame && (
+          <div class="flex gap-1 items-center leading-none">
+            <Flame class="size-4" />
+            <span>{flame}</span>
+          </div>
+        )
+      }
+      {
+        heat && (
+          <div class="flex gap-1 items-center leading-none">
+            <Thermometer class="size-4" />
+            <span>{heat}</span>
+          </div>
+        )
+      }
+    </div>
+  </div>
+  <div class="p-2 text-base text-gray-600 dark:text-gray-400 leading-normal">
+    {
+      details && (
+        <p class="pb-4 text-gray-900 dark:text-gray-200 whitespace-pre-line">
+          {details}
+        </p>
+      )
+    }
+    {
+      details2 && (
+        <hr class="pb-4 border-t border-dashed border-gray-600 dark:border-gray-400" />
+        <p class="pb-4 text-gray-900 dark:text-gray-200 whitespace-pre-line">
+          {details2}
+        </p>
+      )
+    }
+    <p class="italic whitespace-pre-line">
+      {description}
+    </p>
+  </div>
+</div>

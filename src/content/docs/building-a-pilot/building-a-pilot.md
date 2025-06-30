@@ -23,20 +23,35 @@ Jotun Pilots are equipped with C-SUITs, enhanced combat suits to protect them an
 
 ### 5. Choose Background and Skills
 
-Jotun Pilots might be the best of the best now, but most of them had a career or training before joining the military. Roll d10 for a background and 3d10 for your skills or choose your own.
+Jotun Pilots might be the best of the best now, but most of them had a career or training before joining the military. Roll d10 for a background.
 
-| d10 | Background | Skill                  |
-| --- | ---------- | ---------------------- |
-| 1   | Doctor     | Apply Fists To Faces   |
-| 2   | Farmer     | Explode Something Big  |
-| 3   | Hacker     | Fix Something Physical |
-| 4   | Marshal    | Hack Something Digital |
-| 5   | Mechanic   | Investigate A Mystery  |
-| 6   | Mercenary  | Keep Pushing Forward   |
-| 7   | Miner      | Lead Military Forces   |
-| 8   | Noble      | Sneak Past The Enemy   |
-| 9   | Outlaw     | Spy On The Enemy       |
-| 0   | Scientist  | Stop The Bleeding      |
+| d10 | Background |
+| --- | ---------- |
+| 1   | Doctor     |
+| 2   | Farmer     |
+| 3   | Hacker     |
+| 4   | Marshal    |
+| 5   | Mechanic   |
+| 6   | Mercenary  |
+| 7   | Miner      |
+| 8   | Noble      |
+| 9   | Outlaw     |
+| 0   | Scientist  |
+
+Roll 3d10 for your skills or choose your own. Each skill gives you +2 on checks related to that skill.
+
+| d10 | Skills                 |
+| --- | ---------------------- |
+| 1   | Apply Fists To Faces   |
+| 2   | Explode Something Big  |
+| 3   | Fix Something Physical |
+| 4   | Hack Something Digital |
+| 5   | Investigate A Mystery  |
+| 6   | Keep Pushing Forward   |
+| 7   | Lead Military Forces   |
+| 8   | Sneak Past The Enemy   |
+| 9   | Spy On The Enemy       |
+| 0   | Stop The Bleeding      |
 
 ### 6. Build Backstory
 
@@ -48,12 +63,12 @@ You can start to build a backstory using the following tables.
 | 1-2 | Inner Colonies |
 | 3-9 | Outer Colonies |
 
-| d10 | Core - Homeworld                                               |
-| --- | -------------------------------------------------------------- |
-| 0   | Earth, a corporate metropolis that has atrophied after the war |
-| 1-2 | Titan, an ocean world with advanced scientific programs        |
-| 3-5 | Luna, a massive trade port with constant traffic               |
-| 6-9 | Mars, a recovering refinery planet crippled by the war         |
+| d10 | Core - Homeworld                                        |
+| --- | ------------------------------------------------------- |
+| 0   | Earth, a recently destroyed corporate metropolis        |
+| 1-2 | Titan, an ocean world with advanced scientific programs |
+| 3-5 | Luna, a massive trade port with constant traffic        |
+| 6-9 | Mars, a recovering refinery planet crippled by the war  |
 
 | d10 | Inner Colonies - Homeworld                           |
 | --- | ---------------------------------------------------- |
@@ -62,12 +77,12 @@ You can start to build a backstory using the following tables.
 | 3-5 | Merivo, a trade hub for the inner colonies           |
 | 6-9 | Sabon, a mining world covered in thick sand and rock |
 
-| d10 | Outer Colonies - Homeworld                                                   |
-| --- | ---------------------------------------------------------------------------- |
-| 0   | Psi Severon, a poor company-owned asteroid that never recovered from the war |
-| 1-2 | Erud Minor, a moon with rare minerals needed for subspace engines            |
-| 3-5 | Erud Major, the home of the Frontier Militia Forces                          |
-| 6-9 | Harmony, a massive agricultural exporter                                     |
+| d10 | Outer Colonies - Homeworld                                              |
+| --- | ----------------------------------------------------------------------- |
+| 0   | Psi Severon, a company-owned asteroid that never recovered from the war |
+| 1-2 | Erud Minor, a moon with rare minerals needed for subspace engines       |
+| 3-5 | Erud Major, the home of the Frontier Militia Forces                     |
+| 6-9 | Harmony, a massive agricultural exporter                                |
 
 Now answer the following questions with whatever level of detail you like:
 

@@ -4,26 +4,61 @@ description: A list of Pilot combat suits.
 ---
 
 import Aside from '/src/components/markdown/Aside.astro';
+import CSuitBlock from '/src/components/markdown/CSuitBlock.astro';
 
 Jotun Pilots are equipped with C-SUITs, enhanced combat suits to protect them and provide additional utility out in the field.
 
 <Aside>
-  Each C-SUIT is equipped with a thruster belt. This belt has several small engines that provide bursts of thrust. This
-  allows Pilots to evade easier, run faster, jump further, and fall farther, than normal infantry.
+  Each C-SUIT is equipped with a thruster belt. This belt has several small engines that provide bursts of thrust. This allows pilots to evade easier, run faster, jump further, and fall farther, than normal infantry.
 </Aside>
 
 ### Assault C-SUIT
 
-This suit features exo-skeletal modifications from the Escheron Armory. These grant the wearer increased physical strength, pushing their athletic limits far beyond that of a normal human. It also includes several utilities that can benefit from the exo-skeletal motors, such as a grappling hook and a shoulder-mounted, long-range grenade launcher.
+<CSuitBlock
+  size="1/2"
+  armor="0"
+  sensors="12"
+  hp="4"
+  speed="6"
+  details="• +2 to athleticism checks.
+  • +6 to the range of pilot grenade weapons.
+  • You can spend 1 power to use grappling hook. You perform a move where you count as flying, but must move in a straight line. Your speed counts as 12 until you land. You cannot use this movement next turn."
+  description="This suit features exo-skeletal modifications from the Escheron Armory. These grant the wearer increased physical strength, pushing their athletic limits far beyond that of a normal human. It also includes several utilities that can benefit from the exo-skeletal motors, such as a grappling hook and a shoulder-mounted, long-range grenade launcher." />
 
 ### Heavy C-SUIT
 
-This suit features armor modifications from the Hadrago Armory. This modification is not subtle. Jotun armor plates are essentially bolted onto a normal C-SUIT. These plates are incredibly heavy and an inter-skeletal system was added just to bear the weight. Pilots in Heavy C-SUITs are resistant to Jotun-tier weaponry. In testing, dummies have walked away largely uninjured from direct rocket strikes from Sarm weapons. However, the increased weight reduces a Pilot's mobility to that of a normal infantry unit.
+<CSuitBlock
+  size="1/2"
+  armor="4"
+  sensors="6"
+  hp="4"
+  speed="2"
+  description="This suit features armor modifications from the Hadrago Armory. This modification is not subtle. Jotun armor plates are essentially bolted onto a normal C-SUIT. These plates are incredibly heavy and an inter-skeletal system was added just to bear the weight. Pilots in Heavy C-SUITs are resistant to Jotun-tier weaponry. In testing, dummies have walked away largely uninjured from direct rocket strikes from Sarm weapons. However, the increased weight reduces a Pilot's mobility to that of a normal infantry unit." />
 
 ### Mobility C-SUIT
 
-This suit features thruster modifications from the Sarm Armory. In addition to a thruster belt, this C-SUIT adds thrusters to the boots and hands, allowing the Pilot to enter a hover state. Experienced Pilots may override safety protocols to burn all the thrusters at once and travel great distances or even fly temporarily, but doing so burns out the thrusters for a significant time.
+<CSuitBlock
+  size="1/2"
+  armor="0"
+  sensors="8"
+  hp="4"
+  speed="6"
+  details="If you move on your turn you may choose to end that movement hovering, ignoring the falling state."
+  details2="Spend 1 power to increase your speed by +12 for the rest of your turn. Your next turn your speed drops to 2 and you lose the ability to use the thruster belt (wall runs, double jumps, etc.) until the end of the next round."
+  description="This suit features thruster modifications from the Sarm Armory. In addition to a thruster belt, this C-SUIT adds thrusters to the boots and hands, allowing the Pilot to enter a hover state. Experienced Pilots may override safety protocols to burn all the thrusters at once and travel great distances or even fly temporarily, but doing so burns out the thrusters for a significant time." />
 
 ### Recon C-SUIT
 
-This suit features active camouflage modifications from the Dretyl Armory. This includes a large battery pack and many enviro-projectors across the suit. The camouflage leaves a slight optical sheen when active and while the enviro-projectors can obscure you from heat and computer sensors, this system is not perfect. The active camouflage battery recharges quickly, but only lasts for a short time.
+<CSuitBlock
+  size="1/2"
+  armor="0"
+  sensors="20"
+  hp="4"
+  speed="6"
+  details="Spend 1 power to activate active-camo for the following modifiers:
+  • Cannot be targeted unless you are seen or detected by a system.
+  • Add +2 to any checks to remain hidden from sight.
+  • Add +2 to computer or systems checks to hide your presence.
+  • On your turn, active-camo deactivates if you move faster than half your speed.
+  • At the start of your next turn, active-camo deactivates. It cannot be activated until the next round."
+  description="This suit features active camouflage modifications from the Dretyl Armory. This includes a large battery pack and many enviro-projectors across the suit. The camouflage leaves a slight optical sheen when active and while the enviro-projectors can obscure you from heat and computer sensors, this system is not perfect. The active camouflage battery recharges quickly, but only lasts for a short time." />
