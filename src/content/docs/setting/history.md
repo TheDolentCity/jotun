@@ -40,3 +40,9 @@ The United Human Colonies stepped in and dissolved what remained of the One Eart
 As of yet, not much is known about the Fall of Earth. Sol satellites captured images of an unknown fleet appearing through a massive subspace tear. They also captured destroyed orbital emplacements and images of Earth's surface. Cities were leveled, the atmosphere was filled with dust, and wide swaths of the world have been scorched.
 
 No other United Human Colonies forces were present in the Sol system at the time. It is unknown who constructed this fleet, what their goals are, or how many planets in the Sol system have been destroyed. The United Human Colonies are mobilizing Jotun Pilots for insurrections into the system.
+
+## 2597 AST - Battle of Red Stars and Ventiri Broadcast
+
+The naval strike group Basilisk intercepted a distress call from Red Fleet orbiting Mars and proceeded to attack an unknown enemy dreadnought until reinforcements arrived. The battle ended with the destruction of the dreadnought and the arrival of Battle Group Sleipnir. Several jotun pilots, along with Red Fleet and naval strike group Basilisk were destroyed.
+
+After the battle, humanity received a galaxy-wide transmission from the Ventiri, the hostile faction that destroyed Earth. Its origins remain unclear, but one thing is for certain: the Ventiri will not stop until all humans are dead.
