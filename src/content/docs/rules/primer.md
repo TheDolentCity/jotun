@@ -22,6 +22,15 @@ Actions cost power to perform. Most actions costs 1 power and most Jotun have 3 
 
 This will leave you with one power. That one power can be used for reactions to brace against damage, dodge attacks, or attack characters who leave your threat range.
 
+If none of that sounds good to you, and your cyber-attack is a d8 or higher, tech actions are a good option. You can use them to:
+
+- Enhance allies
+- Impair and slow enemies
+- Overheat enemy mechs
+- Lock on to targets
+- Scan nearby areas
+- Shield yourself
+
 ### Health and Dying
 
 Jotun and pilots have several stats such as HP, heat cap, and armor that represent their health. If some of these reach 0 or lower, you need to roll on a table to see how bad the damage is and increase your character's stress. If you take too much stress, then your jotun or pilot will be destroyed.
