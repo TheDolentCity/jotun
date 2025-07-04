@@ -30,6 +30,9 @@ Pilots and smart AI have a combat efficiency rating stat that begins as a d4. As
 
 - **Size:** The relative size of your jotun or pilot. Size 1 is the default and occupies one hex. Size 1/2 can occupy and move through a normal hex, even if there is another object, mech, or structure in that hex. Increases in size are adding a radius of 1 hex around the previous size. Ex: size 2 occupies 1 hex in every direction around a size 1 unit (total of 7 hexes).
 - **Armor:** The amount you reduce an attack roll by. Results of 0 or lower are misses.
+- **Power:** The amount of power you have to spend on your turn. Returns to full at the start of each turn.
+- **Cyber-Attack:** Your cyber-attack die for certain tech actions. Higher dice make hacking enemies more likely to succeed.
+- **Cyber-Security:** Your cyber-security defense for certain tech actions. Higher values make you less susceptible to being hacked.
 - **Sensors:** The distance at which you can automatically detect people, mechs, buildings, and other constructs. You cannot target entities beyond your sensor range.
 - **HP:** Hit points. When they reach 0, you roll on the jotun or pilot injury table.
 - **Speed:** The number of hexes you can move in one move action.
@@ -80,14 +83,14 @@ Actions are what a pilot or AI can do on their turn by spending power. Some acti
 
 ### Tech Actions
 
-These actions can only be performed in a jotun with an active smart AI. All targets must be mechs or mechanical systems with computers similar to mechs.
+These actions can only be performed in a jotun with an active smart AI. All targets must be mechs or mechanical systems with computers similar to mechs. If a tech action requires a cyber attack, you roll your cyber attack die and are successful if it is higher than the target's cybersecurity stat.
 
-- **Enhance** `(1P)` Choose an ally within sensors. They add +2 to their next check or save. This bonus does not stack.
-- **Hack** `(1P)` Choose a target within sensors. Make an opposed systems check. On success, the target is impaired and slowed (systems save ends). If the target was already slowed, they are instead immobilized.
-- **Invasion** `(3P)` Choose a target within sensors who has the impaired condition. Make an opposed systems check. On success, the target takes 6 heat and suffers the blinded or disabled condition (player choice, systems save ends).
-- **Lock On** `(1P)` Choose a target within sensors and line of sight. They gain the lock on condition. This condition does not stack.
-- **Overload** `(1P)` Choose a target within sensors. Make an opposed systems check. On success, the target gains +2 heat.
-- **Scan** `(1P)` Choose a blast 1 area within sensors. You learn 1 detail about objects, constructs, and locations in each hex. This can include stats (HP, armor, special abilities, etc.), mount details, or the function of a building or piece of machinery. If something in a hex has the ability to jam you (such as another mech), then a contested systems check is required.
+- **Enhance** `(1P)` Choose an ally within sensors. They add +2 to their next check or save. You can only benefit from one of these bonuses at a time. Bonus is lost at the end of ally's next turn.
+- **Hack** `(1P)` Choose a target within sensors. Make a cyber attack. On success, the target is impaired and slowed (systems save ends both). If the target was already slowed, they are instead immobilized.
+- **Invasion** `(3P)` Choose a target within sensors who has the impaired condition. Make a cyber attack. On success, the target takes 6 heat and suffers the blinded or disabled condition (player choice, systems save ends).
+- **Lock On** `(1P)` Choose a target within sensors and line of sight. They gain the lock on condition (systems save ends). This condition does not stack.
+- **Overload** `(1P)` Choose a target within sensors. Make a cyber attack. On success, the target gains +2 heat.
+- **Scan** `(1P)` Choose a blast 1 area within sensors. You learn 1 detail about objects, constructs, and locations in each hex. This can include stats (HP, armor, special abilities, etc.), mount details, or the function of a building or piece of machinery. If something in a hex has the ability to jam you (such as another mech), then make a cyber attack.
 - **Shield** `(2P)` Generate an energy shield around yourself with an HP value equal to 6 + your systems score. If you perform an action that disrupts the shield (attacking, grappling, moving etc.) the shield is deactivated. The shield is vulnerable to energy weapons. If the shield's HP reaches 0, it is deactivated, but leftover damage is ignored.
 
 ### Pilot Actions
@@ -116,9 +119,9 @@ These actions can only be performed by a pilot.
 - **Light:** This mount is weaker and struggles to damage mechs or structures. Regardless of the attack, this weapon cannot do more than 1 HP damage to a mech or structure. Conditions it imposes have no effect on mechs or structures either.
 - **Limited:** This mount can only be used a number of times equal to the rating of limited. Regain full uses of limited when restocked or after a full repair.
 - **Loading:** After using this mount, you must perform the reload action before it can be used again. A loading weapon can only be fired a maximum of once per turn, even if it is reloaded.
-- **Reliable:** On a miss, deal damage to the target equal to the rating of reliable. This does not trigger on-hit effects.
+- **Reliable:** On a miss, deal damage to the target equal to the rating of reliable (ignore armor and dodge reduction). This does not trigger on-hit effects.
 - **Resistance:** This object or creature takes half damage from a specific attack type listed with the resistance condition.
-- **Seeking:** This weapon does not fire in a straight line. As long as you can draw a path to the target within this weapon's range, you are able to make an attack roll against it.
+- **Seeking:** This weapon does not fire in a straight line or require line of sight, but does require the target to have the lock on condition. As long as you can draw a path to the target within this weapon's range, you are able to make an attack roll against it.
 - **Vulnerable:** This object or creature takes 2x damage from a specific attack type listed with the vulnerable condition.
 
 ## Conditions
@@ -130,14 +133,13 @@ These actions can only be performed by a pilot.
 - **Exposed:** All attacks against you add +2.
 - **Flame:** When you take flame damage you gain the flame condition with a rating equal to the damage taken and immediately decrease your HP by that amount, ignoring armor. Flame damage stacks. At the end of your turn, you decrease your HP by the rating of flame, ignoring armor. On your turn, you can use the extinguish action to decrease your flame rating. In case of emergency, use shutdown.
 - **Grappled:** You are immobilized, cannot take reactions, and melee attacks against you from your grappler add +2. Spend `(1P)` make an opposed torque check to escape the grapple.
-- **Lock On:** Any character may add +2 to an attack against you (before the attack is rolled). Once the bonus is used, the lock on condition ends. Spend `(1P)` make a systems check to lose the condition.
+- **Lock On:** Any character may add +2 to an attack against you (before the attack is rolled). Once the bonus is used, the lock on condition ends.
 - **Immobilized:** You cannot perform the move or boost actions. Other unique forms of movement are not possible either.
 - **Impaired:** You subtract -2 from any dice roll you make.
 - **Offline:** Unable to perform any actions. 0 power. Requires a check to open cockpit. All attacks against an offline mech ignore armor and add +4.
 - **Prone:** Targets gain a +2 attack bonus against you. Costs 2 hexes worth of movement to stand up and remove prone condition.
 - **Rodeo:** While you rodeo the target, you move with them whenever they move, you ignore the engaged condition with the target, and your pilot weapon attacks against the target have AP and ignore the light property. The target may spend 1 power to make a torque check and remove the rodeo condition on a success, dealing 1d4 damage to the rodeo pilot.
 - **Slowed:** You speed is halved.
-- **Taken Over:** You no longer have control of your mech. You can perform no actions. Another character controls your mech instead. You can make a systems save at the end of your turn to remove the condition.
 
 ## Damage Types
 
