@@ -91,7 +91,7 @@ These actions can only be performed in a jotun with an active smart AI. All targ
 - **Lock On** `(1P)` Choose a target within sensors and line of sight. They gain the lock on condition (systems save ends). This condition does not stack.
 - **Overload** `(1P)` Choose a target within sensors. Make a cyber attack. On success, the target gains +2 heat.
 - **Scan** `(1P)` Choose a blast 1 area within sensors. You learn 1 detail about objects, constructs, and locations in each hex. This can include stats (HP, armor, special abilities, etc.), mount details, or the function of a building or piece of machinery. If something in a hex has the ability to jam you (such as another mech), then make a cyber attack.
-- **Shield** `(2P)` Generate an energy shield around yourself with an HP value equal to 6 + your systems score. If you perform an action that disrupts the shield (attacking, grappling, moving etc.) the shield is deactivated. The shield is vulnerable to energy weapons. If the shield's HP reaches 0, it is deactivated, but leftover damage is ignored.
+- **Shield** `(1P)` Generate an energy shield around yourself with an HP value equal to your cyber-security stat. If you perform an action that disrupts the shield (attacking, grappling, moving etc.) the shield is deactivated. If the shield's HP reaches 0, it is deactivated, but leftover damage is ignored.
 
 ### Pilot Actions
 
@@ -153,4 +153,4 @@ These actions can only be performed by a pilot.
 - **Falling:** If you are falling at the start of your turn, you immediately descend a number of hexes equal to your (size x 4) + armor. If you collide with an object or terrain, you take AP falling damage equal to the amount of hexes you traveled (this cannot be dodged). You cannot move while falling unless the movement counts as flight.
 - **Reactor Meltdown:** Your mech is destroyed and objects and beings within burst 11 suffer an explosive attack equal to 21 minus the amount of hexes between them and your mech. This attack ignores cover and the dodge reaction cannot be used to reduce damage for this attack. An ally mech 7 squares away would take 14 damage.
 - **Rounding:** Always round down unless otherwise stated.
-- **Shields:** You can only benefit from one shield with an HP value at a time. If you gain a shield from a mount or ability and already have a shield active, you may choose which one to keep active.
+- **Shields:** You can only benefit from one shield with an HP value at a time. If you gain a shield from a mount or ability and already have a shield active, you may choose which one to keep active. All energy shields are vulnerable to energy weapons.
