@@ -3,87 +3,101 @@ title: Jotun Wounds
 description: Details and tables for handling Jotun wounds.
 ---
 
-## Blunt Wounds
+When a jotun suffers a wound, you find the most relevant description for the type of wound and then roll a d4, adding your Jotun's current stress. A roll of 6 is the highest and results in the destruction of your Jotun, at least until a full repair.
 
-These wounds are often caused by melee and kinetic weapons. They are effective at damaging massive objects and breaking the physical frame of a Jotun.
+## Rolling Random Mounts
 
-| d10 | Blunt Wounds                                                   |
-| --- | -------------------------------------------------------------- |
-| 1   | Smashed → knocked down                                         |
-| 2   | Smashed → knocked down and thrown a good distance              |
-| 3   | Chassis damaged → weakened mobility and strength               |
-| 4   | Hand broken → unable to use one hand, struggle with main mount |
-| 5   | Foot broken → unable to use one foot, struggle with moving     |
-| 6   | Arms broken → unable to use hands or main mount                |
-| 7   | Legs broken → unable to walk                                   |
-| 8   | Chassis spine destroyed → unable to move chassis or mounts     |
-| 9   | Reactor unstable → meltdown in d6 turns                        |
-| 0   | Chassis destroyed → AI destroyed and severe Pilot injury       |
+Some wound results will require you to roll a random mount. Roll a d12. If the resulting mount exists on the jotun and the condition can be applied to it, then you have your answer. But if that mount is already disabled, it cannot be re-disabled and you must roll again.
 
-## Piercing Wounds
+| d12 | Random Mount   |
+| --- | -------------- |
+| 1   | Minor Mount    |
+| 2   | Minor Mount    |
+| 3   | Minor Mount    |
+| 4   | Minor Mount    |
+| 5   | Minor Mount    |
+| 6   | Minor Mount    |
+| 7   | Major Mount    |
+| 8   | Major Mount    |
+| 9   | Major Mount    |
+| 10  | Major Mount    |
+| 11  | Main Mount     |
+| 12  | Colossal Mount |
 
-These wounds are often caused by bullet, laser, and melee weapons. They are effective at striking important sub-systems on a Jotun, disabling them entirely as they are struck repeatedly.
+## Kinetic Wounds
 
-| d10 | Piercing Wounds                                             |
-| --- | ----------------------------------------------------------- |
-| 1   | Grazed                                                      |
-| 2   | Chassis damaged → armor more vulnerable to piercing weapons |
-| 3   | Chassis damaged → armor more vulnerable to piercing weapons |
-| 4   | Pilot hit → moderate Pilot piercing injury                  |
-| 5   | Pilot hit → severe Pilot piercing injury                    |
-| 6   | Coolant hit → emergency reactor shutdown in 2d6 turns       |
-| 7   | Computer hit → AI inactive in d6 turns                      |
-| 8   | Reactor hit → meltdown in d6 turns                          |
-| 9   | Spinal hit → chassis spine inactive in d6 turns             |
-| 0   | Headshot → AI destroyed and severe Pilot injury             |
+These wounds are often caused by melee and bullet weapons. They are effective at damaging massive objects and breaking the physical frame of a Jotun.
+
+| d6  | Kinetic Wounds                                                      |
+| --- | ------------------------------------------------------------------- |
+| 1   | Heavy Blow → Knocked prone and impaired (until end of next turn)    |
+| 2   | Direct Hit → A random mount on the jotun is disabled                |
+| 3   | Reactor Damaged → Take 6 heat and impaired (until end of next turn) |
+| 4   | Critical Strike → A random mount on the jotun is destroyed          |
+| 5   | Motor System Crippled → Jotun is immobilized (requires full repair) |
+| 6   | Torn Apart → Jotun destroyed and pilot rolls on injury table (+2)   |
+
+## Energy Wounds
+
+These wounds are often caused by laser and arc weapons. They are effective at piercing through a Jotun, striking important sub-systems.
+
+| d6  | Energy Wounds                                                     |
+| --- | ----------------------------------------------------------------- |
+| 1   | Near Miss → Take 3 heat                                           |
+| 2   | Direct Hit → A random mount on the jotun is disabled              |
+| 3   | Computer Damaged → Jotun AI is offline (engineering save ends)    |
+| 4   | Critical Strike → A random mount on the jotun is destroyed        |
+| 5   | Optical System Crippled → Jotun is blinded (requires full repair) |
+| 6   | Reactor Breached → Nuclear meltdown in 1d4 turns (at end of turn) |
 
 ## System Wounds
 
 These wounds are often caused by experimental weapons and hacking technologies. They excel at attacking a Jotun's systems, debilitating important computer components and the Jotun AI itself.
 
-| d10 | System Wounds                                                     |
-| --- | ----------------------------------------------------------------- |
-| 1   | Shocked → frozen for a moment                                     |
-| 2   | Computer hit → scanning system is offline for d8 turns            |
-| 3   | Computer hit → targeting system is offline for d8 turns           |
-| 4   | Computer hit → optical system is offline for d8 turns             |
-| 5   | Computer hit → motor system is offline for d6 turns               |
-| 6   | Computer hit → AI is offline for d6 turns                         |
-| 7   | Computer hit → power system is offline for d4 turns               |
-| 8   | Reactor hit → meltdown in d4 turns                                |
-| 9   | Chassis lost power → AI inactive and Pilot trapped inside cockpit |
-| 0   | Chassis power surge → AI destroyed, all systems overloading       |
+| d6  | System Wounds                                                         |
+| --- | --------------------------------------------------------------------- |
+| 1   | Shocked → Take 2 heat and impaired (until end of next turn)           |
+| 2   | Shocked → Take 2 heat and one mount disabled (until end of next turn) |
+| 3   | Shocked → Take 2 heat and AI offline (engineering save ends)          |
+| 4   | Shocked → Take 2 heat and immobilized (engineering save ends)         |
+| 5   | Shocked → Take 2 heat and blinded (systems save ends)                 |
+| 6   | Power Surge → Jotun is offline for 2d4 turns                          |
 
 ## Explosive Wounds
 
-These wounds are often caused by artillery and flame projector weapons. They overheat a Jotun's reactor and can cause lingering burning damage.
+These wounds are often caused by artillery and grenade weapons. They are effective at damaging motor systems and knocking jotuns around with the force of the attack.
 
-| d10 | Explosive Wounds                                        |
-| --- | ------------------------------------------------------- |
-| 1   | Blasted → knocked down and scorched                     |
-| 2   | Chassis burned → reactor heats up                       |
-| 3   | Armor burned → reactor heats up and armor weakened      |
-| 4   | Chassis aflame → ongoing d4 explosive wounds            |
-| 5   | Armor destroyed → reactor heats up and Jotun is exposed |
-| 6   | Chassis aflame → ongoing d6 explosive wounds            |
-| 7   | Limb destroyed → unable to use leg or arm               |
-| 8   | Chassis aflame → ongoing d10 explosive wounds           |
-| 9   | Reactor hit hard → meltdown in 1 turn                   |
-| 0   | Reactor destroyed → immediate meltdown                  |
+| d6  | Explosive Wounds                                                              |
+| --- | ----------------------------------------------------------------------------- |
+| 1   | Blasted → Knocked prone and knockback 2 away from attack                      |
+| 2   | Direct Hit → A random mount on the jotun is disabled                          |
+| 3   | Motors Damaged → Jotun is slowed (requires full repair)                       |
+| 4   | Critical Strike → Knocked prone and jotun is offline (until end of next turn) |
+| 5   | Chassis Crippled → Jotun is impaired and exposed (requires full repair)       |
+| 6   | Destroyed → Jotun destroyed and pilot rolls on injury table (+2)              |
+
+## Incendiary Wounds
+
+These wounds are often caused by flame projector or charged weapons. They overheat a Jotun's reactor and can cause lingering burning damage.
+
+| d6  | Incendiary Wounds                                                      |
+| --- | ---------------------------------------------------------------------- |
+| 1   | Scorched → Jotun takes 2 heat and 1 flame damage                       |
+| 2   | Direct Hit → A random mount on the jotun is disabled                   |
+| 3   | Armor Damaged → Reduce armor by 1 (requires full repair to restore)    |
+| 4   | Critical Strike → Jotun takes 4 heat and 2 flame damage                |
+| 5   | Chassis Melted → Jotun armor reduced to 0 (requires full repair)       |
+| 6   | Incinerated → Jotun destroyed and nuclear meltdown at end of next turn |
 
 ## Massive Wounds
 
 These wounds are often caused by weapons that far exceed normal military use against Jotun, like orbital railcannons or nuclear warheads. They are incredibly destructive and can kill instantaneously. If a massive wound were to occur against a Pilot outside a Jotun, they would be destroyed without a roll.
 
-| d10 | Massive Wounds                                                |
-| --- | ------------------------------------------------------------- |
-| 1   | Smashed → knocked down and tossed, all power lost             |
-| 2   | Chassis mutilated → d4 + 1 limbs are destroyed                |
-| 3   | Reactor hit → meltdown in d4 turns                            |
-| 4   | Reactor hit hard → meltdown in 1 turn                         |
-| 5   | Chassis smashed → unable to move chassis or mounts            |
-| 6   | Chassis ripped → AI destroyed and Pilot has a severe injury   |
-| 7   | Chassis shredded → AI destroyed and Pilot has a mortal injury |
-| 8   | Cockpit destroyed → AI survives and Pilot is killed           |
-| 9   | Reactor destroyed → immediate meltdown                        |
-| 0   | Jotun obliterated → there are no remains                      |
+| d6  | Massive Wounds                                                         |
+| --- | ---------------------------------------------------------------------- |
+| 1   | Massive Blow → Knocked prone, all mounts disabled, and +1 stress       |
+| 2   | Broken → Knocked prone, all mounts destroyed, and +2 stress            |
+| 3   | Direct Hit → Jotun destroyed and pilot rolls on injury table (+1)      |
+| 4   | Critical Strike → Jotun destroyed and pilot rolls on injury table (+3) |
+| 5   | Reactor cataclysm → Nuclear meltdown immediately                       |
+| 6   | Obliteration → There are no remains of the jotun or pilot              |

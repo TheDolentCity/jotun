@@ -66,6 +66,7 @@ export default defineConfig({
         },
         {
           label: 'Campaigns',
+          collapsed: true,
           items: [
             {
               label: 'First Strike',
