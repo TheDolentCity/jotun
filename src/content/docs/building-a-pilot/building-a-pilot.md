@@ -57,6 +57,8 @@ Roll 3d10 for your skills or choose your own. Each skill gives you +2 on checks 
 
 You can start to build a backstory using the following tables.
 
+#### Homeworld
+
 | d10 | Region         |
 | --- | -------------- |
 | 0   | Core           |
@@ -84,14 +86,26 @@ You can start to build a backstory using the following tables.
 | 3-5 | Erud Major, the home of the Frontier Militia Forces                     |
 | 6-9 | Harmony, a massive agricultural exporter                                |
 
+#### Relationships
+
+Choose two other players you're playing with and roll a d6 for each of them to determine your view of them (not necessarily accurate). Write out a quick sentence to describe why.
+
+| d6  | Relationship |
+| --- | ------------ |
+| 1   | Traitor      |
+| 2   | Coward       |
+| 3   | Rival        |
+| 4   | Survivor     |
+| 5   | Expert       |
+| 6   | Buddy        |
+
+#### Final Details
+
 Now answer the following questions with whatever level of detail you like:
 
 - How old are you? Keep in mind, the Frontier War was 22 years ago.
 - Did you fight in the Frontier War?
-- What is one thing you hate about your homeworld?
-- What is one thing you love about your homeworld?
-- Why did you want to become a Jotun Pilot?
-- What previous military experience did you have (if any)? Almost all Jotun Pilots have prior experience before signing up.
+- What do you look like?
 
 ### 7. Choose a Call Sign
 
