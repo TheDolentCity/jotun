@@ -144,13 +144,17 @@ These actions can only be performed by a pilot.
 ## Damage Types
 
 - **Energy:** Arc and laser weapons. Damage electronic systems or burn through shields.
+- **Explosive:** Combustion weaponry. Usually missiles and rockets that explode from afar.
 - **Incendiary:** Flame based weaponry. Melts through armor and creates fires.
-- **Kinetic:** Physical weapons like swords or projectiles like bullets and shrapnel.
+- **Kinetic:** Physical weapons. Swords or projectiles like bullets and shrapnel.
 
 ## Special Rules
 
+- **Cover:** When there is an object, structure, or effect between an attacker and a target that obstructs, but does not block, line of sight, then the target has cover. Attacks against someone in cover have a -2 penalty. If the target is completely obscured by the object, structure, or effect (GM discretion) then this is considered hard cover. The attack misses due to loss of line of sight or it requires you to use the rules for targeting what you cannot see. Some cover has HP values and can be destroyed.
 - **Difficult Terrain:** Each hex of difficult terrain costs 2 speed to move through instead of 1.
 - **Falling:** If you are falling at the start of your turn, you immediately descend a number of hexes equal to your (size x 4) + armor. If you collide with an object or terrain, you take AP falling damage equal to the amount of hexes you traveled (this cannot be dodged). You cannot move while falling unless the movement counts as flight.
+- **Moving Through Characters:** You can only occupy or move through an occupied hex if your size is smaller than the target occupying the hex. Attacks against a target in a hex also target anyone sharing the hex.
 - **Reactor Meltdown:** Your mech is destroyed and objects and beings within burst 11 suffer an explosive attack equal to 21 minus the amount of hexes between them and your mech. This attack ignores cover and the dodge reaction cannot be used to reduce damage for this attack. An ally mech 7 squares away would take 14 damage.
 - **Rounding:** Always round down unless otherwise stated.
 - **Shields:** You can only benefit from one shield with an HP value at a time. If you gain a shield from a mount or ability and already have a shield active, you may choose which one to keep active. All energy shields are vulnerable to energy weapons.
+- **Splitting Movement:** You cannot split movement. ie If you have a speed of 4, you cannot spend 1 power, move two squares, spend 1 power to attack, and then move back two squares. You would need to spend another 1 power to move back.
