@@ -87,7 +87,7 @@ These wounds are often caused by flame projector or charged weapons. They overhe
 | 3   | Armor Damaged → Reduce armor by 1 (requires full repair to restore)    |
 | 4   | Critical Strike → Jotun takes 4 heat and 2 flame damage                |
 | 5   | Chassis Melted → Jotun armor reduced to 0 (requires full repair)       |
-| 6   | Incinerated → Jotun destroyed and nuclear meltdown at end of next turn |
+| 6   | Incinerated → Jotun destroyed and reactor meltdown at end of next turn |
 
 ## Massive Wounds
 
@@ -99,5 +99,5 @@ These wounds are often caused by weapons that far exceed normal military use aga
 | 2   | Broken → Knocked prone, all mounts destroyed, and +2 stress            |
 | 3   | Direct Hit → Jotun destroyed and pilot rolls on injury table (+1)      |
 | 4   | Critical Strike → Jotun destroyed and pilot rolls on injury table (+3) |
-| 5   | Reactor cataclysm → Nuclear meltdown immediately                       |
+| 5   | Reactor cataclysm → Reactor meltdown immediately                       |
 | 6   | Obliteration → There are no remains of the jotun or pilot              |

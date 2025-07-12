@@ -1,0 +1,57 @@
+---
+title: Assassin
+description: Agile and deadly in close quarters with an energy sword.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="1"
+    armor="1"
+    power="2"
+    cybersecurity="6"
+    cyberattack="1d8"
+    sensors="16"
+    hp="6"
+    speed="4"
+    heatCap="8"
+    repairCap="1"
+    torque="-4"
+    maneuver="+1"
+    systems="+2"
+    engineering="+0"
+    details="Spend 0 power to activate active-camo for the following modifiers:
+    • Cannot be targeted unless you are seen or detected by a system.
+    • Add +2 to any checks to remain hidden from sight.
+    • Add +2 to systems checks to hide your presence.
+    • On your turn, take 1 heat for every action.
+    • You cannot use the vent action or any other action that reduces heat besides deactivation.
+    • Spend 1 power to deactivate active-camo and vent 1d6 heat.
+    • After deactivation, the active-camo needs 1 round to recharge."
+    description="Agile and deadly in close quarters with arc knives." />
+
+### Arc Knives
+
+<MountBlock
+    tags="Main Melee, Energy, AP, Charged"
+    threat="1"
+    attack="1d6"
+    heat="2"
+    details="Charge 1: required to attack with the weapon. Not required for consecutive attacks."
+    details2="Spend 0 power to deactivate. While active, you have the following effects:
+    • You are slowed and exposed.
+    • You cannot benefit from invisibility.
+    • Attacks that hit impair targets until the end of their next turn." />
+
+#### Pulse Generator
+
+<MountBlock
+    tags="Melee, Energy, AP, Charged"
+    burst="2"
+    attack="1d4"
+    details="Vent 2d4 heat when you attack with this weapon."
+    details2="Charge 1: Required to perform this attack. Any target that takes damage is slowed until the end of their next turn.
+    Charge 2: Increase damage to 1d6 and burst to 4. Any target that takes damage is immobilized and impaired until the end of their next turn." />

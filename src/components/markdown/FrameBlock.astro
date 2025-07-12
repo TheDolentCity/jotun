@@ -176,6 +176,8 @@ let {
         <span>Engineering {engineering}</span>
       </div>
     </div>
+    {
+      minor || main || major || colossal ? (
     <hr
       class="w-full my-2 border border-dashed border-gray-200 dark:border-gray-900"
     />
@@ -213,6 +215,7 @@ let {
           </div>
         )
       }
-    </div>
+    </div>) : <span></span>
+    }
   </div>
 </div>

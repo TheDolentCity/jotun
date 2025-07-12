@@ -1,0 +1,47 @@
+---
+title: Operator
+description: Special forces goblin with smart AI and mobile flight controls.
+---
+
+import CSuitBlock from '/src/components/markdown/CSuitBlock.astro';
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<CSuitBlock
+    size="1/2"
+    armor="0"
+    sensors="8"
+    hp="4"
+    speed="6"
+    details="• All of your movement counts as flying.
+    • If you moved at least 3 hexes from your starting position on your turn, you can dodge once for 0 power before the start of your next turn.
+    • When you use the dodge reaction, treat your speed as x2."
+    description="Special forces goblin with smart AI and mobile flight controls." />
+
+### Twinfire SMG
+
+<MountBlock
+    tags="CQB, Kinetic, Light"
+    range="3"
+    threat="2"
+    attack="2d8"
+    details="Only deals 1d8 damage against rodeo'd jotun." />
+
+### Blaze Sword
+
+<MountBlock
+    tags="Melee, Incendiary, Light"
+    threat="1"
+    flame="1d4"
+    details="On a roll of a 1 the weapon loses power and does not deal flame damage until a full repair."
+    details2="This weapon ignores the light property against engaged targets." />
+
+### Burnstar Grenade
+
+<MountBlock
+    tags="Grenade, Incendiary, Heat +1, Limited 1"
+    range="4"
+    flame="1d4"
+    heat="1d4" />

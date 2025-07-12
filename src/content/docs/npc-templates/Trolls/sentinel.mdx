@@ -1,0 +1,37 @@
+---
+title: Sentinel
+description: Tank and artillery with tracking munitions that supports allies with lock ons.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="2"
+    armor="10"
+    power="3"
+    cybersecurity="6"
+    cyberattack="1d10"
+    sensors="30"
+    hp="6"
+    speed="1"
+    heatCap="6"
+    repairCap="4"
+    torque="+0"
+    maneuver="-6"
+    systems="+2"
+    engineering="+4"
+    details="Your lock on action does not require line of sight."
+    details2="Once per round, you can perform the Overwatch reaction for 0 power on any target that moves in sensors range."
+    description="Tank and artillery with tracking munitions that supports allies with lock ons." />
+
+### Tracking Cannon
+
+<MountBlock
+    tags="Major Cannon, Kinetic, Seeking"
+    range="30"
+    attack="1d8"
+    details="On a hit where lock on was consumed, the target keeps the lock on condition."
+    description="A cannon with dumb AI payloads that helps guide munitions while maintaining a systems lock on the target." />

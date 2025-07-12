@@ -115,24 +115,32 @@ let {
       }
     </div>
   </div>
-  <div class="p-2 text-base text-gray-600 dark:text-gray-400 leading-normal">
-    {
-      details && (
-        <p class="pb-4 text-gray-900 dark:text-gray-200 whitespace-pre-line">
-          {details}
-        </p>
-      )
-    }
-    {
-      details2 && (
-        <hr class="pb-4 border-t border-dashed border-gray-600 dark:border-gray-400" />
-        <p class="pb-4 text-gray-900 dark:text-gray-200 whitespace-pre-line">
-          {details2}
-        </p>
-      )
-    }
-    <p class="italic whitespace-pre-line">
-      {description}
-    </p>
-  </div>
+  {
+    (details || details2 || description) && (
+      <div class="p-2 text-base text-gray-600 dark:text-gray-400 leading-normal">
+        {
+          details && (
+            <p class="text-gray-900 dark:text-gray-200 whitespace-pre-line">
+              {details}
+            </p>
+          )
+        }
+        {
+          details2 && (
+            <hr class="mt-4 border-t border-dashed border-gray-600 dark:border-gray-400" />
+            <p class="pt-4 text-gray-900 dark:text-gray-200 whitespace-pre-line">
+              {details2}
+            </p>
+          )
+        }
+        {
+          description && (
+            <p class="pt-4 italic whitespace-pre-line">
+              {description}
+            </p>
+          )
+        }
+      </div>
+    )
+  }
 </div>
