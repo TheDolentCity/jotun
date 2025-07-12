@@ -1,0 +1,33 @@
+---
+title: Rocket Squad
+description: Long range artillery that uses tracking missiles to deal high damage to single targets.
+---
+
+import CSuitBlock from '/src/components/markdown/CSuitBlock.astro';
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<CSuitBlock
+    size="1/2"
+    armor="1"
+    sensors="12"
+    hp="3"
+    speed="1"
+    description="Long range artillery that uses tracking missiles to deal high damage to single targets." />
+
+### Rocket Launcher
+
+<MountBlock
+    tags="Launcher, Explosive, Loading, Seeking"
+    range="12"
+    attack="1d8" />
+
+### TC-301 Tracer Carbine
+
+<MountBlock
+    tags="Primary Rifle, Kinetic, Light, Reliable 1"
+    range="8"
+    attack="1d6"
+    details="Even on a miss, the target gains lock on." />

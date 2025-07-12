@@ -1,0 +1,37 @@
+---
+title: Bombard
+description: Long range artillery that bombards areas with rockets.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="1"
+    armor="2"
+    power="2"
+    cybersecurity="4"
+    cyberattack="1d6"
+    sensors="30"
+    hp="10"
+    speed="1"
+    heatCap="8"
+    repairCap="1"
+    torque="+0"
+    maneuver="-6"
+    systems="+2"
+    engineering="+4"
+    description="Long range artillery that bombards areas with rockets." />
+
+### Blast Cannon
+
+<MountBlock
+    tags="Major Cannon, Explosive, Arcing, Knockback 2, Loading"
+    range="30"
+    blast="2"
+    attack="2d4"
+    details="Attacks made with this weapon are rolled at the start of your next turn. Targets hit with the weapon are knocked prone."
+    details2="Create three hexes of difficult terrain after attack lands."
+    description="An upscaled version of a conventional mortar, this cannon excels at firing upwards and over obstacles. The attack can be avoided due to this travel time, but slower forces will still be caught in its massive blast." />

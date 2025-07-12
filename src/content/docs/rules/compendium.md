@@ -65,17 +65,19 @@ When a pilot is inside of their mech, they have a resource called power. When a 
 
 Actions are what a pilot or AI can do on their turn by spending power. Some actions can only be performed while in a mech. Power returns to full at the start of a character's turn.
 
-- **Attack** `(1P)` Use a mount or pilot weapon to attack. Roll any necessary dice (take the highest) and add any modifiers. Subtract the target's armor. If the result is higher than 0, the target reduces their HP by that number and any on-hit effects occur. If you spend multiple power to attack the same target, you roll multiple attacks and still only take the one highest result.
+- **Attack** `(1P)` Use a mount or pilot weapon to attack. Roll any necessary dice (take the highest) and add any modifiers. Subtract the target's armor. If the result is higher than 0, the target reduces their HP by that number and any on-hit effects occur. If you spend multiple power to attack the same target, you roll multiple attacks and still only take the one highest result. **You can only attack with the same mount/weapon once per turn.**
 - **Boost** `(3P)` Move 2x your speed in a straight line. You count as flying for the duration of the movement, but you must land on or grab onto a solid surface, otherwise you fall.
+- **Charge** `(1P)` Increase a mount's charge by +1.
 - **Disengage** `(1P)` You do not trigger the overwatch reaction until the end of your turn.
 - **Extinguish** `(1P)` Decrease current flame rating by 1d6.
 - **Grapple** `(1P)` Make an opposed torque check against an engaged target. On success, the target gains the grapple condition.
+- **Improvised Attack** `(1P)` Make an improvised melee attack with your mech or an object you're holding. Roll 1d6 and treat the attack as if it has the melee, kinetic, and knockback 1 properties.
 - **Move** `(1P)` Move your speed.
 - **Nuclear Override** `(3P)` Override the safety systems and protocols to execute a reactor meltdown. The reactor meltdown occurs at the start of your next turn. Alternatively, spend 1 additional power to execute the reactor meltdown immediately.
 - **Overcharge** `(0P)` Gain +2 heat and +1 power or +2 heat to add 1d4 to one roll this turn. Can only be performed once per round. You cannot overcharge and vent on the same turn.
 - **Prepare** `(?P)` Describe a detailed situation and how you would react. Spend the amount of power needed to perform that action. If the situation occurs outside of your turn, you may perform that exact reaction for 0 power.
 - **Reload** `(1P)` Choose one used loading mount. It can now be used again.
-- **Repair** `(1P)` Mark one user of repair. Reset HP to maximum or make an engineering check to repair a broken mount.
+- **Repair** `(1P)` Mark one user of repair. Reset HP to maximum or make an engineering check to repair a broken mount. Some NPCs do not reset HP to max and instead regain 1d6 HP.
 - **Save** `(1P)` Make a save against one condition affecting you that a save can end.
 - **Shutdown** `(1P)` Clear all conditions and heat, but gain the offline condition. Lose the condition at the start of your next turn and regain full power.
 - **Teamwork** `(1P)` You add your combat efficiency rating die to the next dice roll you make. You can only take this action once per round when you are inside of your jotun and the smart AI is active.
@@ -129,16 +131,17 @@ These actions can only be performed by a pilot.
 - **AI Offline:** The mech's dumb or smart AI is offline. Cannot perform any tech actions or use combat efficiency die. Lose one power until AI is back online.
 - **Blinded:** The optical systems of the mech are disabled. No actions that require line of sight can be performed. For one power, the pilot can open or close the hatch of the jotun. If the hatch is open, they can perform actions that require line of sight as normal, but any attacks rolled against the jotun are also rolled against the pilot.
 - **Disabled:** A mount or system on the mech is disabled. It cannot be used or grant any passive benefits. The disabled condition can be removed with an engineering save at the end of your turn.
-- **Engaged:** Take a -4 penalty to all non-melee or non-burst attacks. Attacking any target that is not engaged with you triggers overwatch from targets engaged with you.
+- **Engaged:** Gain the engaged condition when you enter a hex adjacent to another target. Take a -4 penalty to all non-melee or non-burst attacks. Attacking any target that is not engaged with you triggers overwatch from targets engaged with you.
 - **Exposed:** All attacks against you add +2.
 - **Flame:** When you take flame damage you gain the flame condition with a rating equal to the damage taken and immediately decrease your HP by that amount, ignoring armor. Flame damage stacks. At the end of your turn, you decrease your HP by the rating of flame, ignoring armor. On your turn, you can use the extinguish action to decrease your flame rating. In case of emergency, use shutdown.
 - **Grappled:** You are immobilized, cannot take reactions, and melee attacks against you from your grappler add +2. Spend `(1P)` make an opposed torque check to escape the grapple.
-- **Lock On:** Any character may add +2 to an attack against you (before the attack is rolled). Once the bonus is used, the lock on condition ends.
+- **Invisibility:** You cannot be targeted normally by actions that require line of sight. Instead, you can only be attacked if you have the lock on condition or if the attacker is targeting something they cannot see.
+- **Lock On:** Any character may add +2 to an attack against you (before the attack is rolled). Invisible characters with lock on do not benefit from invisibility when lock on is consumed. Once the bonus is used, the lock on condition ends.
 - **Immobilized:** You cannot perform the move or boost actions. Other unique forms of movement are not possible either.
 - **Impaired:** You subtract -2 from any dice roll you make.
 - **Offline:** Unable to perform any actions. 0 power. Requires a check to open cockpit. All attacks against an offline mech ignore armor and add +4.
 - **Prone:** Targets gain a +2 attack bonus against you. Costs 2 hexes worth of movement to stand up and remove prone condition.
-- **Rodeo:** While you rodeo the target, you move with them whenever they move, you ignore the engaged condition with the target, and your pilot weapon attacks against the target have AP and ignore the light property. The target may spend 1 power to make a torque check and remove the rodeo condition on a success, dealing 1d4 damage to the rodeo pilot.
+- **Rodeo:** While you rodeo the target, you move with them whenever they move, you ignore the engaged condition with the target, and your pilot weapon attacks against the target have AP and ignore the light property. The target may spend 1 power to make a torque check and remove the rodeo condition on a success, dealing 1d4 kinetic damage to the rodeo pilot.
 - **Slowed:** You speed is halved.
 
 ## Damage Types
@@ -158,3 +161,7 @@ These actions can only be performed by a pilot.
 - **Rounding:** Always round down unless otherwise stated.
 - **Shields:** You can only benefit from one shield with an HP value at a time. If you gain a shield from a mount or ability and already have a shield active, you may choose which one to keep active. All energy shields are vulnerable to energy weapons.
 - **Splitting Movement:** You cannot split movement. ie If you have a speed of 4, you cannot spend 1 power, move two squares, spend 1 power to attack, and then move back two squares. You would need to spend another 1 power to move back.
+- **Targeting What You Can’t See:** If you wish to target a foe you cannot see, there are several steps you must follow:
+  - First, roll a check to perceive it for 0 power. Roll 2d6. If you rolled higher than 7 plus your target’s maneuver or expertise, then you know where it is located on this turn and may target it as normal.
+  - If you did not perceive the target, then you must instead target a square(s) for the attack roll. This attack roll has a -4 penalty and automatically fails if the target is not present in the square(s). On a miss, the GM should not tell you if the target was present in the square(s).
+  - If the attack roll is a blast, burst, or close burst, then there is no penalty to the attack roll.

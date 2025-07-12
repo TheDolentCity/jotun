@@ -15,7 +15,7 @@ export default defineConfig({
   }),
   integrations: [
     starlight({
-      title: 'Jotun RPG',
+      title: 'Jotun RPG (alpha)',
       components: {
         Aside: './src/components/overrides/AsideOverride.astro',
         MarkdownContent: './src/components/overrides/MarkdownContentOverride.astro',
@@ -159,6 +159,13 @@ export default defineConfig({
             },
           ],
         },
+        // {
+        //   label: 'NPC Templates',
+        //   collapsed: true,
+        //   autogenerate: {
+        //     directory: 'npc-templates',
+        //   },
+        // },
       ],
     }),
     tailwind(),
