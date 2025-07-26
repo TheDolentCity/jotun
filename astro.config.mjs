@@ -166,6 +166,13 @@ export default defineConfig({
         //     directory: 'npc-templates',
         //   },
         // },
+        {
+          label: 'Release Notes',
+          collapsed: true,
+          autogenerate: {
+            directory: 'release-notes',
+          },
+        },
       ],
     }),
     tailwind(),

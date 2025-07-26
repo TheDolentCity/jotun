@@ -34,7 +34,7 @@ These wounds are often caused by melee and bullet weapons. They are effective at
 | 2   | Direct Hit → A random mount on the jotun is disabled                |
 | 3   | Reactor Damaged → Take 6 heat and impaired (until end of next turn) |
 | 4   | Critical Strike → A random mount on the jotun is destroyed          |
-| 5   | Motor System Crippled → Jotun is immobilized (requires full repair) |
+| 5   | Motor System Crippled → Jotun is immobilized (requires repair)      |
 | 6   | Torn Apart → Jotun destroyed and pilot rolls on injury table (+2)   |
 
 ## Energy Wounds
@@ -47,7 +47,7 @@ These wounds are often caused by laser and arc weapons. They are effective at pi
 | 2   | Direct Hit → A random mount on the jotun is disabled              |
 | 3   | Computer Damaged → Jotun AI is offline (engineering save ends)    |
 | 4   | Critical Strike → A random mount on the jotun is destroyed        |
-| 5   | Optical System Crippled → Jotun is blinded (requires full repair) |
+| 5   | Optical System Crippled → Jotun is blinded (requires repair)      |
 | 6   | Reactor Breached → Nuclear meltdown in 1d4 turns (at end of turn) |
 
 ## System Wounds
@@ -71,9 +71,9 @@ These wounds are often caused by artillery and grenade weapons. They are effecti
 | --- | ----------------------------------------------------------------------------- |
 | 1   | Blasted → Knocked prone and knockback 2 away from attack                      |
 | 2   | Direct Hit → A random mount on the jotun is disabled                          |
-| 3   | Motors Damaged → Jotun is slowed (requires full repair)                       |
+| 3   | Motors Damaged → Jotun is slowed (requires repair)                            |
 | 4   | Critical Strike → Knocked prone and jotun is offline (until end of next turn) |
-| 5   | Chassis Crippled → Jotun is impaired and exposed (requires full repair)       |
+| 5   | Chassis Crippled → Jotun is impaired and exposed (requires repair)            |
 | 6   | Destroyed → Jotun destroyed and pilot rolls on injury table (+2)              |
 
 ## Incendiary Wounds
@@ -84,9 +84,9 @@ These wounds are often caused by flame projector or charged weapons. They overhe
 | --- | ---------------------------------------------------------------------- |
 | 1   | Scorched → Jotun takes 2 heat and 1 flame damage                       |
 | 2   | Direct Hit → A random mount on the jotun is disabled                   |
-| 3   | Armor Damaged → Reduce armor by 1 (requires full repair to restore)    |
+| 3   | Armor Damaged → Reduce armor by 1 (requires repair)                    |
 | 4   | Critical Strike → Jotun takes 4 heat and 2 flame damage                |
-| 5   | Chassis Melted → Jotun armor reduced to 0 (requires full repair)       |
+| 5   | Chassis Melted → Jotun armor reduced to 0 (requires repair)            |
 | 6   | Incinerated → Jotun destroyed and reactor meltdown at end of next turn |
 
 ## Massive Wounds

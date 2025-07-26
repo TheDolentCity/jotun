@@ -71,13 +71,13 @@ Actions are what a pilot or AI can do on their turn by spending power. Some acti
 - **Disengage** `(1P)` You do not trigger the overwatch reaction until the end of your turn.
 - **Extinguish** `(1P)` Decrease current flame rating by 1d6.
 - **Grapple** `(1P)` Make an opposed torque check against an engaged target. On success, the target gains the grapple condition.
-- **Improvised Attack** `(1P)` Make an improvised melee attack with your mech or an object you're holding. Roll 1d6 and treat the attack as if it has the melee, kinetic, and knockback 1 properties.
+- **Improvised Melee** `(1P)` Make an improvised melee attack with your mech or an object you're holding. Roll 1d4 and add your torque. Treat the attack as if it threat 1 and the melee, kinetic, and knockback 1 properties.
 - **Move** `(1P)` Move your speed.
 - **Nuclear Override** `(3P)` Override the safety systems and protocols to execute a reactor meltdown. The reactor meltdown occurs at the start of your next turn. Alternatively, spend 1 additional power to execute the reactor meltdown immediately.
 - **Overcharge** `(0P)` Gain +2 heat and +1 power or +2 heat to add 1d4 to one roll this turn. Can only be performed once per round. You cannot overcharge and vent on the same turn.
 - **Prepare** `(?P)` Describe a detailed situation and how you would react. Spend the amount of power needed to perform that action. If the situation occurs outside of your turn, you may perform that exact reaction for 0 power.
 - **Reload** `(1P)` Choose one used loading mount. It can now be used again.
-- **Repair** `(1P)` Mark one user of repair. Reset HP to maximum or make an engineering check to repair a broken mount. Some NPCs do not reset HP to max and instead regain 1d6 HP.
+- **Repair** `(1P)` Mark one user of repair. Reset HP to maximum, make an engineering check to repair a broken mount, or remove one condition inflicted by a wound.
 - **Save** `(1P)` Make a save against one condition affecting you that a save can end.
 - **Shutdown** `(1P)` Clear all conditions and heat, but gain the offline condition. Lose the condition at the start of your next turn and regain full power.
 - **Teamwork** `(1P)` You add your combat efficiency rating die to the next dice roll you make. You can only take this action once per round when you are inside of your jotun and the smart AI is active.
@@ -106,9 +106,12 @@ These actions can only be performed by a pilot.
 
 ## Reactions
 
-- **Bodyguard** `(1P)` Before an attack roll is resolved, you may swap hexes with an adjacent ally, assuming you are not immobilized, can fit in their hex, and there are no obstacles in the way. The attack still resolves, but strikes you instead.
+The first reaction you perform in a round costs 0 power. Every reaction after that costs power as normal to perform.
+
+- **Bodyguard** `(1P)` Before an attack roll is resolved, you may swap hexes with an adjacent ally, assuming neither of you are immobilized, can fit in their hex, and there are no obstacles in the way. The attack still resolves, but strikes you instead.
 - **Brace** `(1P)` Halve the damage after an attack is fully resolved (minimum 1 damage).
-- **Dodge** `(1P)` Use speed instead of armor for the calculation of one attack.
+- **Dodge** `(1P)` Add your speed to your armor for the calculation of one attack.
+- **Parry** `(1P)` Can only be used when you are attacked with a melee weapon. Make an attack roll with one of your melee weapons. If your roll is higher, then you ignore the attack.
 - **Overwatch** `(1P)` Interrupt and attack a character who has not disengaged and leaves the threat range of one of your mounts.
 
 ## Keywords
