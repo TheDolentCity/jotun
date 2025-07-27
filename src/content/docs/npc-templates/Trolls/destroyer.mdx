@@ -1,0 +1,82 @@
+---
+title: Destroyer
+description: Slow melee combatant that is resistant to damage at close range.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="1"
+    armor="4"
+    power="2"
+    cybersecurity="4"
+    cyberattack="1d4"
+    sensors="8"
+    hp="16"
+    speed="3"
+    heatCap="8"
+    repairCap="0"
+    torque="+2"
+    maneuver="-2"
+    systems="-2"
+    engineering="+2"
+    details="Resistance to all attacks within range 3."
+    details2="Immune to forced movement unless attacker is a size larger."
+    description="Slow melee combatant that is resistant to damage at close range." />
+
+## Attack Patterns
+
+Roll an attack pattern. Optionally, move before executing.
+
+### 1. Hammer Overdrive
+
+<MountBlock
+    tags="Melee, Kinetic, Knockback 6, Heat +4"
+    threat="1"
+    attack="3d8"
+    details="On a hit, target gains the prone condition." />
+
+### 2. Seismic Blast
+
+<MountBlock
+    tags="Cannon, Kinetic"
+    range="4"
+    blast="3"
+    attack="2d4"
+    details="Flying characters are immune to this attack."
+    details2="On a hit, targets gain the prone condition." />
+
+### 3. Trample
+
+<MountBlock
+    tags="Melee, Kinetic"
+    line="6"
+    attack="2d6"
+    details="Move up to six hexes in the direction of the attack, moving through enemies." />
+
+### 4. Launch
+
+<MountBlock
+    tags="Melee, Kinetic, Knockback 4"
+    threat="2"
+    attack="2d6" />
+
+### 5. Concussive Missiles
+
+<MountBlock
+    tags="Cannon, Explosive,"
+    burst="3"
+    attack="1d4"
+    details="Only targets enemies."
+    details2="Whether the attack hits or not, all targets are slowed until the end of your next turn." />
+
+### 6. Crush
+
+<MountBlock
+    tags="Melee"
+    threat="2"
+    flame="2d8"
+    details="On a hit, target is impaired until the end of your next turn." />

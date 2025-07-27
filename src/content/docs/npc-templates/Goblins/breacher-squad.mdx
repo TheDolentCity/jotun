@@ -1,0 +1,102 @@
+---
+title: Operator
+description: CQB experts designed to infiltrate buildings and eliminate human forces.
+---
+
+import CSuitBlock from '/src/components/markdown/CSuitBlock.astro';
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<CSuitBlock
+    size="1/2"
+    armor="1"
+    sensors="12"
+    hp="8"
+    speed="3"
+    details=""
+    description="CQB experts designed to infiltrate buildings and eliminate human forces." />
+
+### Twinfire SMG
+
+<MountBlock
+    tags="CQB, Kinetic, Light"
+    range="3"
+    threat="2"
+    attack="2d8"
+    details="Only deals 1d8 damage against rodeo'd jotun." />
+
+### Blaze Sword
+
+<MountBlock
+    tags="Melee, Incendiary, Light"
+    threat="1"
+    flame="1d4"
+    details="On a roll of a 1 the weapon loses power and does not deal flame damage until a full repair."
+    details2="This weapon ignores the light property against engaged targets." />
+
+### Burnstar Grenade
+
+<MountBlock
+    tags="Grenade, Incendiary, Heat +1, Limited 1"
+    range="4"
+    flame="1d4"
+    heat="1d4" />
+
+    
+
+## Attack Patterns
+
+Roll an attack pattern. Optionally, move before executing.
+
+### 1. Tactical Protocol
+
+<MountBlock
+    tags="Rifle, Reliable 1"
+    range="8"
+    attack="1d8"
+    detials="May attack up to 3 targets within range (roll multiple times)." />
+
+### 2. Underbarrel Grenade Launcher
+
+<MountBlock
+    tags="Cannon, Explosive, Knockback 1"
+    range="6"
+    blast="1"
+    attack="1d8"
+    details="On a hit, target gains the prone condition." />
+
+### 3. Covering Fire
+
+<MountBlock
+    tags="Rifle, Kinetic"
+    range="3"
+    blast="1"
+    attack="1d4"
+    details="This attack creates a zone. Targets in the zone are impaired. The zone lasts until the start of your next turn." />
+
+### 4. Dual Sidearms
+
+<MountBlock
+    tags="CQB, Kinetic"
+    threat="3"
+    attack="2d4-1"
+    details="Target can use this as an Overwatch reaction." />
+
+### 5. Improvised Grapple
+
+<MountBlock
+    tags="Melee, Kinetic"
+    threat="1"
+    attack="1d4+2"
+    details="On a hit, target is grappled." />
+
+### 6. SMG Spray
+
+<MountBlock
+    tags="CQB, Kinetic, Light"
+    range="3"
+    threat="2"
+    attack="2d8"
+    details="Only deals 1d8 damage against rodeo'd jotun." />

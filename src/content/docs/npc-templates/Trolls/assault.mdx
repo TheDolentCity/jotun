@@ -1,0 +1,79 @@
+---
+title: Assault
+description: The most common frame, equipped with a rifle and sidearms.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="1"
+    armor="3"
+    power="2"
+    cybersecurity="4"
+    cyberattack="1d6"
+    sensors="12"
+    hp="8"
+    speed="4"
+    heatCap="4"
+    repairCap="0"
+    torque="+0"
+    maneuver="0"
+    systems="+0"
+    engineering="+0"
+    description="The most common frame, equipped with a rifle and sidearms." />
+
+## Attack Patterns
+
+Roll an attack pattern. Optionally, move before executing.
+
+### 1. Tactical Protocol
+
+<MountBlock
+    tags="Rifle, Reliable 1"
+    range="8"
+    attack="1d8"
+    detials="May attack up to 3 targets within range (roll multiple times)." />
+
+### 2. Underbarrel Grenade Launcher
+
+<MountBlock
+    tags="Cannon, Explosive, Knockback 1"
+    range="6"
+    blast="1"
+    attack="1d8"
+    details="On a hit, target gains the prone condition." />
+
+### 3. Covering Fire
+
+<MountBlock
+    tags="Rifle, Kinetic"
+    range="3"
+    blast="1"
+    attack="1d4"
+    details="This attack creates a zone. Targets in the zone are impaired. The zone lasts until the start of your next turn." />
+
+### 4. Dual Sidearms
+
+<MountBlock
+    tags="CQB, Kinetic"
+    threat="3"
+    attack="2d4-1"
+    details="Target can use this as an Overwatch reaction." />
+
+### 5. Improvised Grapple
+
+<MountBlock
+    tags="Melee, Kinetic"
+    threat="1"
+    attack="1d4+2"
+    details="On a hit, target is grappled." />
+
+### 6. Machine Gun
+
+<MountBlock
+    tags="Rifle, Reliable 1"
+    range="8"
+    attack="1d8" />

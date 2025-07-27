@@ -1,6 +1,6 @@
 ---
 title: Release v0.2.0
-description: A list of all the game rules.
+description: Release notes for version 0.2.0
 ---
 
 ## Major Changes
