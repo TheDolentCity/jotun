@@ -23,7 +23,7 @@ Minor mounts are smaller mounting points that can only hold specialized equipmen
     tags="Minor Utility, Incendiary"
     burst="1"
     flame="Special"
-    details="Roll 2d4. Decrease heat by that amount and create a heat shield around yourself with an HP value equal to the roll. Any character that starts their turn in burst 1 or moves into burst 1 of you while the shield is active takes flame damage equal to half the heat shield value. The shield deactivates at the start of your next turn or if you take any other action."
+    details="Roll 2d4. Decrease heat by that amount and create a heat shield around yourself with an HP value equal to the roll. Any character that starts their turn in burst 1 or moves into burst 1 of you while the shield is active suffers a flame attack equal to the heat shield value. The shield deactivates at the start of your next turn or if you take any other action."
     description="The KD-21 Exhaust Shield is a defensive utility manufactured by Klemon Armory. This modification connects a central line from a mech reactor's heat-sink to exhaust ports in the mech's hands. When activated, extreme thermal heat is propelled in front of the mech, melting or destroying incoming munitions for a short time. This has the added benefit of cooling off overheating mechs. The hotter the reactor, the more powerful the shield." />
 
 ### Flare Revolver
@@ -31,9 +31,8 @@ Minor mounts are smaller mounting points that can only hold specialized equipmen
 <MountBlock
     tags="Minor Handgun, Incendiary, Loading"
     range="11"
-    attack="1d6"
+    flame="1d6"
     heat="1"
-    details="If the attack hits a mech, the target takes no damage and instead the flare is attached to them. At the start of their turn they take 1 flame damage. They can spend 1 power to make a torque check to remove the flare on their turn."
     description="The KR-7 Flare Revolver is an anti-mech, anti-armor, incendiary weapon manufactured by Klemon Armory. The flare will lodge itself onto the outside of a mech and slowly burn a hole towards its center. It must be manually reloaded." />
 
 ### Grapple Grenade
@@ -108,9 +107,9 @@ Minor mounts are smaller mounting points that can only hold specialized equipmen
 ### Shredder Flares
 
 <MountBlock
-    tags="Minor Melee, Incendiary, Limited 3, Burn 2"
+    tags="Minor Melee, Incendiary, Limited 4, Burn 2"
     burst="1"
-    flame="1d4"
+    flame="1d6"
     details="This mount consumes a use of limited when it is attacked with or when the reaction is used."
     details2="You gain the flare reaction. Spend 1 power as a reaction to halve an attack (before armor is accounted for) or to entirely negate an attack from a launcher weapon."
     description="The KU-5 Shredder Flares are a defensive utility by Klemon Armory. When activated, a flurry of small flares is launched from crevices across the Jotun's frame. This will spoof targeting systems and can even destroy approaching missiles. As an addendum, particularly reckless Pilots will use these flares as a weapon against grappled targets, burning through their armor while holding them tight." />

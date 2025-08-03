@@ -26,6 +26,8 @@
   --sl-color-hairline: var(--sl-color-black);
   --sl-color-hairline-light: var(--sl-color-black);
   --sl-color-hairline-shade: var(--sl-color-gray-5);
+
+  font-variant-numeric: tabular-nums;
 }
 /* Light mode colors. */
 :root[data-theme='light'] {

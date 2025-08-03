@@ -19,11 +19,11 @@ import MountBlock from '/src/components/markdown/MountBlock.astro';
     speed="3"
     heatCap="16"
     repairCap="0"
-    torque="+3"
+    torque="+4"
     maneuver="-4"
     systems="+0"
     engineering="+4"
-    details="Immune to fire damage. Targets that start their turn adjacent to the Scorch take 1 heat."
+    details="Immune to fire damage. Targets that start their turn adjacent to the Scorch take 1d4 heat."
     description="A massive troll that controls the battlefield with incendiary weapons." />
 
 ## Attack Patterns
@@ -35,9 +35,8 @@ Roll an attack pattern. Optionally, move before executing.
 <MountBlock
     tags="Cannon, Incendiary, Arcing"
     range="20"
-    flame="1d4"
-    heat="2"
-    details="This attack can target 2d4 unique hexes on the battlefield. Every unoccupied hex targeted creates a zone until the end of your next turn. The zone is difficult terrain and any character who enters a hex in the zone takes 2 flame damage and 1 heat." />
+    flame="1d8"
+    details="This attack can target 2d4 unique hexes on the battlefield. Every unoccupied hex targeted creates a zone until the end of your next turn. The zone is difficult terrain and any character who enters a hex in the zone or starts their turn there takes 2 heat and 4 AP incendiary damage." />
 
 ### 2. Torch
 
@@ -45,18 +44,16 @@ Roll an attack pattern. Optionally, move before executing.
     tags="Cannon, Incendiary"
     range="3"
     blast="2"
-    flame="4d4"
-    heat="4"
-    details="Every hex in the attack creates a zone that lasts until the end of your next turn. Any character who enters a hex in the zone takes 2 flame damage and 1 heat." />
+    flame="3d4"
+    details="Every hex in the attack creates a zone that lasts until the end of your next turn. Any character who enters a hex in the zone or starts their turn there takes 2 heat and 4 AP incendiary damage." />
 
 ### 3. Trample
 
 <MountBlock
     tags="Melee, Incendiary"
     line="10"
-    flame="1d4"
-    heat="2"
-    details="Move up to ten hexes in the direction of the attack. Every hex in the attack creates a zone that lasts until the end of your next turn. Any character who enters a hex in the zone takes 2 flame damage and 1 heat."
+    flame="1d8"
+    details="Move up to ten hexes in the direction of the attack. Every hex in the attack creates a zone that lasts until the end of your next turn. Any character who enters a hex in the zone or starts their turn there takes 2 heat and 4 AP incendiary damage."
     details2="May attempt a grapple prior to the attack. If successful, drag the target with you when you move." />
 
 ### 4. Vent
@@ -73,8 +70,7 @@ Roll an attack pattern. Optionally, move before executing.
 <MountBlock
     tags="Melee, Incendiary, Knockback 2"
     threat="2"
-    attack="1d8"
-    flame="1"
+    flame="1d8"
     heat="2"
     details="Targets hit by the attack fall prone." />
 
@@ -85,4 +81,4 @@ Roll an attack pattern. Optionally, move before executing.
     range="6"
     flame="1d4"
     heat="1"
-    details="If you target an unoccupied hex, this weapon leaves behind a thermal zone until the end of your next turn. Any character who enters the hex takes 2 flame damage and 1 heat." />
+    details="If you target an unoccupied hex, this weapon leaves behind a thermal zone until the end of your next turn. Any character who enters the hex or starts their turn there takes 2 heat and 4 AP incendiary damage." />
