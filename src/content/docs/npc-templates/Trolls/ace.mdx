@@ -1,0 +1,81 @@
+---
+title: Ace
+description: Flying strikers that use missiles and evasion to defeat foes.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="1"
+    armor="0"
+    power="2"
+    cybersecurity="6"
+    cyberattack="1d6"
+    sensors="12"
+    hp="12"
+    speed="6"
+    heatCap="4"
+    repairCap="0"
+    torque="-2"
+    maneuver="+6"
+    systems="-2"
+    engineering="+2"
+    details="All movement counts as flying."
+    details2="Evasive Action (reaction): When an attack targets you, add your speed to your armor and immediately move up to your speed in any direction."
+    description="Flying strikers that use missiles and evasion to defeat foes." />
+
+## Attack Patterns
+
+Roll an attack pattern. Optionally, move before executing.
+
+### 1. Kinetic Strike
+
+<MountBlock
+    tags="Melee, Kinetic, Knockback 4"
+    threat="1"
+    attack="3d8"
+    details="Must move as part of this attack."
+    details2="The ace is destroyed after this attack executes." />
+
+### 2. Bombing Run
+
+<MountBlock
+    tags="Melee, Explosive"
+    line="12"
+    blast="1"
+    attack="2d6"
+    details="Move up to 12 hexes in the direction of the attack, even through enemies, without provoking overwatch. All targets within blast 1 of the line you move in are targets of the attack." />
+
+### 3. Missile Burst
+
+<MountBlock
+    tags="Launcher, Explosive, Seeking, Reliable 3"
+    burst="4"
+    attack="1d8" />
+
+### 4. Autocannon
+
+<MountBlock
+    tags="Rifle, Kinetic, Knockback 1, Reliable 2"
+    range="6"
+    attack="1d8"
+    details="May choose up to 3 different targets for this attack. Cannot attack the same target multiple times." />
+
+### 5. Thruster Burn
+
+<MountBlock
+    tags="Melee, Incendiary"
+    threat="1"
+    flame="1d6"
+    details="On a hit, may move without provoking overwatch." />
+
+### 6. Missile Strike
+
+<MountBlock
+    tags="Launcher, Explosive, Seeking"
+    range="10"
+    blast="1"
+    attack="1d8" />

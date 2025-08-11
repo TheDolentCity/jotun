@@ -1,0 +1,80 @@
+---
+title: Ronin
+description: Sword wielding duelists who reflect ranged attacks.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="1"
+    armor="2"
+    power="2"
+    cybersecurity="4"
+    cyberattack="1d6"
+    sensors="6"
+    hp="24"
+    speed="6"
+    heatCap="4"
+    repairCap="0"
+    torque="+2"
+    maneuver="+2"
+    systems="+0"
+    engineering="-2"
+    details="Deflect (reaction): When a ranged attack targets you, roll 1d6. On a 4+, you have resistance to the attack and the attacker is also the target of their own attack roll."
+    description="Sword wielding duelists who reflect ranged attacks." />
+
+## Attack Patterns
+
+Roll an attack pattern. Optionally, move before executing.
+
+### 1. Execute
+
+<MountBlock
+    tags="Melee, Kinetic"
+    threat="1"
+    attack="1d8"
+    details="If this attack deals damage, it deals a wound instead." />
+
+### 2. Throw
+
+<MountBlock
+    tags="Ranged, Kinetic"
+    range="6"
+    attack="3d8"
+    details="On a hit, target is immobilized (torque save ends)."
+    details2="Sword must be retrieved to attack with it again. This also ends the immobilization effect." />
+
+### 3. Backstab
+
+<MountBlock
+    tags="Melee, Kinetic, AP"
+    threat="1"
+    attack="2d8"
+    details="Can only be used if you did not start your turn adjacent to the target."
+    details2="If this attack deals a wound, the target adds +1 to the wound roll." />
+
+### 4. Stab
+
+<MountBlock
+    tags="Melee, Kinetic, AP"
+    threat="3"
+    attack="2d8" />
+
+### 5. Slash
+
+<MountBlock
+    tags="Melee, Kinetic"
+    range="2"
+    blast="1"
+    attack="3d8" />
+
+### 6. Strike
+
+<MountBlock
+    tags="Melee, Kinetic"
+    threat="2"
+    attack="1d8"
+    details="Can attack twice. May choose different targets." />

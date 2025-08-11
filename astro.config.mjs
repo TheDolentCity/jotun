@@ -159,13 +159,13 @@ export default defineConfig({
             },
           ],
         },
-        // {
-        //   label: 'NPC Templates',
-        //   collapsed: true,
-        //   autogenerate: {
-        //     directory: 'npc-templates',
-        //   },
-        // },
+        {
+          label: 'NPC Templates',
+          collapsed: true,
+          autogenerate: {
+            directory: 'npc-templates',
+          },
+        },
         {
           label: 'Release Notes',
           collapsed: true,

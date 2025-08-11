@@ -1,0 +1,85 @@
+---
+title: Warlock
+description: A multi-target striker that uses arc weaponry to reposition its targets.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="1"
+    armor="3"
+    power="2"
+    cybersecurity="6"
+    cyberattack="1d6"
+    sensors="12"
+    hp="8"
+    speed="4"
+    heatCap="4"
+    repairCap="0"
+    torque="+0"
+    maneuver="+0"
+    systems="+0"
+    engineering="+2"
+    details=""
+    description="A multi-target striker that uses arc weaponry to reposition its targets." />
+
+## Attack Patterns
+
+Roll an attack pattern. Optionally, move before executing.
+
+### 1. Overbeam
+
+<MountBlock
+    tags="Rifle, Energy, AP"
+    line="20"
+    attack="4d6"
+    details="Optionally widen the line so that it is 5 hexes wide, but overheat and explode." />
+
+### 2. Arc Lasso
+
+<MountBlock
+    tags="Melee, Energy"
+    threat="1"
+    range="6"
+    attack="3d8"
+    details="Target is pulled adjacent to you and is grappled and impaired. Impaired ends when grapple ends." />
+
+### 3. Arc Grenade
+
+<MountBlock
+    tags="Grenade, Energy"
+    range="12"
+    blast="3"
+    attack="2d4"
+    details="Targets are pulled towards the center of the blast." />
+
+### 4. Arc Tethers
+
+<MountBlock
+    tags="Melee, Energy"
+    threat="1"
+    range="8"
+    attack="1d8"
+    details="On a hit, target is moved 1d6 squares in a direction of your choice."
+    details2="Attack 3x as part of this action." />
+
+### 5. Arc Dagger
+
+<MountBlock
+    tags="Melee, Energy, AP"
+    threat="1"
+    attack="1d4"
+    details="On hit, target is impaired and immobilized until start of your next turn."
+    details2="Attack 2x as part of this action." />
+
+### 6. Rapid Beam
+
+<MountBlock
+    tags="Rifle, Energy"
+    range="20"
+    attack="1d8"
+    details="Take 2 heat to add AP."
+    details2="Attack 2x as part of this action." />

@@ -1,0 +1,85 @@
+---
+title: Mage
+description: A controller that uses grenades and cyber attacks.
+---
+
+import FrameBlock from '/src/components/markdown/FrameBlock.astro';
+import MountBlock from '/src/components/markdown/MountBlock.astro';
+
+### Stats
+
+<FrameBlock
+    size="1"
+    armor="2"
+    power="2"
+    cybersecurity="8"
+    cyberattack="1d10"
+    sensors="16"
+    hp="12"
+    speed="4"
+    heatCap="6"
+    repairCap="0"
+    torque="-2"
+    maneuver="+0"
+    systems="+3"
+    engineering="+1"
+    details=""
+    description="A controller that uses grenades and cyber attacks." />
+
+## Attack Patterns
+
+Roll an attack pattern. Optionally, move before executing.
+
+### 1. Storm Grenade
+
+<MountBlock
+    tags="Grenade, Energy, AP"
+    range="20"
+    blast="4"
+    attack="4d4"
+    details="On a hit, target is slowed (systems save ends)." />
+
+### 2. Flash Grenade
+
+<MountBlock
+    tags="Grenade, Energy"
+    range="12"
+    blast="3"
+    attack="2d4"
+    details="On a hit, target is blinded (systems save ends)." />
+
+### 3. Magnetic Pulse
+
+<MountBlock
+    tags="Melee, Energy, Knockback 6"
+    threat="1"
+    range="2"
+    blast="3"
+    attack="2d4" />
+
+### 4. Blind
+
+<MountBlock
+    tags="Cyber-Attack"
+    range="20"
+    attack="1d10"
+    details="This is a cyber attack that does not deal damage."
+    details2="Target loses 1 power on their next turn and is blinded (systems save ends)." />
+
+### 5. Drain
+
+<MountBlock
+    tags="Cyber-Attack"
+    range="20"
+    attack="1d10"
+    details="This is a cyber attack that does not deal damage."
+    details2="Target loses 1 power on their next turn and is slowed (systems save ends)." />
+
+### 6. Impair
+
+<MountBlock
+    tags="Cyber-Attack"
+    range="20"
+    attack="1d10"
+    details="This is a cyber attack that does not deal damage."
+    details2="Target loses 1 power on their next turn and is impaired (systems save ends)." />
